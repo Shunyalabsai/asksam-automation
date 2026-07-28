@@ -1,15 +1,15 @@
 {
-  "id": "3e44af2d-f4fb-467b-84a7-90e20cc47cf2",
-  "startedAt": "2026-07-27T20:15:03.760Z",
-  "durationMs": 31427.609999999997,
+  "id": "88f32ee8-9801-410c-a16e-9393c149514b",
+  "startedAt": "2026-07-28T00:15:04.259Z",
+  "durationMs": 382919.24000000005,
   "summary": {
     "total": 14,
-    "passed": 14,
-    "failed": 0,
+    "passed": 11,
+    "failed": 1,
     "skipped": 0,
-    "timedOut": 0
+    "timedOut": 2
   },
-  "passRate": 100,
+  "passRate": 79,
   "modules": {
     "rag-api-smoke": {
       "label": "RAG API — Smoke Tests",
@@ -22,10 +22,10 @@
     "clinical-notes-api-smoke": {
       "label": "Clinical Notes API — Smoke Tests",
       "total": 5,
-      "passed": 5,
-      "failed": 0,
+      "passed": 2,
+      "failed": 1,
       "skipped": 0,
-      "timedOut": 0
+      "timedOut": 2
     },
     "assistant-api-smoke": {
       "label": "Stella Assistant Panel API — Smoke Tests",
@@ -48,7 +48,7 @@
     {
       "title": "TC_API_01 - GET /health returns application healthy",
       "status": "passed",
-      "durationMs": 242,
+      "durationMs": 223,
       "file": "rag-api-smoke.spec.ts",
       "module": "rag-api-smoke",
       "moduleLabel": "RAG API — Smoke Tests",
@@ -60,13 +60,13 @@
           "webPath": "./artifacts/tc_api_01_-_get__health_returns_application_health-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:04.499Z\",\n  \"url\": \"https://rag.uwc.world/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:15:04.977Z\",\n  \"url\": \"https://rag.uwc.world/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
       "error": ""
     },
     {
       "title": "TC_API_02 - GET /redis/health returns Redis healthy",
       "status": "passed",
-      "durationMs": 43,
+      "durationMs": 42,
       "file": "rag-api-smoke.spec.ts",
       "module": "rag-api-smoke",
       "moduleLabel": "RAG API — Smoke Tests",
@@ -78,7 +78,7 @@
           "webPath": "./artifacts/tc_api_02_-_get__redis_health_returns_redis_health-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/redis/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:04.568Z\",\n  \"url\": \"https://rag.uwc.world/redis/health\",\n  \"body\": {\n    \"status\": \"healthy\",\n    \"detail\": \"Redis is running\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/redis/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:15:05.042Z\",\n  \"url\": \"https://rag.uwc.world/redis/health\",\n  \"body\": {\n    \"status\": \"healthy\",\n    \"detail\": \"Redis is running\"\n  }\n}",
       "error": ""
     },
     {
@@ -96,13 +96,13 @@
           "webPath": "./artifacts/tc_api_03_-_get__vectorstore_health_returns_vector-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/vectorstore/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:04.628Z\",\n  \"url\": \"https://rag.uwc.world/vectorstore/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/vectorstore/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:15:05.099Z\",\n  \"url\": \"https://rag.uwc.world/vectorstore/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
       "error": ""
     },
     {
       "title": "TC_API_04 - POST /gen-chat returns LLM response",
       "status": "passed",
-      "durationMs": 818,
+      "durationMs": 218,
       "file": "rag-api-smoke.spec.ts",
       "module": "rag-api-smoke",
       "moduleLabel": "RAG API — Smoke Tests",
@@ -114,13 +114,13 @@
           "webPath": "./artifacts/tc_api_04_-_post__gen-chat_returns_llm_response-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/gen-chat\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:05.454Z\",\n  \"url\": \"https://rag.uwc.world/gen-chat\",\n  \"user_id\": \"automation-smoke\",\n  \"response_id\": \"automation-smoke_smoke-session\",\n  \"llm_response\": \"You've pinged me. How can I assist you today?\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/gen-chat\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:15:05.324Z\",\n  \"url\": \"https://rag.uwc.world/gen-chat\",\n  \"user_id\": \"automation-smoke\",\n  \"response_id\": \"automation-smoke_smoke-session\",\n  \"llm_response\": \"You've pinged me. How can I assist you today?\"\n}",
       "error": ""
     },
     {
       "title": "TC_CN_01 - POST append-to-context-v4",
       "status": "passed",
-      "durationMs": 406,
+      "durationMs": 433,
       "file": "clinical-notes-api-smoke.spec.ts",
       "module": "clinical-notes-api-smoke",
       "moduleLabel": "Clinical Notes API — Smoke Tests",
@@ -132,13 +132,13 @@
           "webPath": "./artifacts/tc_cn_01_-_post_append-to-context-v4-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:06.360Z\",\n  \"url\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"body\": {\n    \"message\": \"Transcript is processing.\"\n  },\n  \"id\": \"TC_CN_01\",\n  \"name\": \"append-to-context-v4\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:15:06.255Z\",\n  \"url\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"body\": {\n    \"message\": \"Transcript is processing.\"\n  },\n  \"id\": \"TC_CN_01\",\n  \"name\": \"append-to-context-v4\"\n}",
       "error": ""
     },
     {
       "title": "TC_CN_02 - POST insert-into-context",
-      "status": "passed",
-      "durationMs": 4541,
+      "status": "failed",
+      "durationMs": 60369,
       "file": "clinical-notes-api-smoke.spec.ts",
       "module": "clinical-notes-api-smoke",
       "moduleLabel": "Clinical Notes API — Smoke Tests",
@@ -148,51 +148,75 @@
           "path": "",
           "contentType": "application/json",
           "webPath": "./artifacts/tc_cn_02_-_post_insert-into-context-api-response.json"
+        },
+        {
+          "name": "error-context",
+          "path": "error-context.md",
+          "contentType": "text/markdown",
+          "webPath": "./artifacts/tc_cn_02_-_post_insert-into-context-error-context.md"
+        },
+        {
+          "name": "trace",
+          "path": "trace.zip",
+          "contentType": "application/zip",
+          "webPath": "./artifacts/tc_cn_02_-_post_insert-into-context-trace.zip"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://rag.uwc.world/insert-into-context\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:10.921Z\",\n  \"url\": \"https://rag.uwc.world/insert-into-context\",\n  \"body\": {\n    \"message\": \"644938 inserted\"\n  },\n  \"id\": \"TC_CN_02\",\n  \"name\": \"insert-into-context\"\n}",
-      "error": ""
+      "apiProof": "{\n  \"endpoint\": \"https://rag.uwc.world/insert-into-context\",\n  \"method\": \"POST\",\n  \"status\": 504,\n  \"timestamp\": \"2026-07-28T00:17:07.268Z\",\n  \"url\": \"https://rag.uwc.world/insert-into-context\",\n  \"contentType\": \"text\",\n  \"body\": \"<html>\\r\\n<head><title>504 Gateway Time-out</title></head>\\r\\n<body>\\r\\n<center><h1>504 Gateway Time-out</h1></center>\\r\\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\\r\\n</body>\\r\\n</html>\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n<!-- a padding to disable MSIE and Chrome friendly error page -->\\r\\n\",\n  \"id\": \"TC_CN_02\",\n  \"name\": \"insert-into-context\"\n}",
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m504\u001b[39m\n\n  86 |       });\n  87 |\n> 88 |       expect(response.status()).toBe(endpoint.expectedStatus);\n     |                                 ^\n  89 |       assertBody(endpoint, body);\n  90 |     });\n  91 |   }\n    at /home/saira/asksam-datascience-automation/tests/clinical-notes-api-smoke.spec.ts:88:33"
     },
     {
       "title": "TC_CN_03 - GET jwt-clinicalnotes / list-clients?professional_id=152853&count=200",
-      "status": "passed",
-      "durationMs": 5671,
+      "status": "timedOut",
+      "durationMs": 60064,
       "file": "clinical-notes-api-smoke.spec.ts",
       "module": "clinical-notes-api-smoke",
       "moduleLabel": "Clinical Notes API — Smoke Tests",
       "attachments": [
         {
-          "name": "api-response",
-          "path": "",
-          "contentType": "application/json",
-          "webPath": "./artifacts/tc_cn_03_-_get_jwt-clinicalnotes___list-clients_pr-api-response.json"
+          "name": "error-context",
+          "path": "error-context.md",
+          "contentType": "text/markdown",
+          "webPath": "./artifacts/tc_cn_03_-_get_jwt-clinicalnotes___list-clients_pr-error-context.md"
+        },
+        {
+          "name": "trace",
+          "path": "trace.zip",
+          "contentType": "application/zip",
+          "webPath": "./artifacts/tc_cn_03_-_get_jwt-clinicalnotes___list-clients_pr-trace.zip"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://session-note.uwc.world/jwt-clinicalnotes/list-clients?professional_id=152853&count=200\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:16.606Z\",\n  \"url\": \"https://session-note.uwc.world/jwt-clinicalnotes/list-clients?professional_id=152853&count=200\",\n  \"body\": {\n    \"status\": \"success\",\n    \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.W3sidXNlcl9pZCI6ICI1MDA5MTMiLCAibmFtZSI6ICJUZXN0IiwgImVtYWlsIjogInkzX2F1cytjbGVya190ZXN0QHRtYWlsLmNvbSIsICJwaG9uZSI6ICIoMDMpIDIzNDUgNjc5MCIsICJoaXNfbnVtYmVyIjogIiIsICJpbWFnZSI6ICJodHRwczovL2ltYWdlcy51bml0ZWR3ZWNhcmUuY29tL29kb28vb3Blbi9wdWJsaWMvZGVmYXVsdC1wcm9maWxlLWltZy5wbmc_YWx0PW1lZGlhIiwgInNlc3Npb25fY291bnQiOiA0fSwgeyJ1c2VyX2lkIjogIjY0NDkzOCIsICJuYW1lIjogIllhbWluaSBTaW5naCAxOTEiLCAiZW1haWwiOiAieXMxOTFfYXVzQHlvcG1haWwuY29tIiwgInBob25lIjogIiIsICJoaXNfbnVtYmVyIjogIiIsICJpbWFnZSI6ICJodHRwczovL2ltZy5jbGVyay5jb20vZXlKMGVYQmxJam9pWkdWbVlYVnNkQ0lzSW1scFpDSTZJbWx1YzE4eWRrOXBaVnBIYW5KaFFYVktja0paTVZobFJ6STNjRkpMVW00aUxDSnlhV1FpT2lKMWMyVnlYek0yWW1GVmQwZFlUV1JGZVdaeFlqWTVVSFp4TldWTlFtZHZaeUlzSW1sdWFYUnBZV3h6SWpvaVdWTWlmUSIsICJzZXNzaW9uX2NvdW50IjogNzY0fSwgeyJ1c2VyX2lkIjogIjcxNDQzMyIsICJuYW1lIjogIlNhcmFoIE0uIiwgImVtYWlsIjogInNhcmFoMzQ1MzQ1NDM1QHRtYWlsLmNvbSIsICJwaG9uZSI6ICIrNjEiLCAiaGlzX251bWJlciI6ICIiLCAiaW1hZ2UiOiAiIiwgInNlc3Npb25fY291bnQiOiAxfSwgeyJ1c2VyX2lkIjogIjcwNjU1MiIsICJuYW1lIjogIkxvcnJhaW5lICBCcm93biIsICJlbWFpbCI6ICIrNjEgNDM1MjY1NDYzIiwgInBob25lIjogIis2MSA0MzUyNjU0NjMiLCAiaGlzX251bWJlciI6ICIiLCAiaW1hZ2UiOiAiaHR0cHM6Ly9pbWcuY2xlcmsuY29tL2V5SjBlWEJsSWpvaVpHVm1ZWFZzZENJc0ltbHBaQ0k2SW1sdWMxOHlkazlwWlZwSGFuSmhRWFZLY2tKWk1WaGxSekkzY0ZKTFVtNGlMQ0p5YVdRaU9pSjFjMlZ5WHpOSFVYVnNTVWhvWkROeGJsTjFjR1pVTlZaVlQzWm1aRVZKY0NJc0ltbHVhWFJwWVd4eklqb2lURUlpZlEiLCAic2Vzc2lvbl9jb3VudCI6IDN9LCB7InVzZXJfaWQiOiAiNzA2MzMxIiwgIm5hbWUiOiAiTmVlbGFtICBTaW5naCIsICJlbWFpbCI6ICJuZWVsYW0uc2luZ2hAZ21haWwuY29tIiwgInBob25lIjogIm5lZWxhbS5zaW5naEBnbWFpbC5jb20iLCAiaGlzX251bWJlciI6ICIiLCAiaW1hZ2UiOiAiaHR0cHM6Ly9pbWcuY2xlcmsuY29tL2V5SjBlWEJsSWpvaVpHVm1ZWFZzZENJc0ltbHBaQ0k2SW1sdWMxOHlkazlwWlZwSGFuSmhRWFZLY2tKWk1WaGxSekkzY0ZKTFVtNGlMQ0p5YVdRaU9pSjFjMlZ5WHpOSFdGUnNhRFl5T0RrNWJtbFBVME5KV21jMWQwRnNlRk50TWlJc0ltbHVhWFJwWVd4eklqb2lUbE1pZlEiLCAic2Vzc2lvbl9jb3VudCI6IDJ9LCB7InVzZXJfaWQiOiAiNzA2MjgzIiwgIm5hbWUiOiAidGVzdCB1c2VyIDA3MDcyNiIsICJlbWFpbCI6ICJ0ZXN0dXNlci0wNzA3QHRtYWlsLmNvbSIsICJwaG9uZSI6ICIrNjEiLCAiaGlzX251bWJlciI6ICIiLCAiaW1hZ2UiOiAiIiwgInNlc3Npb25fY291bnQiOiAzfSwgeyJ1c2VyX2lkIjogIjcwNjI4NyIsICJuYW1lIjogIllhbWluaSBQYWwgU2luZ2giLCAiZW1haWwiOiAieXMxNDNfYXVzQHlvcG1haWwuY29tIiwgInBob25lIjogInlzMTQzX2F1c0B5b3BtYWlsLmNvbSIsICJoaXNfbnVtYmVyIjogIiIsICJpbWFnZSI6ICJodHRwczovL2ltZy5jbGVyay5jb20vZXlKMGVYQmxJam9pWkdWbVlYVnNkQ0lzSW1scFpDSTZJbWx1YzE4eWRrOXBaVnBIYW5KaFFYVktja0paTVZobFJ6STNjRkpMVW00aUxDSnlhV1FpT2lKMWMyVnlYek5IUVhSeFVWVTBhbW96UjNOR09XTlBlRWczZHpGSmRtWTFUaUlzSW1sdWFYUnBZV3h6SWpvaVdWQWlmUSIsICJzZXNzaW9uX2NvdW50IjogMn0sIHsidXNlcl9pZCI6ICI1MDE4NTYiLCAibmFtZSI6ICJZYW1pbmkgUGFsIFNpbmdoIiwgImVtYWlsIjogInlhbWluaXBhbHNpb...",
-      "error": ""
+      "apiProof": "",
+      "error": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nTimeoutError: apiRequestContext.fetch: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://session-note.uwc.world/jwt-clinicalnotes/list-clients?professional_id=152853&count=200\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m"
     },
     {
       "title": "TC_CN_04 - GET static / countries",
-      "status": "passed",
-      "durationMs": 45,
+      "status": "timedOut",
+      "durationMs": 60065,
       "file": "clinical-notes-api-smoke.spec.ts",
       "module": "clinical-notes-api-smoke",
       "moduleLabel": "Clinical Notes API — Smoke Tests",
       "attachments": [
         {
-          "name": "api-response",
-          "path": "",
-          "contentType": "application/json",
-          "webPath": "./artifacts/tc_cn_04_-_get_static___countries-api-response.json"
+          "name": "error-context",
+          "path": "error-context.md",
+          "contentType": "text/markdown",
+          "webPath": "./artifacts/tc_cn_04_-_get_static___countries-error-context.md"
+        },
+        {
+          "name": "trace",
+          "path": "trace.zip",
+          "contentType": "application/zip",
+          "webPath": "./artifacts/tc_cn_04_-_get_static___countries-trace.zip"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://session-note.uwc.world/static/countries\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:16.660Z\",\n  \"url\": \"https://session-note.uwc.world/static/countries\",\n  \"body\": {\n    \"status\": \"success\",\n    \"countries\": [\n      {\n        \"name\": \"Afghanistan\",\n        \"code\": \"AF\",\n        \"dial_code\": \"+93\"\n      },\n      {\n        \"name\": \"Albania\",\n        \"code\": \"AL\",\n        \"dial_code\": \"+355\"\n      },\n      {\n        \"name\": \"Algeria\",\n        \"code\": \"DZ\",\n        \"dial_code\": \"+213\"\n      },\n      {\n        \"name\": \"AmericanSamoa\",\n        \"code\": \"AS\",\n        \"dial_code\": \"+1 684\"\n      },\n      {\n        \"name\": \"Andorra\",\n        \"code\": \"AD\",\n        \"dial_code\": \"+376\"\n      },\n      {\n        \"name\": \"Angola\",\n        \"code\": \"AO\",\n        \"dial_code\": \"+244\"\n      },\n      {\n        \"name\": \"Anguilla\",\n        \"code\": \"AI\",\n        \"dial_code\": \"+1 264\"\n      },\n      {\n        \"name\": \"Antarctica\",\n        \"code\": \"AQ\",\n        \"dial_code\": \"+672\"\n      },\n      {\n        \"name\": \"Antigua and Barbuda\",\n        \"code\": \"AG\",\n        \"dial_code\": \"+1268\"\n      },\n      {\n        \"name\": \"Argentina\",\n        \"code\": \"AR\",\n        \"dial_code\": \"+54\"\n      },\n      {\n        \"name\": \"Armenia\",\n        \"code\": \"AM\",\n        \"dial_code\": \"+374\"\n      },\n      {\n        \"name\": \"Aruba\",\n        \"code\": \"AW\",\n        \"dial_code\": \"+297\"\n      },\n      {\n        \"name\": \"Australia\",\n        \"code\": \"AU\",\n        \"dial_code\": \"+61\"\n      },\n      {\n        \"name\": \"Austria\",\n        \"code\": \"AT\",\n        \"dial_code\": \"+43\"\n      },\n      {\n        \"name\": \"Azerbaijan\",\n        \"code\": \"AZ\",\n        \"dial_code\": \"+994\"\n      },\n      {\n        \"name\": \"Bahamas\",\n        \"code\": \"BS\",\n        \"dial_code\": \"+1 242\"\n      },\n      {\n        \"name\": \"Bahrain\",\n        \"code\": \"BH\",\n        \"dial_code\": \"+973\"\n      },\n      {\n        \"name\": \"Bangladesh\",\n        \"code\": \"BD\",\n        \"dial_code\": \"+880\"\n      },\n      {\n        \"name\": \"Barbados\",\n        \"code\": \"BB\",\n        \"dial_code\": \"+1 246\"\n      },\n      {\n        \"name\": \"Belarus\",\n        \"code\": \"BY\",\n        \"dial_code\": \"+375\"\n      },\n      {\n        \"name\": \"Belgium\",\n        \"code\": \"BE\",\n        \"dial_code\": \"+32\"\n      },\n      {\n        \"name\": \"Belize\",\n        \"code\": \"BZ\",\n        \"dial_code\": \"+501\"\n      },\n      {\n        \"name\": \"Benin\",\n        \"code\": \"BJ\",\n        \"dial_code\": \"+229\"\n      },\n      {\n        \"name\": \"Bermuda\",\n        \"code\": \"BM\",\n        \"dial_code\": \"+1 441\"\n      },\n      {\n        \"name\": \"Bhutan\",\n        \"code\": \"BT\",\n        \"dial_code\": \"+975\"\n      },\n      {\n        \"name\": \"Bolivia, Plurinational State of Bolivia\",\n        \"code\": \"BO\",\n        \"dial_code\": \"+591\"\n      },\n      {\n        \"name\": \"Bosnia and Herzegovina\",\n        \"code\": \"BA\",\n        \"dial_code\": \"+387\"\n      },\n      {\n        \"name\": \"Botswana\",\n        \"code\": \"BW\",\n        \"dial_code\": \"+267\"\n      },\n      {\n        \"name\"...",
-      "error": ""
+      "apiProof": "",
+      "error": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nTimeoutError: apiRequestContext.fetch: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://session-note.uwc.world/static/countries\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m    - referer: https://copilot.asksam.com.au/\u001b["
     },
     {
       "title": "TC_CN_05 - POST transcription-file-analyzer / process-document",
       "status": "passed",
-      "durationMs": 10290,
+      "durationMs": 9297,
       "file": "clinical-notes-api-smoke.spec.ts",
       "module": "clinical-notes-api-smoke",
       "moduleLabel": "Clinical Notes API — Smoke Tests",
@@ -204,13 +228,13 @@
           "webPath": "./artifacts/tc_cn_05_-_post_transcription-file-analyzer___proc-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:26.956Z\",\n  \"url\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"body\": {\n    \"id\": \"6a61c583-8778-4e57-9e5c-d0c4b20c62c2\",\n    \"response\": \"Name: Yamini Singh\\nAge: 33 years old\\nOccupation: Unemployed, was previously attached in a MNC Company Sales Team\\nMarital Status: Separated, Divorced\\nFamily: Father (deceased, alcoholic), Sister (deceased), Mother (schizophrenia, liver cirrhosis)\\nEducation: Bachelor's Degree in Computer Science from a prestigious university\\nResidence: Lives alone in a duplex apartment in a metropolitan city\\n\\nYamini mentioned in her early discussion, that she had bad some major episodes on,\\n\\n2020: Severe depression following the sudden death of her brother. She was hospitalised for six weeks and prescribed Fluoxetine (Prozac) and Olanzapine (Zyprexa). During this time, she also began seeing a therapist for grief counselling.\\n2016: Experienced a manic episode characterised by excessive energy, decreased need for sleep, and impulsive decision-making. Hospitalised for three weeks and diagnosed with Bipolar Disorder. Treated with Lithium and Valproate.\\n2015: Another major depressive episode triggered by the anniversary of her brother's death. She was hospitalised for four weeks, during which her medications were adjusted, and she received intensive psychotherapy. Her treatment included a brief course of inpatient Electroconvulsive Therapy (ECT).\\n\\nCurrent Hospitalisation:\\nReason for Admission: Yamini was admitted following a suicide attempt involving an overdose of her prescribed medications. She has been experiencing worsening symptoms of depression and anxiety, including severe insomnia, loss of appetite, weight loss, pervasive feelings of hopelessness, and frequent panic attacks.\\nLength of Stay: Currently in her third week of hospitalisation in a psychiatric unit.\\n\\nCurrent Medications:\\nFluoxetine (Prozac), Sertraline (Zoloft) Oral, after food twice daily for 6 months\\nLithium, Valproate Oral, with milk once daily for 6 months\\nOlanzapine (Zyprexa) Oral, after food Once daily for 20 days\\nLorazepam (Ativan) Oral, after food twice daily for 1 year\\n\\nMedication on 2020:\\nAripiprazole (Abilify) - 5 mg daily oral once after food\\nZolpidem (Ambien) - 5 mg as needed once everyday, with milk orally\\n\\nMedication on 2017:\\nEscitalopram (Lexapro) - 20 mg daily Oral, after food Once daily for 10 days\\nLamotrigine (Lamictal) - 200 mg daily Oral, after food once a week for 3 weeks\\n\\nMedication on 2015:\\nAripiprazole (Abilify) - 10 mg daily oral for 30 days\\nClonazepam (Klonopin) - 0.5 mg oral once in a week after food\\nZolpidem (Ambien) - 10 mg once everyday, with milk orally for 3 months\\n\\nPast Therapies:\\n2017 - Cognitive Behavioural Therapy (CBT) focusing on managing depressive and anxious thoughts\\n2016-2017 - Dialectical Be...",
+      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:19.400Z\",\n  \"url\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"body\": {\n    \"id\": \"9f88faf0-7417-4b73-aded-c8c555c3f4a9\",\n    \"response\": \"Name: Yamini Singh\\nAge: 33 years old\\nOccupation: Unemployed, was previously attached in a MNC Company Sales Team\\nMarital Status: Separated, Divorced\\nFamily: Father (deceased, alcoholic), Sister (deceased), Mother (schizophrenia, liver cirrhosis)\\nEducation: Bachelor's Degree in Computer Science from a prestigious university\\nResidence: Lives alone in a duplex apartment in a metropolitan city\\n\\nYamini mentioned in her early discussion, that she had bad some major episodes on,\\n\\n2020: Severe depression following the sudden death of her brother. She was hospitalised for six weeks and prescribed Fluoxetine (Prozac) and Olanzapine (Zyprexa). During this time, she also began seeing a therapist for grief counselling.\\n2016: Experienced a manic episode characterised by excessive energy, decreased need for sleep, and impulsive decision-making. Hospitalised for three weeks and diagnosed with Bipolar Disorder. Treated with Lithium and Valproate.\\n2015: Another major depressive episode triggered by the anniversary of her brother's death. She was hospitalised for four weeks, during which her medications were adjusted, and she received intensive psychotherapy. Her treatment included a brief course of inpatient Electroconvulsive Therapy (ECT).\\n\\nCurrent Hospitalisation:\\nReason for Admission: Yamini was admitted following a suicide attempt involving an overdose of her prescribed medications. She has been experiencing worsening symptoms of depression and anxiety, including severe insomnia, loss of appetite, weight loss, pervasive feelings of hopelessness, and frequent panic attacks.\\nLength of Stay: Currently in her third week of hospitalisation in a psychiatric unit.\\n\\nCurrent Medications:\\nFluoxetine (Prozac), Sertraline (Zoloft) Oral, after food twice daily for 6 months\\nLithium, Valproate Oral, with milk once daily for 6 months\\nOlanzapine (Zyprexa) Oral, after food Once daily for 20 days\\nLorazepam (Ativan) Oral, after food twice daily for 1 year\\n\\nMedication on 2020:\\nAripiprazole (Abilify) - 5 mg daily oral once after food\\nZolpidem (Ambien) - 5 mg as needed once everyday, with milk orally\\n\\nMedication on 2017:\\nEscitalopram (Lexapro) - 20 mg daily Oral, after food Once daily for 10 days\\nLamotrigine (Lamictal) - 200 mg daily Oral, after food once a week for 3 weeks\\n\\nMedication on 2015:\\nAripiprazole (Abilify) - 10 mg daily oral for 30 days\\nClonazepam (Klonopin) - 0.5 mg oral once in a week after food\\nZolpidem (Ambien) - 10 mg once everyday, with milk orally for 3 months\\n\\nPast Therapies:\\n2017 - Cognitive Behavioural Therapy (CBT) focusing on managing depressive and anxious thoughts\\n2016-2017 - Dialectical Be...",
       "error": ""
     },
     {
       "title": "TC_AST_GR_01 - GET [graph] Graph — 152853 / clinical_knowledge_graph",
       "status": "passed",
-      "durationMs": 690,
+      "durationMs": 676,
       "file": "assistant-api-smoke.spec.ts",
       "module": "assistant-api-smoke",
       "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
@@ -222,13 +246,13 @@
           "webPath": "./artifacts/tc_ast_gr_01_-_get__graph__graph___152853___clinic-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:28.146Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"clinical_knowledge_graph\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_GR_01\",\n  \"tab\": \"graph\",\n  \"name\": \"Graph — 152853 / clinical_knowledge_graph\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:20.592Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"clinical_knowledge_graph\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_GR_01\",\n  \"tab\": \"graph\",\n  \"name\": \"Graph — 152853 / clinical_knowledge_graph\"\n}",
       "error": ""
     },
     {
       "title": "TC_AST_GR_02 - POST [graph] Graph — drugs-interaction / graph-fe-user-year",
       "status": "passed",
-      "durationMs": 2053,
+      "durationMs": 2054,
       "file": "assistant-api-smoke.spec.ts",
       "module": "assistant-api-smoke",
       "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
@@ -240,13 +264,13 @@
           "webPath": "./artifacts/tc_ast_gr_02_-_post__graph__graph___drugs-interact-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:30.201Z\",\n  \"url\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"body\": {\n    \"nodes\": [\n      {\n        \"id\": \"644938\",\n        \"parent\": true,\n        \"name\": \"Name\",\n        \"colour\": \"#4169E1\",\n        \"link_name\": \"Has\",\n        \"children\": [\n          {\n            \"id\": \"644938.medicines\",\n            \"name\": \"Medicines\",\n            \"colour\": \"#008080\",\n            \"link_name\": \"Has Taken\",\n            \"children\": [\n              {\n                \"id\": \"644938.medicines.past\",\n                \"name\": \"Past\",\n                \"colour\": \"#008080\",\n                \"link_name\": \"Taken in the\",\n                \"children\": [\n                  {\n                    \"id\": \"644938.medicines.past.448\",\n                    \"name\": \"Quetiapine\",\n                    \"colour\": \"#008080\",\n                    \"link_name\": \"N05AH04 - quetiapine ; Belongs to the class of diazepines, oxazepines and thiazepines antipsychotics.\",\n                    \"children\": [],\n                    \"description\": {\n                      \"Name\": \"Quetiapine\",\n                      \"Drug Interactions\": \"Increased serum concentration with cyp3a4 inhibitors (e.g. ketoconazole, ritonavir, nefazodone). decreased serum concentration with cyp3a4 inducers (e.g. phenytoin, carbamazepine, rifampin). extended-release preparations may antagonise actions of dopaminergics (e.g. levodopa). increased risk of qt prolongation with class ia antiarrhythmics (e.g. quinidine, procainamide), class iii antiarrhythmics (e.g. amiodarone, sotalol), antipsychotic medications (e.g. ziprasidone, chlorpromazine, thioridazine), antibiotics (e.g. gatifloxacin, moxifloxacin), pentamidine, levomethadyl acetate, methadone).\",\n                      \"Dosage Direction For Use\": \"Oralschizophreniaadult:as immediate-release/film-coated tab: initially, 25 mg bid on day 1, followed by 50 mg bid on day 2, 100 mg bid on day 3 and 150 mg bid on day 4. titrate dose according to response between 300-450 mg daily given in 2 divided doses from day 4 onwards. max: 750 mg daily. as extended-release tab: 300 mg once daily on day 1, followed by 600 mg once daily on day 2. adjust according to patient response between 400-800 mg daily. usual dose: 600 mg once daily. max: 800 mg daily.elderly:as immediate-release/film-coated tab: slower rate of dose titration and lower daily therapeutic dose. as modified-release tab: initially, 50 mg once daily, adjusted in increments of 50 mg according to response.hepatic impairment:as immediate-release tab: initially, 25 mg daily, increased in increments of 25-50 mg daily according to patient response.oralacute manic episodes of bipolar disorderadult:as immediate-release/film-coated tab: 50 mg bid for day 1, followed by 100 mg bid for day 2 then 150 mg bid on day 3 and 200 mg bid on day 4. adjust in increments up to 200 ...",
+      "apiProof": "{\n  \"endpoint\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:22.648Z\",\n  \"url\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"body\": {\n    \"nodes\": [\n      {\n        \"id\": \"644938\",\n        \"parent\": true,\n        \"name\": \"Name\",\n        \"colour\": \"#4169E1\",\n        \"link_name\": \"Has\",\n        \"children\": [\n          {\n            \"id\": \"644938.medicines\",\n            \"name\": \"Medicines\",\n            \"colour\": \"#008080\",\n            \"link_name\": \"Has Taken\",\n            \"children\": [\n              {\n                \"id\": \"644938.medicines.past\",\n                \"name\": \"Past\",\n                \"colour\": \"#008080\",\n                \"link_name\": \"Taken in the\",\n                \"children\": [\n                  {\n                    \"id\": \"644938.medicines.past.448\",\n                    \"name\": \"Quetiapine\",\n                    \"colour\": \"#008080\",\n                    \"link_name\": \"N05AH04 - quetiapine ; Belongs to the class of diazepines, oxazepines and thiazepines antipsychotics.\",\n                    \"children\": [],\n                    \"description\": {\n                      \"Name\": \"Quetiapine\",\n                      \"Drug Interactions\": \"Increased serum concentration with cyp3a4 inhibitors (e.g. ketoconazole, ritonavir, nefazodone). decreased serum concentration with cyp3a4 inducers (e.g. phenytoin, carbamazepine, rifampin). extended-release preparations may antagonise actions of dopaminergics (e.g. levodopa). increased risk of qt prolongation with class ia antiarrhythmics (e.g. quinidine, procainamide), class iii antiarrhythmics (e.g. amiodarone, sotalol), antipsychotic medications (e.g. ziprasidone, chlorpromazine, thioridazine), antibiotics (e.g. gatifloxacin, moxifloxacin), pentamidine, levomethadyl acetate, methadone).\",\n                      \"Dosage Direction For Use\": \"Oralschizophreniaadult:as immediate-release/film-coated tab: initially, 25 mg bid on day 1, followed by 50 mg bid on day 2, 100 mg bid on day 3 and 150 mg bid on day 4. titrate dose according to response between 300-450 mg daily given in 2 divided doses from day 4 onwards. max: 750 mg daily. as extended-release tab: 300 mg once daily on day 1, followed by 600 mg once daily on day 2. adjust according to patient response between 400-800 mg daily. usual dose: 600 mg once daily. max: 800 mg daily.elderly:as immediate-release/film-coated tab: slower rate of dose titration and lower daily therapeutic dose. as modified-release tab: initially, 50 mg once daily, adjusted in increments of 50 mg according to response.hepatic impairment:as immediate-release tab: initially, 25 mg daily, increased in increments of 25-50 mg daily according to patient response.oralacute manic episodes of bipolar disorderadult:as immediate-release/film-coated tab: 50 mg bid for day 1, followed by 100 mg bid for day 2 then 150 mg bid on day 3 and 200 mg bid on day 4. adjust in increments up to 200 ...",
       "error": ""
     },
     {
       "title": "TC_AST_AS_01 - GET [assistant] Assistant — 152853 / drug_drug_interaction_alerts",
       "status": "passed",
-      "durationMs": 48,
+      "durationMs": 50,
       "file": "assistant-api-smoke.spec.ts",
       "module": "assistant-api-smoke",
       "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
@@ -258,7 +282,7 @@
           "webPath": "./artifacts/tc_ast_as_01_-_get__assistant__assistant___152853_-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:30.276Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"drug_drug_interaction_alerts\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AS_01\",\n  \"tab\": \"assistant\",\n  \"name\": \"Assistant — 152853 / drug_drug_interaction_alerts\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:22.729Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"drug_drug_interaction_alerts\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AS_01\",\n  \"tab\": \"assistant\",\n  \"name\": \"Assistant — 152853 / drug_drug_interaction_alerts\"\n}",
       "error": ""
     },
     {
@@ -276,13 +300,13 @@
           "webPath": "./artifacts/tc_ast_ak_01_-_get__asksam__asksam___152853___ask_-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:30.333Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"ask_sam_interactions\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AK_01\",\n  \"tab\": \"asksam\",\n  \"name\": \"Asksam — 152853 / ask_sam_interactions\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:22.784Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"ask_sam_interactions\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AK_01\",\n  \"tab\": \"asksam\",\n  \"name\": \"Asksam — 152853 / ask_sam_interactions\"\n}",
       "error": ""
     },
     {
       "title": "TC_ASR_01 - POST /transcriptions/transcribe-from-url-v2 returns transcription",
       "status": "passed",
-      "durationMs": 4321,
+      "durationMs": 3862,
       "file": "asr-api-smoke.spec.ts",
       "module": "asr-api-smoke",
       "moduleLabel": "ASR API — Smoke Tests",
@@ -294,7 +318,7 @@
           "webPath": "./artifacts/tc_asr_01_-_post__transcriptions_transcribe-from-u-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/transcriptions/transcribe-from-url-v2\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-27T20:15:35.150Z\",\n  \"url\": \"https://cauth.unitedwecare.com/transcriptions/transcribe-from-url-v2\",\n  \"body\": {\n    \"success\": true,\n    \"status\": 200,\n    \"message\": \"Transcription completed\",\n    \"data\": {\n      \"text\": \"Hello, mic check. Testing 123.\",\n      \"language\": \"en\",\n      \"model\": \"SHUNYAG\"\n    },\n    \"timestamp\": \"2026-07-27T20:15:35.115Z\"\n  },\n  \"service\": \"ASR\",\n  \"audioUrl\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/uploads%2Frecording_1782127426430_644938.webm?alt=media&token=fce69d88-e7ee-45a5-b079-f69183582299\",\n  \"language\": \"en\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/transcriptions/transcribe-from-url-v2\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-07-28T00:21:27.141Z\",\n  \"url\": \"https://cauth.unitedwecare.com/transcriptions/transcribe-from-url-v2\",\n  \"body\": {\n    \"success\": true,\n    \"status\": 200,\n    \"message\": \"Transcription completed\",\n    \"data\": {\n      \"text\": \"Hello, mic check. Testing 1 2 3.\",\n      \"language\": \"en\",\n      \"model\": \"SHUNYAG\"\n    },\n    \"timestamp\": \"2026-07-28T00:21:27.109Z\"\n  },\n  \"service\": \"ASR\",\n  \"audioUrl\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/uploads%2Frecording_1782127426430_644938.webm?alt=media&token=fce69d88-e7ee-45a5-b079-f69183582299\",\n  \"language\": \"en\"\n}",
       "error": ""
     }
   ]
