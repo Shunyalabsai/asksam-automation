@@ -2,7 +2,7 @@
   "endpoint": "/vectorstore/health",
   "method": "GET",
   "status": 200,
-  "timestamp": "2026-07-28T00:15:05.099Z",
+  "timestamp": "2026-07-28T04:15:04.943Z",
   "url": "https://rag.uwc.world/vectorstore/health",
   "body": {
     "Health": "Ok"
