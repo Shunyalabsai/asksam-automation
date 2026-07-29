@@ -49,3 +49,42 @@ export async function attachApiProof(testInfo: TestInfo, opts: ApiProofInput): P
     contentType: 'application/json',
   });
 }
+
+const GATEWAY_RETRY_STATUSES = new Set([502, 503, 504]);
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/** Retry transient gateway / timeout failures (502/503/504) a few times before failing. */
+export async function fetchWithGatewayRetry(
+  request: { fetch: (url: string, options?: Record<string, unknown>) => Promise<APIResponse> },
+  url: string,
+  options: Record<string, unknown> = {},
+  opts?: { retries?: number; retryDelayMs?: number },
+): Promise<APIResponse> {
+  const retries = opts?.retries ?? 2;
+  const retryDelayMs = opts?.retryDelayMs ?? 3000;
+  let lastError: unknown;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const response = await request.fetch(url, options);
+      if (!GATEWAY_RETRY_STATUSES.has(response.status()) || attempt === retries) {
+        return response;
+      }
+      await response.dispose().catch(() => {});
+      await sleep(retryDelayMs * (attempt + 1));
+    } catch (error) {
+      lastError = error;
+      const message = error instanceof Error ? error.message : String(error);
+      const isTimeout = /timeout|timed out|ECONNRESET|ECONNREFUSED|socket hang up/i.test(message);
+      if (!isTimeout || attempt === retries) {
+        throw error;
+      }
+      await sleep(retryDelayMs * (attempt + 1));
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error(String(lastError));
+}
