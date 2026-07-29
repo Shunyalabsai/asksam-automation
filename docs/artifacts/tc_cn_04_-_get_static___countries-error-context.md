@@ -12,11 +12,7 @@
 # Error details
 
 ```
-Test timeout of 60000ms exceeded.
-```
-
-```
-TimeoutError: apiRequestContext.fetch: Timeout 60000ms exceeded.
+TimeoutError: apiRequestContext.fetch: Timeout 120000ms exceeded.
 Call log:
   - → GET https://session-note.uwc.world/static/countries
     - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.7778.96 Safari/537.36
@@ -36,98 +32,96 @@ Call log:
 # Test source
 
 ```ts
-  1  | import { test, expect } from '@playwright/test';
-  2  | import {
-  3  |   loadClinicalNotesManifest,
-  4  |   getSmokeEndpoints,
-  5  |   clinicalNotesUrl,
-  6  |   resolveEndpointHeaders,
-  7  |   loadDsApiHeaders,
-  8  |   DS_API_HEADERS_PATH,
-  9  |   type ClinicalNotesEndpoint,
-  10 | } from '../utils/clinicalNotesApi';
-  11 | import { readResponseBody, attachApiProof } from '../utils/apiProof';
-  12 | 
-  13 | function assertBody(endpoint: ClinicalNotesEndpoint, body: unknown) {
-  14 |   if (endpoint.bodyMatch && body && typeof body === 'object') {
-  15 |     expect(body).toMatchObject(endpoint.bodyMatch);
-  16 |   }
-  17 |   if (endpoint.bodyContains?.length) {
-  18 |     const serialized = JSON.stringify(body).toLowerCase();
-  19 |     for (const fragment of endpoint.bodyContains) {
-  20 |       expect(serialized).toContain(fragment.toLowerCase());
-  21 |     }
-  22 |   }
-  23 | }
-  24 | 
-  25 | test.describe('Clinical Notes API smoke', () => {
-  26 |   const manifest = loadClinicalNotesManifest();
-  27 |   const smokeEndpoints = getSmokeEndpoints(manifest);
-  28 |   const dsApiHeaders = loadDsApiHeaders();
-  29 | 
-  30 |   if (Object.keys(dsApiHeaders).length === 0) {
-  31 |     test('TC_CN_00 - auth headers pending', async () => {
-  32 |       test.skip(
-  33 |         true,
-  34 |         `Missing ${DS_API_HEADERS_PATH} — scp from discovery machine or run: npm run discover:clinical-notes-apis`,
-  35 |       );
-  36 |     });
-  37 |     return;
-  38 |   }
-  39 | 
-  40 |   if (smokeEndpoints.length === 0) {
-  41 |     test('TC_CN_00 - manifest pending discovery', async () => {
-  42 |       test.skip(
-  43 |         true,
-  44 |         'No smoke endpoints in fixtures/clinical-notes-apis.json — run: npm run discover:clinical-notes-apis',
-  45 |       );
-  46 |     });
-  47 |     return;
-  48 |   }
-  49 | 
-  50 |   for (const endpoint of smokeEndpoints) {
-  51 |     test(`${endpoint.id} - ${endpoint.method} ${endpoint.name}`, async ({ request }, testInfo) => {
-  52 |       const timeoutMs = endpoint.method === 'POST' ? 180000 : 60000;
-  53 |       test.setTimeout(timeoutMs);
+  1  | import type { APIResponse, TestInfo } from '@playwright/test';
+  2  | import { formatApiProof } from './ragApi';
+  3  | 
+  4  | const MAX_BODY_CHARS = 8000;
+  5  | 
+  6  | function truncateBody(text: string): string {
+  7  |   if (text.length <= MAX_BODY_CHARS) return text;
+  8  |   return `${text.substring(0, MAX_BODY_CHARS)}... [truncated ${text.length - MAX_BODY_CHARS} chars]`;
+  9  | }
+  10 | 
+  11 | /** Read response body as JSON when possible; otherwise return raw text (e.g. 502 HTML). */
+  12 | export async function readResponseBody(response: APIResponse): Promise<unknown> {
+  13 |   const text = await response.text();
+  14 |   if (!text) return '';
+  15 | 
+  16 |   const contentType = response.headers()['content-type'] || '';
+  17 |   const trimmed = text.trim();
+  18 |   const looksJson =
+  19 |     contentType.includes('application/json') ||
+  20 |     trimmed.startsWith('{') ||
+  21 |     trimmed.startsWith('[');
+  22 | 
+  23 |   if (looksJson) {
+  24 |     try {
+  25 |       return JSON.parse(text);
+  26 |     } catch {
+  27 |       return truncateBody(text);
+  28 |     }
+  29 |   }
+  30 | 
+  31 |   return truncateBody(text);
+  32 | }
+  33 | 
+  34 | export type ApiProofInput = {
+  35 |   endpoint: string;
+  36 |   method: string;
+  37 |   status: number;
+  38 |   body: unknown;
+  39 |   url?: string;
+  40 |   extra?: Record<string, unknown>;
+  41 | };
+  42 | 
+  43 | /** Attach API response proof before assertions so pass and fail both retain the payload. */
+  44 | export async function attachApiProof(testInfo: TestInfo, opts: ApiProofInput): Promise<void> {
+  45 |   const { extra, ...formatOpts } = opts;
+  46 |   const proof = { ...formatApiProof(formatOpts), ...extra };
+  47 |   await testInfo.attach('api-response', {
+  48 |     body: JSON.stringify(proof, null, 2),
+  49 |     contentType: 'application/json',
+  50 |   });
+  51 | }
+  52 | 
+  53 | const GATEWAY_RETRY_STATUSES = new Set([502, 503, 504]);
   54 | 
-  55 |       let targetUrl: string;
-  56 |       try {
-  57 |         targetUrl = clinicalNotesUrl(manifest, endpoint);
-  58 |       } catch (error) {
-  59 |         test.skip(true, (error as Error).message);
-  60 |         return;
-  61 |       }
-  62 | 
-  63 |       const headers = resolveEndpointHeaders(endpoint);
-  64 | 
-  65 |       const options: Parameters<typeof request.fetch>[1] = {
-  66 |         method: endpoint.method,
-  67 |         headers,
-  68 |         timeout: timeoutMs,
-  69 |       };
-  70 | 
-  71 |       if (endpoint.method !== 'GET' && endpoint.method !== 'HEAD' && endpoint.samplePayload !== undefined) {
-  72 |         options.data = endpoint.samplePayload;
-  73 |       }
-  74 | 
-> 75 |       const response = await request.fetch(targetUrl, options);
-     |                                      ^ TimeoutError: apiRequestContext.fetch: Timeout 60000ms exceeded.
-  76 |       const body = await readResponseBody(response);
-  77 |       const pathOrUrl = endpoint.fullUrl || endpoint.path;
-  78 | 
-  79 |       await attachApiProof(testInfo, {
-  80 |         endpoint: pathOrUrl,
-  81 |         method: endpoint.method,
-  82 |         status: response.status(),
-  83 |         body,
-  84 |         url: targetUrl,
-  85 |         extra: { id: endpoint.id, name: endpoint.name },
-  86 |       });
-  87 | 
-  88 |       expect(response.status()).toBe(endpoint.expectedStatus);
-  89 |       assertBody(endpoint, body);
-  90 |     });
-  91 |   }
-  92 | });
-  93 | 
+  55 | function sleep(ms: number) {
+  56 |   return new Promise((resolve) => setTimeout(resolve, ms));
+  57 | }
+  58 | 
+  59 | /** Retry transient gateway / timeout failures (502/503/504) a few times before failing. */
+  60 | export async function fetchWithGatewayRetry(
+  61 |   request: { fetch: (url: string, options?: Record<string, unknown>) => Promise<APIResponse> },
+  62 |   url: string,
+  63 |   options: Record<string, unknown> = {},
+  64 |   opts?: { retries?: number; retryDelayMs?: number },
+  65 | ): Promise<APIResponse> {
+  66 |   const retries = opts?.retries ?? 2;
+  67 |   const retryDelayMs = opts?.retryDelayMs ?? 3000;
+  68 |   let lastError: unknown;
+  69 | 
+  70 |   for (let attempt = 0; attempt <= retries; attempt++) {
+  71 |     try {
+> 72 |       const response = await request.fetch(url, options);
+     |                                      ^ TimeoutError: apiRequestContext.fetch: Timeout 120000ms exceeded.
+  73 |       if (!GATEWAY_RETRY_STATUSES.has(response.status()) || attempt === retries) {
+  74 |         return response;
+  75 |       }
+  76 |       await response.dispose().catch(() => {});
+  77 |       await sleep(retryDelayMs * (attempt + 1));
+  78 |     } catch (error) {
+  79 |       lastError = error;
+  80 |       const message = error instanceof Error ? error.message : String(error);
+  81 |       const isTimeout = /timeout|timed out|ECONNRESET|ECONNREFUSED|socket hang up/i.test(message);
+  82 |       if (!isTimeout || attempt === retries) {
+  83 |         throw error;
+  84 |       }
+  85 |       await sleep(retryDelayMs * (attempt + 1));
+  86 |     }
+  87 |   }
+  88 | 
+  89 |   throw lastError instanceof Error ? lastError : new Error(String(lastError));
+  90 | }
+  91 | 
 ```
