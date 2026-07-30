@@ -1,0 +1,11 @@
+{
+  "endpoint": "/redis/health",
+  "method": "GET",
+  "status": 200,
+  "timestamp": "2026-07-30T08:15:05.373Z",
+  "url": "https://rag.uwc.world/redis/health",
+  "body": {
+    "status": "healthy",
+    "detail": "Redis is running"
+  }
+}
