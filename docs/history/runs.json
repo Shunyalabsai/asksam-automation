@@ -1,5 +1,52 @@
 [
   {
+    "id": "89f10b13-5e1b-4e3a-8513-5928c5babfc8",
+    "startedAt": "2026-08-02T12:15:04.508Z",
+    "durationMs": 1511671.711,
+    "summary": {
+      "total": 14,
+      "passed": 12,
+      "failed": 2,
+      "skipped": 0,
+      "timedOut": 0
+    },
+    "passRate": 86,
+    "modules": {
+      "rag-api-smoke": {
+        "label": "RAG API — Smoke Tests",
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "clinical-notes-api-smoke": {
+        "label": "Clinical Notes API — Smoke Tests",
+        "total": 5,
+        "passed": 3,
+        "failed": 2,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "assistant-api-smoke": {
+        "label": "Stella Assistant Panel API — Smoke Tests",
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "asr-api-smoke": {
+        "label": "ASR API — Smoke Tests",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      }
+    }
+  },
+  {
     "id": "3fb63b3c-33f8-49d3-8c84-c0eb1d1e2bf5",
     "startedAt": "2026-08-02T08:15:03.720Z",
     "durationMs": 1511838.072,
@@ -8369,53 +8416,6 @@
     "id": "2081c67e-2302-45d9-a389-93340e5f1449",
     "startedAt": "2026-07-03T16:15:03.895Z",
     "durationMs": 71914.53,
-    "summary": {
-      "total": 14,
-      "passed": 14,
-      "failed": 0,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "passRate": 100,
-    "modules": {
-      "rag-api-smoke": {
-        "label": "RAG API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "clinical-notes-api-smoke": {
-        "label": "Clinical Notes API — Smoke Tests",
-        "total": 5,
-        "passed": 5,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "assistant-api-smoke": {
-        "label": "Stella Assistant Panel API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "asr-api-smoke": {
-        "label": "ASR API — Smoke Tests",
-        "total": 1,
-        "passed": 1,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      }
-    }
-  },
-  {
-    "id": "29ed3a13-6094-44db-9072-0447d13b45ed",
-    "startedAt": "2026-07-03T12:15:03.749Z",
-    "durationMs": 59989.807,
     "summary": {
       "total": 14,
       "passed": 14,
