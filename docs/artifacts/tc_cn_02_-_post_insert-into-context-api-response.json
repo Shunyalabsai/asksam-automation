@@ -2,7 +2,7 @@
   "endpoint": "https://rag.uwc.world/insert-into-context",
   "method": "POST",
   "status": 200,
-  "timestamp": "2026-08-06T08:15:08.056Z",
+  "timestamp": "2026-08-06T12:15:06.564Z",
   "url": "https://rag.uwc.world/insert-into-context",
   "body": {
     "message": "644938 inserted"
