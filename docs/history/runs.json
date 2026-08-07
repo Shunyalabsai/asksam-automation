@@ -1,5 +1,52 @@
 [
   {
+    "id": "d3194036-8ff1-4d84-92fe-631175389992",
+    "startedAt": "2026-08-07T16:15:03.798Z",
+    "durationMs": 22579.935999999998,
+    "summary": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0
+    },
+    "passRate": 100,
+    "modules": {
+      "rag-api-smoke": {
+        "label": "RAG API — Smoke Tests",
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "clinical-notes-api-smoke": {
+        "label": "Clinical Notes API — Smoke Tests",
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "assistant-api-smoke": {
+        "label": "Stella Assistant Panel API — Smoke Tests",
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      },
+      "asr-api-smoke": {
+        "label": "ASR API — Smoke Tests",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      }
+    }
+  },
+  {
     "id": "21397d50-ca32-4102-8628-8682736ff172",
     "startedAt": "2026-08-07T12:15:06.106Z",
     "durationMs": 25768.381,
@@ -8391,53 +8438,6 @@
         "total": 5,
         "passed": 5,
         "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "assistant-api-smoke": {
-        "label": "Stella Assistant Panel API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "asr-api-smoke": {
-        "label": "ASR API — Smoke Tests",
-        "total": 1,
-        "passed": 1,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      }
-    }
-  },
-  {
-    "id": "d57778ae-d1db-41b4-939c-b009fb8ffdcc",
-    "startedAt": "2026-07-08T16:15:04.011Z",
-    "durationMs": 61735.184,
-    "summary": {
-      "total": 14,
-      "passed": 13,
-      "failed": 1,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "passRate": 93,
-    "modules": {
-      "rag-api-smoke": {
-        "label": "RAG API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "clinical-notes-api-smoke": {
-        "label": "Clinical Notes API — Smoke Tests",
-        "total": 5,
-        "passed": 4,
-        "failed": 1,
         "skipped": 0,
         "timedOut": 0
       },
