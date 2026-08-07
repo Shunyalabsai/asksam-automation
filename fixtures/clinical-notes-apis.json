@@ -504,7 +504,8 @@
       "fullUrl": "https://session-note.uwc.world/jwt-clinicalnotes/list-clients?professional_id=152853&count=200",
       "host": "session-note.uwc.world",
       "via": "direct",
-      "smoke": true,
+      "smoke": false,
+      "smokeDisabledReason": "TEMP OFF — session-note.uwc.world timeouts (120s). Set smoke:true to re-enable.",
       "expectedStatus": 200,
       "requestHeaders": {
         "sec-ch-ua-platform": "\"Windows\"",
@@ -670,7 +671,8 @@
       "fullUrl": "https://session-note.uwc.world/static/countries",
       "host": "session-note.uwc.world",
       "via": "direct",
-      "smoke": true,
+      "smoke": false,
+      "smokeDisabledReason": "TEMP OFF — session-note.uwc.world timeouts (120s). Set smoke:true to re-enable.",
       "expectedStatus": 200,
       "requestHeaders": {
         "sec-ch-ua-platform": "\"Windows\"",

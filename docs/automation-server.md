@@ -19,16 +19,17 @@ Set in `.env` as comma-separated addresses (`REPORT_RECIPIENTS`). Current list:
 2. sumit@shunyalabs.ai  
 3. yamini@shunyalabs.ai  
 4. saira@unitedwecare.com  
-5. sb@shunyalabs.ai  
-6. ritu@shunyalabs.ai  
-7. ravulamk@shunyalabs.ai  
+5. saira@shunyalabs.ai  
+6. sb@shunyalabs.ai  
+7. ritu@shunyalabs.ai  
+8. ravulamk@shunyalabs.ai  
 
 ```bash
 # On VM — update before next cron run
 cd ~/asksam-datascience-automation
 grep -q '^REPORT_RECIPIENTS=' .env \
-  && sed -i 's|^REPORT_RECIPIENTS=.*|REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai|' .env \
-  || echo 'REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai' >> .env
+  && sed -i 's|^REPORT_RECIPIENTS=.*|REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai|' .env \
+  || echo 'REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai' >> .env
 ```
 
 Requires `EMAIL_WEB_APP_URL` in the same `.env`. Email sends only when tests fail.

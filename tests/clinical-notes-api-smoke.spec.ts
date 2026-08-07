@@ -22,6 +22,12 @@ function assertBody(endpoint: ClinicalNotesEndpoint, body: unknown) {
   }
 }
 
+/**
+ * Temporarily disabled session-note smokes (re-enable in fixtures/clinical-notes-apis.json):
+ *   TC_CN_03 — GET jwt-clinicalnotes/list-clients  → set "smoke": true
+ *   TC_CN_04 — GET static/countries                 → set "smoke": true
+ * Reason: session-note.uwc.world timing out (120s+) in prod.
+ */
 test.describe('Clinical Notes API smoke', () => {
   const manifest = loadClinicalNotesManifest();
   const smokeEndpoints = getSmokeEndpoints(manifest);
