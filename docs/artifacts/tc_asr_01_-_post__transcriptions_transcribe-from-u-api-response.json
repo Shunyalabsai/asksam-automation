@@ -2,14 +2,14 @@
   "endpoint": "/transcriptions/transcribe-from-url-v2",
   "method": "POST",
   "status": 400,
-  "timestamp": "2026-08-11T00:15:14.098Z",
+  "timestamp": "2026-08-11T04:15:13.807Z",
   "url": "https://cauth.unitedwecare.com/transcriptions/transcribe-from-url-v2",
   "body": {
     "success": false,
     "status": 400,
     "message": "Request failed with status code 402",
     "code": "TRANSCRIPTION_FAILED",
-    "timestamp": "2026-08-11T00:15:14.066Z"
+    "timestamp": "2026-08-11T04:15:13.775Z"
   },
   "service": "ASR",
   "audioUrl": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/uploads%2Frecording_1782127426430_644938.webm?alt=media&token=fce69d88-e7ee-45a5-b079-f69183582299",
