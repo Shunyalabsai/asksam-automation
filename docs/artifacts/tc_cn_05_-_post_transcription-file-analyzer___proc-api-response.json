@@ -2,7 +2,7 @@
   "endpoint": "https://on-append.uwc.world/transcription-file-analyzer/process-document",
   "method": "POST",
   "status": 500,
-  "timestamp": "2026-08-11T04:15:08.631Z",
+  "timestamp": "2026-08-11T08:15:08.833Z",
   "url": "https://on-append.uwc.world/transcription-file-analyzer/process-document",
   "body": {
     "detail": "Both Gemini API and Vertex AI processing failed."
