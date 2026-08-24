@@ -35,7 +35,7 @@ grep -q '^REPORT_RECIPIENTS=' .env \
 
 Requires `EMAIL_WEB_APP_URL` in the same `.env`. Email sends only when tests fail.
 
-## Required `.env` for 4h DS API cron
+## Required `.env` for daily DS API cron
 
 | Variable | Purpose |
 |----------|---------|
@@ -48,35 +48,36 @@ Requires `EMAIL_WEB_APP_URL` in the same `.env`. Email sends only when tests fai
 Optional ASR overrides: `ASR_AUDIO_URL`, `ASR_LANGUAGE` (defaults in `.env.example`).
 
 
-| Mode | Command | Schedule suggestion | Log file |
-|------|---------|---------------------|----------|
-| **RAG API only** (recommended to start) | `npm run automation:run-rag-api` | Every 4h at `:15` | `~/automation-cron-asksam-rag-api.log` |
-| **Full suite** (UI + API) | `npm run automation:run` | Every 4h at `:45` or daily | `~/automation-cron-asksam-automation.log` |
+| Mode | Command | Schedule | Log file |
+|------|---------|----------|----------|
+| **DS API** (active on VM) | `npm run automation:run-rag-api` | Daily **4:00 AM** + **5:00 PM IST** | `~/automation-cron-asksam-rag-api.log` |
+| **Full suite** (optional, UI + API) | `npm run automation:run` | Manual or add your own cron | `~/automation-cron-asksam-automation.log` |
+
+VM timezone is **UTC**. IST = UTC+5:30, so cron uses `30 22` (4 AM IST) and `30 11` (5 PM IST).
 
 ---
 
-## Cron — RAG API only (fast, no login)
+## Cron — DS API (daily 4 AM + 5 PM IST)
 
 ```bash
 crontab -e
 ```
 
-Add:
+Add (VM is UTC; times below = **4:00 AM** and **5:00 PM IST**):
 
 ```bash
-15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+30 22 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+30 11 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
 ```
 
-Tests: **14 API smokes** in one run — RAG (4), Clinical Notes (5), Assistant (4), **ASR (1)**  
+Tests: **12 active API smokes** — RAG (4), Clinical Notes (3), Assistant (4), ASR (1). TC_CN_03/04 temporarily off.  
 Requires `ASR_API_KEY` in `.env`. No Chromium, no `TEST_EMAIL` required.
 
 ---
 
 ## Cron — Full suite (optional, UI + API)
 
-```bash
-45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-automation.log" 2>&1
-```
+Not scheduled by default. Add your own cron if needed:
 
 Requires `TEST_EMAIL` in `.env` and Playwright Chromium.
 

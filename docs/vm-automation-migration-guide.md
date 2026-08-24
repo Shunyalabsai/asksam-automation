@@ -118,21 +118,18 @@ npm run automation:run
 
 ### 11) Cron
 
-**Option A — RAG API only (recommended first)** — no browser, no `TEST_EMAIL`:
+**Option A — DS API only (active schedule)** — daily **4:00 AM** + **5:00 PM IST** (VM UTC cron: `30 22`, `30 11`):
 
 ```bash
 crontab -e
 ```
 
 ```bash
-15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+30 22 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+30 11 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
 ```
 
-**Option B — Full UI + API** — requires `TEST_EMAIL` + Chromium:
-
-```bash
-45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-automation.log" 2>&1
-```
+**Option B — Full UI + API** — requires `TEST_EMAIL` + Chromium; add your own cron if needed:
 
 You can run **both** (staggered minutes) or **only Option A** to start.
 
