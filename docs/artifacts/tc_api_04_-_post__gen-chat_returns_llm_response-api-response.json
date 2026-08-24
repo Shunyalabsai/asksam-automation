@@ -1,8 +1,10 @@
 {
   "endpoint": "/gen-chat",
   "method": "POST",
-  "status": 500,
-  "timestamp": "2026-08-18T04:15:06.152Z",
+  "status": 200,
+  "timestamp": "2026-08-24T08:15:05.553Z",
   "url": "https://rag.uwc.world/gen-chat",
-  "llm_response": ""
+  "user_id": "automation-smoke",
+  "response_id": "automation-smoke_smoke-session",
+  "llm_response": "Ping received. How can I help you today?"
 }
