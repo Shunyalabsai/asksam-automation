@@ -42,8 +42,8 @@ node -v   # expect v20.x.x
 ### 3) Clone
 
 ```bash
-git clone https://github.com/saira-uwc/asksam-datascience-automation.git asksam-datascience-automation
-cd ~/asksam-datascience-automation
+git clone https://github.com/Shunyalabsai/asksam-automation.git asksam-automation
+cd ~/asksam-automation
 ```
 
 > Update org/repo if your remote differs.
@@ -71,29 +71,29 @@ git config --global user.email "automation-bot@your-domain.com"
 ### 6) Deploy key (generate on VM only)
 
 ```bash
-ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_asksam-datascience-automation -N "" -C "vm-asksam-datascience"
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_asksam-automation -N "" -C "vm-asksam-automation"
 ```
 
-Add `~/.ssh/id_ed25519_asksam-datascience-automation.pub` to GitHub → repo → **Settings → Deploy keys → Allow write**.
+Add `~/.ssh/id_ed25519_asksam-automation.pub` to GitHub → repo → **Settings → Deploy keys → Allow write**.
 
 ### 7) SSH config
 
 ```bash
 cat >> ~/.ssh/config <<'EOF'
-Host github.com-asksam-datascience-automation
+Host github.com-asksam-automation
   HostName github.com
   User git
-  IdentityFile ~/.ssh/id_ed25519_asksam-datascience-automation
+  IdentityFile ~/.ssh/id_ed25519_asksam-automation
   IdentitiesOnly yes
 EOF
-chmod 600 ~/.ssh/config ~/.ssh/id_ed25519_asksam-datascience-automation
+chmod 600 ~/.ssh/config ~/.ssh/id_ed25519_asksam-automation
 ```
 
 ### 8) Remote + auth test
 
 ```bash
-git remote set-url origin git@github.com-asksam-datascience-automation:saira-uwc/asksam-datascience-automation.git
-ssh -T git@github.com-asksam-datascience-automation
+git remote set-url origin git@github.com-asksam-automation:Shunyalabsai/asksam-automation.git
+ssh -T git@github.com-asksam-automation
 ```
 
 ### 9) Dependencies
@@ -125,13 +125,13 @@ crontab -e
 ```
 
 ```bash
-15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-datascience-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
 ```
 
 **Option B — Full UI + API** — requires `TEST_EMAIL` + Chromium:
 
 ```bash
-45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-datascience-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-datascience-automation.log" 2>&1
+45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-automation.log" 2>&1
 ```
 
 You can run **both** (staggered minutes) or **only Option A** to start.
@@ -142,7 +142,7 @@ You can run **both** (staggered minutes) or **only Option A** to start.
 
 - Each `automation:run` resets to `origin/main` before tests
 - Deploy code from dev machine via `git push`; VM picks up on next cron
-- Logs: `tail -f ~/automation-cron-asksam-datascience-automation.log`
+- Logs: `tail -f ~/automation-cron-asksam-automation.log`
 - VM must stay running for cron to fire
 
 ## Troubleshooting

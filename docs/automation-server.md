@@ -1,14 +1,14 @@
 # AskSam DS — automation server runbook
 
 VM: `saira@136.119.127.72`  
-Repo: [asksam-datascience-automation](https://github.com/saira-uwc/asksam-datascience-automation)
+Repo: [asksam-automation](https://github.com/Shunyalabsai/asksam-automation)
 
 ## Location
 
 | Item | Value |
 |------|--------|
-| Clone path | `$HOME/asksam-datascience-automation` |
-| Env file | `$HOME/asksam-datascience-automation/.env` |
+| Clone path | `$HOME/asksam-automation` |
+| Env file | `$HOME/asksam-automation/.env` |
 | Node version | 20 (via nvm) |
 
 ## Failure email recipients
@@ -27,7 +27,7 @@ Set in `.env` as comma-separated addresses (`REPORT_RECIPIENTS`). Current list:
 
 ```bash
 # On VM — update before next cron run
-cd ~/asksam-datascience-automation
+cd ~/asksam-automation
 grep -q '^REPORT_RECIPIENTS=' .env \
   && sed -i 's|^REPORT_RECIPIENTS=.*|REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai,saheb@shunyalabs.ai|' .env \
   || echo 'REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@unitedwecare.com,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai,saheb@shunyalabs.ai' >> .env
@@ -51,7 +51,7 @@ Optional ASR overrides: `ASR_AUDIO_URL`, `ASR_LANGUAGE` (defaults in `.env.examp
 | Mode | Command | Schedule suggestion | Log file |
 |------|---------|---------------------|----------|
 | **RAG API only** (recommended to start) | `npm run automation:run-rag-api` | Every 4h at `:15` | `~/automation-cron-asksam-rag-api.log` |
-| **Full suite** (UI + API) | `npm run automation:run` | Every 4h at `:45` or daily | `~/automation-cron-asksam-datascience-automation.log` |
+| **Full suite** (UI + API) | `npm run automation:run` | Every 4h at `:45` or daily | `~/automation-cron-asksam-automation.log` |
 
 ---
 
@@ -64,7 +64,7 @@ crontab -e
 Add:
 
 ```bash
-15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-datascience-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
+15 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
 ```
 
 Tests: **14 API smokes** in one run — RAG (4), Clinical Notes (5), Assistant (4), **ASR (1)**  
@@ -75,7 +75,7 @@ Requires `ASR_API_KEY` in `.env`. No Chromium, no `TEST_EMAIL` required.
 ## Cron — Full suite (optional, UI + API)
 
 ```bash
-45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-datascience-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-datascience-automation.log" 2>&1
+45 */4 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run' >> "$HOME/automation-cron-asksam-automation.log" 2>&1
 ```
 
 Requires `TEST_EMAIL` in `.env` and Playwright Chromium.
@@ -98,7 +98,7 @@ Check the log for: `Running commit: abc1234 — ...` to confirm which version ra
 ## Manual run
 
 ```bash
-cd ~/asksam-datascience-automation
+cd ~/asksam-automation
 
 # Unified DS API (RAG + Clinical Notes, includes auto pull)
 AUTOMATION_SKIP_GIT_PUSH=true npm run automation:run-rag-api   # trial
@@ -116,12 +116,12 @@ npm run automation:run
 
 ```bash
 tail -f ~/automation-cron-asksam-rag-api.log
-tail -f ~/automation-cron-asksam-datascience-automation.log
+tail -f ~/automation-cron-asksam-automation.log
 ```
 
 ## GitHub Pages
 
-Dashboard: [https://saira-uwc.github.io/asksam-datascience-automation/](https://saira-uwc.github.io/asksam-datascience-automation/)
+Dashboard: [https://shunyalabsai.github.io/asksam-automation/](https://shunyalabsai.github.io/asksam-automation/)
 
 Ensure Pages source = **`/docs`** folder on `main`.
 
@@ -130,7 +130,7 @@ Ensure Pages source = **`/docs`** folder on `main`.
 | Symptom | Fix |
 |---------|-----|
 | Stale code on VM | `git fetch origin main && git reset --hard origin/main` |
-| `git push` fails | Deploy key + SSH host `github.com-asksam-datascience-automation` |
+| `git push` fails | Deploy key + SSH host `github.com-asksam-automation` |
 | RAG tests fail | Check `RAG_API_BASE_URL` in `.env` |
 | UI tests fail | Set `TEST_EMAIL`; run `npx playwright install chromium` |
 | Dashboard empty | Confirm cron log shows `Dashboard data pushed` |

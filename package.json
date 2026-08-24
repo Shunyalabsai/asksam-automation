@@ -1,5 +1,5 @@
 {
-  "name": "asksam-datascience-automation",
+  "name": "asksam-automation",
   "version": "1.0.0",
   "description": "Playwright E2E automation for AskSam DS (Expert Dashboard + CCOP)",
   "scripts": {

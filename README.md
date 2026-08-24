@@ -46,6 +46,6 @@ All URLs and secrets come from `.env` — see `.env.example`. Never commit `.env
 
 After a test run, open `docs/index.html` locally or visit GitHub Pages after deploy.
 
-Dashboard (GitHub Pages): [https://saira-uwc.github.io/asksam-datascience-automation/](https://saira-uwc.github.io/asksam-datascience-automation/)
+Dashboard (GitHub Pages): [https://shunyalabsai.github.io/asksam-automation/](https://shunyalabsai.github.io/asksam-automation/)
 
-Repo: [https://github.com/saira-uwc/asksam-datascience-automation](https://github.com/saira-uwc/asksam-datascience-automation)
+Repo: [https://github.com/Shunyalabsai/asksam-automation](https://github.com/Shunyalabsai/asksam-automation)

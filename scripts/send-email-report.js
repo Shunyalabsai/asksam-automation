@@ -15,7 +15,7 @@ const HISTORY_PATH = path.join(ROOT, 'docs', 'history', 'runs.json');
 const EMAIL_URL = process.env.EMAIL_WEB_APP_URL || '';
 const RECIPIENTS = process.env.REPORT_RECIPIENTS || '';
 const DASHBOARD_URL =
-  process.env.DASHBOARD_PAGES_URL || 'https://saira-uwc.github.io/asksam-datascience-automation/';
+  process.env.DASHBOARD_PAGES_URL || 'https://shunyalabsai.github.io/asksam-automation/';
 const SHEETS_URL = process.env.GOOGLE_SHEETS_URL || '';
 const PROJECT_NAME = 'AskSam DS';
 

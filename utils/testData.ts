@@ -12,7 +12,7 @@ export const TEST_CONFIG = {
     copilotHome: process.env.COPILOT_HOME_URL || 'https://copilot.asksam.com.au/clinical/home',
     dashboardPages:
       process.env.DASHBOARD_PAGES_URL ||
-      'https://saira-uwc.github.io/asksam-datascience-automation/',
+      'https://shunyalabsai.github.io/asksam-automation/',
   },
   credentials: {
     email: process.env.TEST_EMAIL || '',
