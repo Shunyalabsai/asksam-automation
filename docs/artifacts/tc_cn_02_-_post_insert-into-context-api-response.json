@@ -1,12 +1,11 @@
 {
   "endpoint": "https://rag.uwc.world/insert-into-context",
   "method": "POST",
-  "status": 200,
-  "timestamp": "2026-08-27T11:30:08.318Z",
+  "status": 500,
+  "timestamp": "2026-08-27T22:32:21.164Z",
   "url": "https://rag.uwc.world/insert-into-context",
-  "body": {
-    "message": "644938 inserted"
-  },
+  "contentType": "text",
+  "body": "Internal Server Error",
   "id": "TC_CN_02",
   "name": "insert-into-context"
 }
