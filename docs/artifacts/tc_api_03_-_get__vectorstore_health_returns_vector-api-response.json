@@ -1,9 +1,0 @@
-{
-  "endpoint": "/vectorstore/health",
-  "method": "GET",
-  "status": 500,
-  "timestamp": "2026-08-27T22:30:04.759Z",
-  "url": "https://rag.uwc.world/vectorstore/health",
-  "contentType": "text",
-  "body": "Internal Server Error"
-}

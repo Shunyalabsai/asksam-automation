@@ -6,18 +6,20 @@
 
 # Test info
 
-- Name: rag-api-smoke.spec.ts >> RAG API smoke >> TC_API_03 - GET /vectorstore/health returns vector store healthy
-- Location: tests/rag-api-smoke.spec.ts:35:7
+- Name: rag-api-smoke.spec.ts >> RAG API smoke >> TC_API_04 - POST /gen-chat returns LLM response
+- Location: tests/rag-api-smoke.spec.ts:49:7
 
 # Error details
 
 ```
-TimeoutError: apiRequestContext.get: Timeout 30000ms exceeded.
+TimeoutError: apiRequestContext.post: Timeout 30000ms exceeded.
 Call log:
-  - → GET https://rag.uwc.world/vectorstore/health
+  - → POST https://rag.uwc.world/gen-chat
     - user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
     - accept: */*
     - accept-encoding: gzip,deflate,br
+    - content-type: application/json
+    - content-length: 214
 
 ```
 
@@ -63,8 +65,7 @@ Call log:
   37 |   }, testInfo) => {
   38 |     const endpoint = '/vectorstore/health';
   39 |     const url = ragUrl(endpoint);
-> 40 |     const response = await request.get(url);
-     |                                    ^ TimeoutError: apiRequestContext.get: Timeout 30000ms exceeded.
+  40 |     const response = await request.get(url);
   41 |     const body = await readResponseBody(response);
   42 | 
   43 |     await attachApiProof(testInfo, { endpoint, method: 'GET', status: response.status(), body, url });
@@ -78,7 +79,8 @@ Call log:
   51 | 
   52 |     const endpoint = '/gen-chat';
   53 |     const url = ragUrl(endpoint);
-  54 |     const response = await request.post(url, {
+> 54 |     const response = await request.post(url, {
+     |                                    ^ TimeoutError: apiRequestContext.post: Timeout 30000ms exceeded.
   55 |       data: buildGenChatPayload(),
   56 |     });
   57 |     const body = await readResponseBody(response);
