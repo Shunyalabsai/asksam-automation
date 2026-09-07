@@ -11,7 +11,16 @@ Repo: [asksam-automation](https://github.com/Shunyalabsai/asksam-automation)
 | Env file | `$HOME/asksam-automation/.env` |
 | Node version | 20 (via nvm) |
 
-## Failure email recipients
+## Failure email
+
+| Field | Value |
+|-------|--------|
+| **From** | `saira@shunyalabs.ai` (`REPORT_FROM_EMAIL`) |
+| **To** | `REPORT_RECIPIENTS` list below |
+
+From is controlled by the Google Apps Script web app. Deploy/run that script while signed in as **saira@shunyalabs.ai** (see `scripts/google-apps-script-email.js`), then set `EMAIL_WEB_APP_URL` on the VM to that deployment URL.
+
+### Recipients (To)
 
 Set in `.env` as comma-separated addresses (`REPORT_RECIPIENTS`). Current list:
 

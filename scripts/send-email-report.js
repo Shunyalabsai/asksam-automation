@@ -14,6 +14,7 @@ const LATEST_PATH = path.join(ROOT, 'docs', 'data', 'latest.json');
 const HISTORY_PATH = path.join(ROOT, 'docs', 'history', 'runs.json');
 const EMAIL_URL = process.env.EMAIL_WEB_APP_URL || '';
 const RECIPIENTS = process.env.REPORT_RECIPIENTS || '';
+const REPORT_FROM = process.env.REPORT_FROM_EMAIL || 'saira@shunyalabs.ai';
 const DASHBOARD_URL =
   process.env.DASHBOARD_PAGES_URL || 'https://shunyalabsai.github.io/asksam-automation/';
 const SHEETS_URL = process.env.GOOGLE_SHEETS_URL || '';
@@ -55,7 +56,7 @@ function main() {
   }
   data.todayRuns = todayRuns;
 
-  sendEmail(RECIPIENTS, buildSubject(data), buildEmailHTML(data));
+  sendEmail(RECIPIENTS, buildSubject(data), buildEmailHTML(data), REPORT_FROM);
 }
 
 function buildSubject(data) {
@@ -139,13 +140,13 @@ function buildEmailHTML(data) {
     </table></body></html>`;
 }
 
-async function sendEmail(to, subject, body) {
+async function sendEmail(to, subject, body, from) {
   try {
-    console.log(`\n📧 Sending failure report to: ${to}`);
+    console.log(`\n📧 Sending failure report from: ${from} → to: ${to}`);
     const response = await fetch(EMAIL_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify({ to, subject, body }),
+      body: JSON.stringify({ to, subject, body, from }),
       redirect: 'follow',
     });
     if (response.ok) {
