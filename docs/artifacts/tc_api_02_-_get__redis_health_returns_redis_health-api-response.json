@@ -1,10 +1,11 @@
 {
   "endpoint": "/redis/health",
   "method": "GET",
-  "status": 503,
-  "timestamp": "2026-09-29T22:30:06.174Z",
+  "status": 200,
+  "timestamp": "2026-09-30T08:06:01.014Z",
   "url": "https://rag.uwc.world/redis/health",
   "body": {
-    "detail": "Redis error: Error 111 connecting to localhost:6379. Connection refused."
+    "status": "healthy",
+    "detail": "Redis is running"
   }
 }
