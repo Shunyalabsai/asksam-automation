@@ -43,29 +43,29 @@ grep -q '^REPORT_RECIPIENTS=' .env \
 
 Requires `EMAIL_WEB_APP_URL` in the same `.env`. Email sends only when tests fail.
 
-## Required `.env` for daily DS API cron
+## Required `.env` for daily AskSam v2 cron
 
 | Variable | Purpose |
 |----------|---------|
 | `GOOGLE_APPS_SCRIPT_URL` | Google Sheet updates |
 | `EMAIL_WEB_APP_URL` | Failure email |
 | `REPORT_RECIPIENTS` | Email recipients |
-| `ASR_API_KEY` | ASR `transcribe-from-url-v2` (TC_ASR_01) |
-| `playwright/.auth/ds-api-headers.json` | Clinical Notes + Assistant auth tokens |
+| `ASKSAM_V2_*` | Optional overrides (defaults in `.env.example` / code) |
+| `ASKSAM_V2_API_KEY` | Empty for now; set when team enables `x-api-key` |
 
-Optional ASR overrides: `ASR_AUDIO_URL`, `ASR_LANGUAGE` (defaults in `.env.example`).
+Going forward, scheduled monitoring is **AskSam v2 only** (`asksam.uwc.world`, read-only). Old RAG / Clinical Notes / Assistant / ASR smokes are not on cron (still available via manual `npm run test:rag-api` etc.).
 
 
 | Mode | Command | Schedule | Log file |
 |------|---------|----------|----------|
-| **DS API** (active on VM) | `npm run automation:run-rag-api` | Daily **4:00 AM** + **5:00 PM IST** | `~/automation-cron-asksam-rag-api.log` |
+| **AskSam v2 API** (active on VM) | `npm run automation:run-rag-api` | Daily **4:00 AM** + **5:00 PM IST** | `~/automation-cron-asksam-rag-api.log` |
 | **Full suite** (optional, UI + API) | `npm run automation:run` | Manual or add your own cron | `~/automation-cron-asksam-automation.log` |
 
 VM timezone is **UTC**. IST = UTC+5:30, so cron uses `30 22` (4 AM IST) and `30 11` (5 PM IST).
 
 ---
 
-## Cron — DS API (daily 4 AM + 5 PM IST)
+## Cron — AskSam v2 (daily 4 AM + 5 PM IST)
 
 ```bash
 crontab -e
@@ -78,8 +78,8 @@ Add (VM is UTC; times below = **4:00 AM** and **5:00 PM IST**):
 30 11 * * * /bin/bash -lc 'export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && nvm use 20 >/dev/null && cd "$HOME/asksam-automation" && npm run automation:run-rag-api' >> "$HOME/automation-cron-asksam-rag-api.log" 2>&1
 ```
 
-Tests: **12 active API smokes** — RAG (4), Clinical Notes (3), Assistant (4), ASR (1). TC_CN_03/04 temporarily off.  
-Requires `ASR_API_KEY` in `.env`. No Chromium, no `TEST_EMAIL` required.
+Tests: **10 AskSam v2 read-only smokes** (`TC_V2_01`…`TC_V2_10`) on `https://asksam.uwc.world`.  
+No Chromium, no `TEST_EMAIL`, no ASR key, no ds-api-headers required.
 
 ---
 
@@ -98,7 +98,7 @@ Every cron run uses `npm run automation:run-rag-api` (or `automation:run-ds-api`
 1. `git fetch origin main`
 2. `git reset --hard origin/main` — always runs latest code from GitHub
 3. `npm ci` — reinstall deps to match that commit
-4. Run **14 API smokes** (RAG 4 + Clinical Notes 5 + Assistant 4 + ASR 1) in one Playwright run → one Sheet row set → one dashboard push
+4. Run **AskSam v2 only** (`TC_V2_01`…`10`) → Sheet + dashboard push + failure email if needed
 
 You only need `git pull` manually if you run tests **outside** the automation script (e.g. `npm run test:ds-api` alone).
 
@@ -109,14 +109,14 @@ Check the log for: `Running commit: abc1234 — ...` to confirm which version ra
 ```bash
 cd ~/asksam-automation
 
-# Unified DS API (RAG + Clinical Notes, includes auto pull)
+# AskSam v2 only (includes auto pull)
 AUTOMATION_SKIP_GIT_PUSH=true npm run automation:run-rag-api   # trial
 npm run automation:run-rag-api                                 # + push dashboard
 
 # Same pipeline (alias)
 npm run automation:run-ds-api
 
-# Full UI + API (includes auto pull)
+# Full UI + API (optional, not on cron)
 AUTOMATION_SKIP_GIT_PUSH=true npm run automation:run
 npm run automation:run
 ```

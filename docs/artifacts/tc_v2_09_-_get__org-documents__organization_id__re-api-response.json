@@ -1,0 +1,3519 @@
+{
+  "endpoint": "/org-documents/asksam",
+  "method": "GET",
+  "status": 200,
+  "timestamp": "2026-10-27T09:21:05.470Z",
+  "url": "https://asksam.uwc.world/org-documents/asksam",
+  "body": {
+    "organization_id": "asksam",
+    "total_records": 0,
+    "versions": {
+      "country": {
+        "Antibiotic prescribing in primary care: Therapeutic Guidelines summary table": {
+          "doc_id": "1e056f12f9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-03-13_GPSummary_v15.pdf?alt=media&token=b30e3c62-383b-4db0-8c14-88cf65e22a7a",
+              "title": "Antibiotic prescribing in primary care: Therapeutic Guidelines summary table",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:35:47.843812+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-03-13_GPSummary_v15.pdf?alt=media&token=b30e3c62-383b-4db0-8c14-88cf65e22a7a",
+              "title": "Antibiotic prescribing in primary care: Therapeutic Guidelines summary table",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:49:48.206328+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Guidelines for Medication-Assisted Treatment of Opioid Dependence": {
+          "doc_id": "ff8e377171",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-15-13_national-guidelines-for-medication-assisted-treatment-of-opioid-dependence_0.pdf?alt=media&token=51925ecc-2edb-4c7a-9b99-04f0f4af2b25",
+              "title": "National Guidelines for Medication-Assisted Treatment of Opioid Dependence",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:32:44.085024+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-15-13_national-guidelines-for-medication-assisted-treatment-of-opioid-dependence_0.pdf?alt=media&token=51925ecc-2edb-4c7a-9b99-04f0f4af2b25",
+              "title": "National Guidelines for Medication-Assisted Treatment of Opioid Dependence",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:47:13.325581+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "ACEM Guidelines on the Implementation of the Australasian Triage Scale in Emergency Departments": {
+          "doc_id": "2d8e5ea876",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://acem.org.au/getmedia/51dc74f7-9ff0-42ce-872a-0437f3db640a/Guidelines_on_the_Implementation_of_the_ATS_in_EDs",
+              "title": "ACEM Guidelines on the Implementation of the Australasian Triage Scale in Emergency Departments",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:48:13.358894+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://acem.org.au/getmedia/51dc74f7-9ff0-42ce-872a-0437f3db640a/Guidelines_on_the_Implementation_of_the_ATS_in_EDs",
+              "title": "ACEM Guidelines on the Implementation of the Australasian Triage Scale in Emergency Departments",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:00:44.601465+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Management of hip and knee arthritis": {
+          "doc_id": "511409d9cd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/fb2a6ac2-892a-4ba4-98c2-c984ea25e4a9/Algorithm-Holistic-assessment-diagnosis-and-management-of-knee-and-hip-osteoarthritis.pdf.aspx",
+              "title": "Management of hip and knee arthritis",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:51:53.013786+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/fb2a6ac2-892a-4ba4-98c2-c984ea25e4a9/Algorithm-Holistic-assessment-diagnosis-and-management-of-knee-and-hip-osteoarthritis.pdf.aspx",
+              "title": "Management of hip and knee arthritis",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:03:06.152980+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NSW Clinical Guidelines: Treatment of Opioid Dependence": {
+          "doc_id": "ba52ebb4dd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/Publications/nsw-clinical-guidelines-opioid.pdf",
+              "title": "NSW Clinical Guidelines: Treatment of Opioid Dependence",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:32:26.143180+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/Publications/nsw-clinical-guidelines-opioid.pdf",
+              "title": "NSW Clinical Guidelines: Treatment of Opioid Dependence",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:46:50.696156+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Years in Review 2023-25 - Strengthening Medicare Monitoring Report": {
+          "doc_id": "60b52e0844",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-38-55_years-in-review-2023-25-strengthening-medicare-monitoring-report.pdf?alt=media&token=08b5c4b0-6b41-46fb-9747-4504426bbfef",
+              "title": "Years in Review 2023-25 - Strengthening Medicare Monitoring Report",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:36:56.354383+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "RANZCOG Clinical Guideline for Abortion Care": {
+          "doc_id": "614c60a5c4",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-07-12_Clinical-Guideline-Abortion-Care.pdf?alt=media&token=81f92737-970e-43a9-8877-f0669c25aa0f",
+              "title": "RANZCOG Clinical Guideline for Abortion Care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:30:59.388422+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-07-12_Clinical-Guideline-Abortion-Care.pdf?alt=media&token=81f92737-970e-43a9-8877-f0669c25aa0f",
+              "title": "RANZCOG Clinical Guideline for Abortion Care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:54:51.866132+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-07-12_Clinical-Guideline-Abortion-Care.pdf?alt=media&token=81f92737-970e-43a9-8877-f0669c25aa0f",
+              "title": "RANZCOG Clinical Guideline for Abortion Care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:41:34.531821+00:00",
+              "version": "4",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Australian Diabetes management": {
+          "doc_id": "38253d76d9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/df4380d5-c2f6-40cd-93db-f638b3f32ec3/Australian-type-2-diabetes-management-algorithm-June-2024.pdf.aspx",
+              "title": "Australian Diabetes management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:35.423426+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/df4380d5-c2f6-40cd-93db-f638b3f32ec3/Australian-type-2-diabetes-management-algorithm-June-2024.pdf.aspx",
+              "title": "Australian Diabetes management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:04:01.255709+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "The Digital Health Blueprint and Action Plan 2023-2033": {
+          "doc_id": "d6af3668ee",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-05-24_the-digital-health-blueprint-and-action-plan-2023-2033_0.pdf?alt=media&token=018a8356-d573-481c-9d2e-44584ec41386",
+              "title": "The Digital Health Blueprint and Action Plan 2023-2033",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:28:30.793956+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-05-24_the-digital-health-blueprint-and-action-plan-2023-2033_0.pdf?alt=media&token=018a8356-d573-481c-9d2e-44584ec41386",
+              "title": "The Digital Health Blueprint and Action Plan 2023-2033",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:43:12.862931+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Lifestyle advice from general practitioners and changes in health-related behaviour in Australia": {
+          "doc_id": "3bec925870",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/220_09/mja252285.pdf",
+              "title": "Lifestyle advice from general practitioners and changes in health-related behaviour in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:23:12.099506+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/220_09/mja252285.pdf",
+              "title": "Lifestyle advice from general practitioners and changes in health-related behaviour in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:38:06.579852+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Cervical Screening Program monitoring report 2024": {
+          "doc_id": "c71ba84ef2",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-58-44_aihw-can-163.pdf?alt=media&token=187bad82-ee37-4313-844e-4f4e8907835d",
+              "title": "National Cervical Screening Program monitoring report 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:07.882338+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Diabetes sick day management": {
+          "doc_id": "b49c62ae5e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/93adfae0-c1ed-4388-8f7e-ff068b8bb9ec/Diabetes-sick-day-management.pdf.aspx",
+              "title": "Diabetes sick day management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:31.674695+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/93adfae0-c1ed-4388-8f7e-ff068b8bb9ec/Diabetes-sick-day-management.pdf.aspx",
+              "title": "Diabetes sick day management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:45:00.745446+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "SA Health UTI adults 2023": {
+          "doc_id": "c6e2683121",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/c7a3f980432af25ca680f68cd21c605e/UTI+Empirical+Treatment+Guideline+v2.2.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-c7a3f980432af25ca680f68cd21c605e-pQIZc0P",
+              "title": "SA Health UTI adults 2023",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:35:12.933530+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/c7a3f980432af25ca680f68cd21c605e/UTI+Empirical+Treatment+Guideline+v2.2.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-c7a3f980432af25ca680f68cd21c605e-pQIZc0P",
+              "title": "SA Health UTI adults 2023",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:49:31.449047+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NMBA Nurse practitioner standards for practice": {
+          "doc_id": "4160827636",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-45-30_Nursing-and-Midwifery-Board---Nurse-practitioner-standards-for-practice---effective-1-January-2014.PDF?alt=media&token=c4051a9b-4e0c-476a-932a-19844b7312b5",
+              "title": "NMBA Nurse practitioner standards for practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:08.845293+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-45-30_Nursing-and-Midwifery-Board---Nurse-practitioner-standards-for-practice---effective-1-January-2014.PDF?alt=media&token=c4051a9b-4e0c-476a-932a-19844b7312b5",
+              "title": "NMBA Nurse practitioner standards for practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:49.613546+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Supporting the appropriate use of psychotropic medicines in aged and disability care": {
+          "doc_id": "d6a22443fe",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-54-21_p4-Macfarlane-et-al.pdf?alt=media&token=40be5923-1d71-4d6f-93d3-fc489993cdc2",
+              "title": "Supporting the appropriate use of psychotropic medicines in aged and disability care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:23.706259+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-54-21_p4-Macfarlane-et-al.pdf?alt=media&token=40be5923-1d71-4d6f-93d3-fc489993cdc2",
+              "title": "Supporting the appropriate use of psychotropic medicines in aged and disability care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:00.804307+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Factors associated with general practitioner-led diagnosis of long COVID": {
+          "doc_id": "2cb9896913",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_09/mja252458.pdf",
+              "title": "Factors associated with general practitioner-led diagnosis of long COVID",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:51:05.281920+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_09/mja252458.pdf",
+              "title": "Factors associated with general practitioner-led diagnosis of long COVID",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:02:47.769822+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Women who experience heavy menstrual bleeding: prevalence and characteristics": {
+          "doc_id": "b91fae20a2",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_04/mja252596.pdf",
+              "title": "Women who experience heavy menstrual bleeding: prevalence and characteristics",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:23:52.001708+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_04/mja252596.pdf",
+              "title": "Women who experience heavy menstrual bleeding: prevalence and characteristics",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:38:44.935350+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Diabetes sick day template": {
+          "doc_id": "3d4710ee77",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/3d8d3263-3d99-4aff-aaf5-e1ab80bccc3b/Type-2-diabetes-sick-day-management-plan-template.pdf.aspx",
+              "title": "Diabetes sick day template",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:26:21.369161+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/3d8d3263-3d99-4aff-aaf5-e1ab80bccc3b/Type-2-diabetes-sick-day-management-plan-template.pdf.aspx",
+              "title": "Diabetes sick day template",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:41:16.792577+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "IASC Guidelines on Mental Health": {
+          "doc_id": "7405bd293a",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Apr-15_11-21-08_IASC%20Guidelines%20on%20Mental%20Health%20and%20Psychosocial%20Support%20in%20Emergency%20Settings%20(English).pdf?alt=media&token=d2b303f8-9795-4911-9eb3-8c78c6c5e201",
+              "title": "IASC Guidelines on Mental Health",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:09.697054+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Apr-15_11-21-08_IASC%20Guidelines%20on%20Mental%20Health%20and%20Psychosocial%20Support%20in%20Emergency%20Settings%20(English).pdf?alt=media&token=d2b303f8-9795-4911-9eb3-8c78c6c5e201",
+              "title": "IASC Guidelines on Mental Health",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:13.273185+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP regulatory framework for medicinal use of cannabis products": {
+          "doc_id": "872d2d310c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-43-22_Regulatory-framework-for-medicinal-use-of-cannabis-products.pdf?alt=media&token=45fc6d16-22fb-4c74-aa96-5939377a7ce2",
+              "title": "RACGP regulatory framework for medicinal use of cannabis products",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:38:42.427128+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-43-22_Regulatory-framework-for-medicinal-use-of-cannabis-products.pdf?alt=media&token=45fc6d16-22fb-4c74-aa96-5939377a7ce2",
+              "title": "RACGP regulatory framework for medicinal use of cannabis products",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:17.082447+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Potentially inappropriate medicines for older people: consensus-based lists": {
+          "doc_id": "b29e84dd2f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-52-30_p128-Choo.pdf?alt=media&token=d456cca8-812d-42e7-a054-cbe68e2541e2",
+              "title": "Potentially inappropriate medicines for older people: consensus-based lists",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:41:15.718758+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-52-30_p128-Choo.pdf?alt=media&token=d456cca8-812d-42e7-a054-cbe68e2541e2",
+              "title": "Potentially inappropriate medicines for older people: consensus-based lists",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:54:44.987400+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "General Practice: Health of the Nation 2025": {
+          "doc_id": "4bafccf64c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/FSDEDEV/media/documents/Health-of-the-Nation-2025.pdf",
+              "title": "General Practice: Health of the Nation 2025",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:31:06.785922+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/FSDEDEV/media/documents/Health-of-the-Nation-2025.pdf",
+              "title": "General Practice: Health of the Nation 2025",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:45:27.218018+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical protocol GDM": {
+          "doc_id": "863cfcd9ac",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Apr-20_16-33-23_ASBC-GDM-01.pdf?alt=media&token=440a6018-9b64-4401-8a62-7775a209437d",
+              "title": "Clinical protocol GDM",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:40:17.965946+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Summary of the 2023 SOMANZ guidelines for hypertensive disorders of pregnancy": {
+          "doc_id": "cd0fbba0cf",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/220_11/mja252312.pdf",
+              "title": "Summary of the 2023 SOMANZ guidelines for hypertensive disorders of pregnancy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:50:42.966993+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Psychotropic Medicines in Cognitive Disability or Impairment Clinical Care Standard": {
+          "doc_id": "e97d8ad77b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-46-46_Psychotropic-Medicines-in-Cognitive-Disability-or-Impairment-Clinical-Care-Standard.pdf?alt=media&token=e6a77c56-5517-44d2-8443-e4d3189e3dcc",
+              "title": "Psychotropic Medicines in Cognitive Disability or Impairment Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:20:25.390347+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-46-46_Psychotropic-Medicines-in-Cognitive-Disability-or-Impairment-Clinical-Care-Standard.pdf?alt=media&token=e6a77c56-5517-44d2-8443-e4d3189e3dcc",
+              "title": "Psychotropic Medicines in Cognitive Disability or Impairment Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:09:49.735880+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-46-46_Psychotropic-Medicines-in-Cognitive-Disability-or-Impairment-Clinical-Care-Standard.pdf?alt=media&token=e6a77c56-5517-44d2-8443-e4d3189e3dcc",
+              "title": "Psychotropic Medicines in Cognitive Disability or Impairment Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:34:36.417865+00:00",
+              "version": "3",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-46-46_Psychotropic-Medicines-in-Cognitive-Disability-or-Impairment-Clinical-Care-Standard.pdf?alt=media&token=e6a77c56-5517-44d2-8443-e4d3189e3dcc",
+              "title": "Psychotropic Medicines in Cognitive Disability or Impairment Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:45.743985+00:00",
+              "version": "4",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Drug Strategy 2017-2026": {
+          "doc_id": "09daaa65fd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-49-54_national-drug-strategy-2017-2026.pdf?alt=media&token=18067a19-4e26-4f88-b8ee-a42593be38c2",
+              "title": "National Drug Strategy 2017-2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:31:51.816727+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-49-54_national-drug-strategy-2017-2026.pdf?alt=media&token=18067a19-4e26-4f88-b8ee-a42593be38c2",
+              "title": "National Drug Strategy 2017-2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:45:58.407075+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Alcohol Treatment Guidelines -  Specialty Addiction Medicine": {
+          "doc_id": "28eb802b1e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://alcoholtreatmentguidelines.com.au/pdf/guidelines-for-the-treatment-of-alcohol-problems.pdf",
+              "title": "Alcohol Treatment Guidelines -  Specialty Addiction Medicine",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:30.227538+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Diabetes: Australian facts": {
+          "doc_id": "f6fc8fc5b2",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-47-38_Diabetes-Australian-facts.pdf?alt=media&token=6e01f6c0-54e7-4c41-99a0-63e784ee0645",
+              "title": "Diabetes: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:24:36.599546+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-47-38_Diabetes-Australian-facts.pdf?alt=media&token=6e01f6c0-54e7-4c41-99a0-63e784ee0645",
+              "title": "Diabetes: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:34:45.480758+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "National Preventive Health Strategy 2021-2030": {
+          "doc_id": "6c0206aae9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-51-42_national-preventive-health-strategy-2021-2030_1.pdf?alt=media&token=5d02ce6e-a6c2-4023-87a5-32fc9a7c1597",
+              "title": "National Preventive Health Strategy 2021-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:35:31.057730+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-51-42_national-preventive-health-strategy-2021-2030_1.pdf?alt=media&token=5d02ce6e-a6c2-4023-87a5-32fc9a7c1597",
+              "title": "National Preventive Health Strategy 2021-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:49:18.526207+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical Practice Guide: Use of Diabetes-Specific Nutritional Formulas": {
+          "doc_id": "a44bc595da",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-03-12_Clinical-Practice-Guide_Use-of-Diabetes-Specific-Nutritional-Formulas_January-2026.pdf?alt=media&token=68741f7e-9619-42e8-9e5e-96810d20c4e1",
+              "title": "Clinical Practice Guide: Use of Diabetes-Specific Nutritional Formulas",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:39:42.734444+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-03-12_Clinical-Practice-Guide_Use-of-Diabetes-Specific-Nutritional-Formulas_January-2026.pdf?alt=media&token=68741f7e-9619-42e8-9e5e-96810d20c4e1",
+              "title": "Clinical Practice Guide: Use of Diabetes-Specific Nutritional Formulas",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:53:04.159559+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Development of a list of Australian potentially inappropriate medicines for older people": {
+          "doc_id": "73579519a6",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-51-34_Internal-Medicine-Journal---2024---Wang---Development-of-a-list-of-Australian-potentially-inappropriate-medicines-using-the.pdf?alt=media&token=ad490906-695a-4e6b-b5f4-f887511c7cfa",
+              "title": "Development of a list of Australian potentially inappropriate medicines for older people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:36:33.257214+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Optimal care pathway for people with breast cancer": {
+          "doc_id": "496a5c0b28",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-04-49_breast-cancer-2nd-edition.pdf?alt=media&token=d99ec98d-0065-4a45-94d5-9763c74ad237",
+              "title": "Optimal care pathway for people with breast cancer",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:14.906428+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-04-49_breast-cancer-2nd-edition.pdf?alt=media&token=d99ec98d-0065-4a45-94d5-9763c74ad237",
+              "title": "Optimal care pathway for people with breast cancer",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:44:32.393527+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "ADS-ANZCA Perioperative Diabetes and Hyperglycaemia Guidelines for Adults": {
+          "doc_id": "e78025029f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_13-03-29_ADS-ANZCA-Perioperative-Diabetes-and-Hyperglycaemia-Guidelines-Adults-November-2022-v2-Final.pdf?alt=media&token=defb34fc-cd93-4674-ac75-60c77f874ea8",
+              "title": "ADS-ANZCA Perioperative Diabetes and Hyperglycaemia Guidelines for Adults",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:20:08.329912+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_13-03-29_ADS-ANZCA-Perioperative-Diabetes-and-Hyperglycaemia-Guidelines-Adults-November-2022-v2-Final.pdf?alt=media&token=defb34fc-cd93-4674-ac75-60c77f874ea8",
+              "title": "ADS-ANZCA Perioperative Diabetes and Hyperglycaemia Guidelines for Adults",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:25.802099+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Opioids and the challenges of managing chronic non-cancer pain in rural Australia": {
+          "doc_id": "8f57b8c6d9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_09/mja270022.pdf",
+              "title": "Opioids and the challenges of managing chronic non-cancer pain in rural Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:32:58.941134+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_09/mja270022.pdf",
+              "title": "Opioids and the challenges of managing chronic non-cancer pain in rural Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:47:22.121368+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Delirium Clinical Care Standard": {
+          "doc_id": "35f0b9caa5",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-10-13_delirium_clinical_care_standard_2021.pdf?alt=media&token=e7b85e4c-b6d1-418b-86b2-59f6baf7d878",
+              "title": "Delirium Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:20:48.906567+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-10-13_delirium_clinical_care_standard_2021.pdf?alt=media&token=e7b85e4c-b6d1-418b-86b2-59f6baf7d878",
+              "title": "Delirium Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:57.409036+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Pharmacological management of chronic non-cancer pain in frail older people": {
+          "doc_id": "3da9980866",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/AP/pdf/p2-Wong.pdf",
+              "title": "Pharmacological management of chronic non-cancer pain in frail older people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:36.943973+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/AP/pdf/p2-Wong.pdf",
+              "title": "Pharmacological management of chronic non-cancer pain in frail older people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:12.634458+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "2024 RACGP and Healthy Bones Australia guideline for osteoporosis management and fracture prevention": {
+          "doc_id": "94009a1a6a",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252637.pdf",
+              "title": "2024 RACGP and Healthy Bones Australia guideline for osteoporosis management and fracture prevention",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:56.941789+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252637.pdf",
+              "title": "2024 RACGP and Healthy Bones Australia guideline for osteoporosis management and fracture prevention",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:57.865584+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Diabetes management Ramadan": {
+          "doc_id": "e0ab632323",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/49cabb4f-1541-4c79-adee-b95464a718fc/Diabetes-management-during-Ramadan.pdf.aspx",
+              "title": "Diabetes management Ramadan",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:34:02.257182+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/49cabb4f-1541-4c79-adee-b95464a718fc/Diabetes-management-during-Ramadan.pdf.aspx",
+              "title": "Diabetes management Ramadan",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:48:50.682106+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Sex differences in management and outcomes of people with STEMI in NSW": {
+          "doc_id": "061c4b1d91",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_07/mja270048.pdf",
+              "title": "Sex differences in management and outcomes of people with STEMI in NSW",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:42.549874+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Review of General Practice Incentives: Expert Advisory Panel report": {
+          "doc_id": "2771810392",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-40-14_review-of-general-practice-incentives-expert-advisory-panel-report-to-the-australian-government_0.pdf?alt=media&token=cbe9b84c-fc70-4c00-a930-c0b54a256d0b",
+              "title": "Review of General Practice Incentives: Expert Advisory Panel report",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:27:51.976563+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-40-14_review-of-general-practice-incentives-expert-advisory-panel-report-to-the-australian-government_0.pdf?alt=media&token=cbe9b84c-fc70-4c00-a930-c0b54a256d0b",
+              "title": "Review of General Practice Incentives: Expert Advisory Panel report",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:42:06.951556+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Socio-economic position and the prevalence of ten chronic diseases in Australia": {
+          "doc_id": "9c5e36bfad",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_10/mja270032.pdf",
+              "title": "Socio-economic position and the prevalence of ten chronic diseases in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:23:08.191841+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_10/mja270032.pdf",
+              "title": "Socio-economic position and the prevalence of ten chronic diseases in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:58.821290+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Handbook of tools to support medicine management in multimorbidity and polypharmacy": {
+          "doc_id": "dcd2352f1f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-44-11_handbook-of-tools-to-support-medicine-management-in-multimorbidity-and-polypharmacy.pdf?alt=media&token=a487e01f-6052-42df-b610-7155ae3f90c4",
+              "title": "Handbook of tools to support medicine management in multimorbidity and polypharmacy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:48:12.986888+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-44-11_handbook-of-tools-to-support-medicine-management-in-multimorbidity-and-polypharmacy.pdf?alt=media&token=a487e01f-6052-42df-b610-7155ae3f90c4",
+              "title": "Handbook of tools to support medicine management in multimorbidity and polypharmacy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:00:26.505687+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "TasScript Health Practitioner Portal User Manual": {
+          "doc_id": "1d7a19d53b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-50-51_tasscript_user_manual_-_health_practitioner_portal.pdf?alt=media&token=14cc275b-6ae8-42a2-9e60-04807b60e1dd",
+              "title": "TasScript Health Practitioner Portal User Manual",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:44:48.686086+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-50-51_tasscript_user_manual_-_health_practitioner_portal.pdf?alt=media&token=14cc275b-6ae8-42a2-9e60-04807b60e1dd",
+              "title": "TasScript Health Practitioner Portal User Manual",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:32.122274+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "BreastScreen Australia monitoring report 2025": {
+          "doc_id": "ed713bb9fa",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-51-36_BreastScreen-Australia-monitoring-report-2025.pdf?alt=media&token=70ada0b5-5b31-49c0-8c45-da3d157f32ca",
+              "title": "BreastScreen Australia monitoring report 2025",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:40:08.378052+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "RANZCP Clinical Practice Guidelines for Schizophrenia and Related Disorders": {
+          "doc_id": "c897980072",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.ranzcp.org/getmedia/da6dfec5-e31f-4d26-951b-dae8b1cdf777/schizophrenia-cpg.pdf",
+              "title": "RANZCP Clinical Practice Guidelines for Schizophrenia and Related Disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:58.715562+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.ranzcp.org/getmedia/da6dfec5-e31f-4d26-951b-dae8b1cdf777/schizophrenia-cpg.pdf",
+              "title": "RANZCP Clinical Practice Guidelines for Schizophrenia and Related Disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:56.143944+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "WA Guide to Support Young People to Quit Vaping": {
+          "doc_id": "1cc2ca2784",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-48-59_Guide-to-Support-Young-People-to-Quit-Vaping.pdf?alt=media&token=a865ea18-e1d4-4a2b-b481-ca8f8d93ae5b",
+              "title": "WA Guide to Support Young People to Quit Vaping",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:50:42.233316+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-48-59_Guide-to-Support-Young-People-to-Quit-Vaping.pdf?alt=media&token=a865ea18-e1d4-4a2b-b481-ca8f8d93ae5b",
+              "title": "WA Guide to Support Young People to Quit Vaping",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:02:43.750269+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Antibacterial use in general practice: 2015-2024": {
+          "doc_id": "90e5aa800e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-00-30_antimicrobial-use-in-general-practice-2015-2024.pdf?alt=media&token=43dd7f3f-72a4-4174-9050-97be0b7f1050",
+              "title": "Antibacterial use in general practice: 2015-2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:37:07.101412+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-00-30_antimicrobial-use-in-general-practice-2015-2024.pdf?alt=media&token=43dd7f3f-72a4-4174-9050-97be0b7f1050",
+              "title": "Antibacterial use in general practice: 2015-2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:50:44.204608+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Competency Standards for Dietitians in Australia": {
+          "doc_id": "a5d892d8b3",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-57-45_DA_NationalCompetencyStandards_WithGuide_2021-(PDF%2C-376KB).pdf?alt=media&token=bf23f317-b88d-479b-92cf-e8393d38e61a",
+              "title": "National Competency Standards for Dietitians in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:38:14.559223+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-57-45_DA_NationalCompetencyStandards_WithGuide_2021-(PDF%2C-376KB).pdf?alt=media&token=bf23f317-b88d-479b-92cf-e8393d38e61a",
+              "title": "National Competency Standards for Dietitians in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:51:17.588074+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Heart, stroke and vascular disease: Australian facts": {
+          "doc_id": "cc2f81a0a8",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-44-01_Heart-stroke-and-vascular-disease-Australian-facts.pdf?alt=media&token=01cfb7b1-5825-491a-b113-3786c95d579b",
+              "title": "Heart, stroke and vascular disease: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:47:45.252958+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-44-01_Heart-stroke-and-vascular-disease-Australian-facts.pdf?alt=media&token=01cfb7b1-5825-491a-b113-3786c95d579b",
+              "title": "Heart, stroke and vascular disease: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:00:19.038705+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical Guidelines for Stroke Management - Speech Pathology Summary": {
+          "doc_id": "5ec2f98620",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-00-04_speech-pathology-clinical-guidelines-summary_jun25.pdf?alt=media&token=a26cef9d-2d9b-4900-89d5-bbeffa744284",
+              "title": "Clinical Guidelines for Stroke Management - Speech Pathology Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:07.998875+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-00-04_speech-pathology-clinical-guidelines-summary_jun25.pdf?alt=media&token=a26cef9d-2d9b-4900-89d5-bbeffa744284",
+              "title": "Clinical Guidelines for Stroke Management - Speech Pathology Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:38:58.663193+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RANZCP Clinical Practice Guidelines for Mood Disorders": {
+          "doc_id": "7fee61aa8c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.ranzcp.org/getmedia/a8c79505-c0b5-46b4-9f27-67f79e047674/RANZCP-mood-disorders-clinical-practice-guideline-2020.pdf",
+              "title": "RANZCP Clinical Practice Guidelines for Mood Disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:39.290071+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.ranzcp.org/getmedia/a8c79505-c0b5-46b4-9f27-67f79e047674/RANZCP-mood-disorders-clinical-practice-guideline-2020.pdf",
+              "title": "RANZCP Clinical Practice Guidelines for Mood Disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:21.824186+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Code of conduct for registered health practitioners": {
+          "doc_id": "be865528cd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-44-13_Ahpra---Code---shared-Code-of-Conduct.PDF?alt=media&token=e509084b-c03e-4b36-83de-61b31b19076b",
+              "title": "Code of conduct for registered health practitioners",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:12.497735+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-44-13_Ahpra---Code---shared-Code-of-Conduct.PDF?alt=media&token=e509084b-c03e-4b36-83de-61b31b19076b",
+              "title": "Code of conduct for registered health practitioners",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:39.780564+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical presentation, investigation and management of endometriosis in Australian general practices": {
+          "doc_id": "0a67e021e6",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_11/mja270062.pdf",
+              "title": "Clinical presentation, investigation and management of endometriosis in Australian general practices",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:45:04.663565+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_11/mja270062.pdf",
+              "title": "Clinical presentation, investigation and management of endometriosis in Australian general practices",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:41.365740+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "APD Telehealth Guidelines": {
+          "doc_id": "68492d6b25",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-55-24_DA_APD_Telehealth_Guidlines_July_2020.pdf?alt=media&token=8a9deafe-da92-477b-846e-5077490d1c2a",
+              "title": "APD Telehealth Guidelines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:27.172460+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-55-24_DA_APD_Telehealth_Guidlines_July_2020.pdf?alt=media&token=8a9deafe-da92-477b-846e-5077490d1c2a",
+              "title": "APD Telehealth Guidelines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:03:46.098713+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Alcohol and Other Drug Withdrawal Guidelines": {
+          "doc_id": "8a29f491cf",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-12-47_Alcohol-and-Drug-Withdrawal-Guidelines-2018.pdf?alt=media&token=a24de6a5-f46a-42c9-b47a-d582ced60641",
+              "title": "Alcohol and Other Drug Withdrawal Guidelines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:37:06.248399+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-12-47_Alcohol-and-Drug-Withdrawal-Guidelines-2018.pdf?alt=media&token=a24de6a5-f46a-42c9-b47a-d582ced60641",
+              "title": "Alcohol and Other Drug Withdrawal Guidelines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:50:33.979781+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "COPD X _Australia and NZ Guidelines for Management of COPD": {
+          "doc_id": "c4ac8e41c8",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://copdx.org.au/wp-content/uploads/2025/12/COPD-X-V2.78_FINAL.pdf",
+              "title": "COPD X _Australia and NZ Guidelines for Management of COPD",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:51:24.256722+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Gabapentinoids: a therapeutic review": {
+          "doc_id": "9d6c3aab41",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-57-21_4-gabapentinoids-a-therapeutic-review.pdf?alt=media&token=24a42b12-2634-4c55-a202-a0ba3ee19202",
+              "title": "Gabapentinoids: a therapeutic review",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:49.368816+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-57-21_4-gabapentinoids-a-therapeutic-review.pdf?alt=media&token=24a42b12-2634-4c55-a202-a0ba3ee19202",
+              "title": "Gabapentinoids: a therapeutic review",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:04:17.656810+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Vitamin B12 deficiency: testing and treatment": {
+          "doc_id": "3a09a9d675",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-55-18_p55-Bedz-et-al.pdf?alt=media&token=db0042e4-4259-47e2-a80d-bad3f1913640",
+              "title": "Vitamin B12 deficiency: testing and treatment",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:23:25.910708+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-55-18_p55-Bedz-et-al.pdf?alt=media&token=db0042e4-4259-47e2-a80d-bad3f1913640",
+              "title": "Vitamin B12 deficiency: testing and treatment",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:38:15.300805+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Code of Conduct for Dietitians and Nutritionists": {
+          "doc_id": "19d9fd9fea",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-56-42_Code-of-Conduct-for-dietitians-and-nutritionists.pdf?alt=media&token=84ce3e25-08aa-4a84-90e7-e10e049e2f2c",
+              "title": "Code of Conduct for Dietitians and Nutritionists",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:40.668358+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-56-42_Code-of-Conduct-for-dietitians-and-nutritionists.pdf?alt=media&token=84ce3e25-08aa-4a84-90e7-e10e049e2f2c",
+              "title": "Code of Conduct for Dietitians and Nutritionists",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:11.351513+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "ADHA Schedule 8 quick reference guide for electronic prescriptions": {
+          "doc_id": "f1748f0389",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-52-23_schedule_8_quick_reference_guide_for_electronic_prescriptions.pdf?alt=media&token=28455ca9-f9ff-498e-84b9-e7d4b7cf25d9",
+              "title": "ADHA Schedule 8 quick reference guide for electronic prescriptions",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:35:31.117154+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-52-23_schedule_8_quick_reference_guide_for_electronic_prescriptions.pdf?alt=media&token=28455ca9-f9ff-498e-84b9-e7d4b7cf25d9",
+              "title": "ADHA Schedule 8 quick reference guide for electronic prescriptions",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:49:36.543908+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Good medical practice: a code of conduct for doctors in Australia": {
+          "doc_id": "9e155921a3",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-24-59_Medical-Board---Code---Good-medical-practice-a-code-of-conduct-for-doctors-in-Australia---1-October-2020.PDF?alt=media&token=f94f9b93-3864-42bb-a391-7aaf4e0e30c3",
+              "title": "Good medical practice: a code of conduct for doctors in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:49:20.045633+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-24-59_Medical-Board---Code---Good-medical-practice-a-code-of-conduct-for-doctors-in-Australia---1-October-2020.PDF?alt=media&token=f94f9b93-3864-42bb-a391-7aaf4e0e30c3",
+              "title": "Good medical practice: a code of conduct for doctors in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:01:43.036057+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Standards for general practices, 5th edition": {
+          "doc_id": "8ebe52aa1b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/ece472a7-9a15-4441-b8e5-be892d4ffd77/Standards-for-general-practices-5th-edition.aspx",
+              "title": "RACGP Standards for general practices, 5th edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:21:26.812213+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/ece472a7-9a15-4441-b8e5-be892d4ffd77/Standards-for-general-practices-5th-edition.aspx",
+              "title": "RACGP Standards for general practices, 5th edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:36:34.650324+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Cervical Screening Program Quick Reference Guide": {
+          "doc_id": "0f005aa9be",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-05-59_national-cervical-screening-program-quick-reference-guide.pdf?alt=media&token=548e812f-e847-4985-bbea-04dbc5c015d2",
+              "title": "National Cervical Screening Program Quick Reference Guide",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:20:11.025938+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-05-59_national-cervical-screening-program-quick-reference-guide.pdf?alt=media&token=548e812f-e847-4985-bbea-04dbc5c015d2",
+              "title": "National Cervical Screening Program Quick Reference Guide",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:29.448367+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical Guidelines for Stroke Management - Occupational Therapy Summary": {
+          "doc_id": "8e4e0ba69e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-01-15_occupational-therapy-clinical-guidelines-summary_jun25.pdf?alt=media&token=8f271632-dcb4-4b5d-bbd9-58f3ffebccf8",
+              "title": "Clinical Guidelines for Stroke Management - Occupational Therapy Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:23.799999+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-01-15_occupational-therapy-clinical-guidelines-summary_jun25.pdf?alt=media&token=8f271632-dcb4-4b5d-bbd9-58f3ffebccf8",
+              "title": "Clinical Guidelines for Stroke Management - Occupational Therapy Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:15.042495+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Green Book: Putting prevention into practice": {
+          "doc_id": "9d2ddbc1eb",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-12-41_RACGP-Green-book-3rd-edition.pdf?alt=media&token=3338d931-5d7d-409a-a7f1-93f9e25c7489",
+              "title": "RACGP Green Book: Putting prevention into practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:05.550724+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-12-41_RACGP-Green-book-3rd-edition.pdf?alt=media&token=3338d931-5d7d-409a-a7f1-93f9e25c7489",
+              "title": "RACGP Green Book: Putting prevention into practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:01.610691+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Towards a best practice framework for eHealth with Aboriginal and Torres Strait Islander peoples": {
+          "doc_id": "64ee448ab4",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_06/mja252419.pdf",
+              "title": "Towards a best practice framework for eHealth with Aboriginal and Torres Strait Islander peoples",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:55.817021+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_06/mja252419.pdf",
+              "title": "Towards a best practice framework for eHealth with Aboriginal and Torres Strait Islander peoples",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:36.168157+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Tasmania process for assessing and granting S8 authorities": {
+          "doc_id": "2a218550ef",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-49-59_Process_for_assessing_and_granting_authorities_to_prescribe_Schedule_8_drugs_under_S59E_Poisons_Act_1971_DoHTasmania.pdf?alt=media&token=71f09514-d6ba-4d1f-8169-3414543e1aec",
+              "title": "Tasmania process for assessing and granting S8 authorities",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:31:37.319165+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-49-59_Process_for_assessing_and_granting_authorities_to_prescribe_Schedule_8_drugs_under_S59E_Poisons_Act_1971_DoHTasmania.pdf?alt=media&token=71f09514-d6ba-4d1f-8169-3414543e1aec",
+              "title": "Tasmania process for assessing and granting S8 authorities",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:45:58.639559+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Blood Pressure monitoring 2022": {
+          "doc_id": "f830aa4e13",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/e49296f8-ef77-449a-90f8-03a4d482fc64/Revisiting-ambulatory-blood-pressure.pdf",
+              "title": "RACGP Blood Pressure monitoring 2022",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:16.671216+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/e49296f8-ef77-449a-90f8-03a4d482fc64/Revisiting-ambulatory-blood-pressure.pdf",
+              "title": "RACGP Blood Pressure monitoring 2022",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:12.833448+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Strategic Framework for Chronic Conditions 2026-2035": {
+          "doc_id": "e32e2f3a7c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-55-02_national-strategic-framework-for-chronic-conditions_0.pdf?alt=media&token=f7b5e0a5-50db-42be-a33e-0120427d658d",
+              "title": "National Strategic Framework for Chronic Conditions 2026-2035",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:31.002772+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-55-02_national-strategic-framework-for-chronic-conditions_0.pdf?alt=media&token=f7b5e0a5-50db-42be-a33e-0120427d658d",
+              "title": "National Strategic Framework for Chronic Conditions 2026-2035",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:24.437428+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "A primary approach to the discharging ear": {
+          "doc_id": "5326484522",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/1e774dcb-5f11-41bc-a531-3a40a7a7e133/A-primary-care-approach-to-the-discharging-ear.aspx",
+              "title": "A primary approach to the discharging ear",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:40:31.639001+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/1e774dcb-5f11-41bc-a531-3a40a7a7e133/A-primary-care-approach-to-the-discharging-ear.aspx",
+              "title": "A primary approach to the discharging ear",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:54:04.163609+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACP Evolve: Australasian Chapter of Addiction Medicine": {
+          "doc_id": "752a046f4c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-56-40_australasian-chapter-of-addiction-medicine.pdf?alt=media&token=5fef3786-ebc7-4cb2-9220-64d77e0329f6",
+              "title": "RACP Evolve: Australasian Chapter of Addiction Medicine",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:20.251386+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-56-40_australasian-chapter-of-addiction-medicine.pdf?alt=media&token=5fef3786-ebc7-4cb2-9220-64d77e0329f6",
+              "title": "RACP Evolve: Australasian Chapter of Addiction Medicine",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:00.946671+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Information for practitioners who provide virtual care": {
+          "doc_id": "107ae0ff61",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-49-17_Ahpra---Information-for-practitioners-who-provide-virtual-care.PDF?alt=media&token=4fc63840-fc6e-4c70-a404-2a816519c0d4",
+              "title": "Information for practitioners who provide virtual care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:39:20.349169+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-49-17_Ahpra---Information-for-practitioners-who-provide-virtual-care.PDF?alt=media&token=4fc63840-fc6e-4c70-a404-2a816519c0d4",
+              "title": "Information for practitioners who provide virtual care",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:53.726925+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Emergency management hyperglycemia Primary Crae": {
+          "doc_id": "7e792b2e93",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/93adfae0-c1ed-4388-8f7e-ff068b8bb9ec/Diabetes-sick-day-management.pdf.aspx",
+              "title": "Emergency management hyperglycemia Primary Crae",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:08.891886+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/93adfae0-c1ed-4388-8f7e-ff068b8bb9ec/Diabetes-sick-day-management.pdf.aspx",
+              "title": "Emergency management hyperglycemia Primary Crae",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:03:29.779590+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "The Australian Health Care Homes trial: quality of care and patient outcomes": {
+          "doc_id": "3ec6050c37",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/220_07/mja252266.pdf",
+              "title": "The Australian Health Care Homes trial: quality of care and patient outcomes",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:40:50.736754+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/220_07/mja252266.pdf",
+              "title": "The Australian Health Care Homes trial: quality of care and patient outcomes",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:54:27.936853+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RANZCOG Care in labour in the absence of pregnancy complications": {
+          "doc_id": "1a77ca1d03",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://ranzcog.edu.au/wp-content/uploads/Care-Labour-Absence-Pregnancy-Complications.pdf",
+              "title": "RANZCOG Care in labour in the absence of pregnancy complications",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:26:47.707664+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://ranzcog.edu.au/wp-content/uploads/Care-Labour-Absence-Pregnancy-Complications.pdf",
+              "title": "RANZCOG Care in labour in the absence of pregnancy complications",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:41:05.889910+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Women's Health Strategy 2020-2030": {
+          "doc_id": "9a0e46ca8b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-01-32_national-women-s-health-strategy-2020-2030_0.pdf?alt=media&token=fb4f512e-d34c-45e0-bdd9-8a37b5d63e2e",
+              "title": "National Women's Health Strategy 2020-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:45:35.502815+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-01-32_national-women-s-health-strategy-2020-2030_0.pdf?alt=media&token=fb4f512e-d34c-45e0-bdd9-8a37b5d63e2e",
+              "title": "National Women's Health Strategy 2020-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:26.802557+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Deprescribing antihypertensive drugs in frail older adults": {
+          "doc_id": "7007dda749",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-56-15_p85-Reeve-et-al.pdf?alt=media&token=1b4aa481-c9f2-4a8d-a574-092f4ca96300",
+              "title": "Deprescribing antihypertensive drugs in frail older adults",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:33:47.379200+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-56-15_p85-Reeve-et-al.pdf?alt=media&token=1b4aa481-c9f2-4a8d-a574-092f4ca96300",
+              "title": "Deprescribing antihypertensive drugs in frail older adults",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:48:32.657295+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard": {
+          "doc_id": "67fd0af8f5",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-50-28_opioid-analgesic-stewardship-in-acute-pain-clinical-care-standard.pdf?alt=media&token=5120b18c-178d-439e-9c72-b5b9b97d7311",
+              "title": "Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:49:55.529051+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-50-28_opioid-analgesic-stewardship-in-acute-pain-clinical-care-standard.pdf?alt=media&token=5120b18c-178d-439e-9c72-b5b9b97d7311",
+              "title": "Opioid Analgesic Stewardship in Acute Pain Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:02:16.937435+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Chronic kidney disease: Australian facts": {
+          "doc_id": "75e6bf8546",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-49-42_Chronic-kidney-disease-Australian-facts.pdf?alt=media&token=b7b8c4a9-2ff3-412a-b7a5-8a6b3ee4e425",
+              "title": "Chronic kidney disease: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:39:06.095496+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-49-42_Chronic-kidney-disease-Australian-facts.pdf?alt=media&token=b7b8c4a9-2ff3-412a-b7a5-8a6b3ee4e425",
+              "title": "Chronic kidney disease: Australian facts",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:39.476358+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National guide to preventive healthcare for Aboriginal and Torres Strait Islander people": {
+          "doc_id": "601279ab28",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-31-56_National-Guide%20(1).pdf?alt=media&token=100ac579-805b-43af-b8dd-61afca39e960",
+              "title": "National guide to preventive healthcare for Aboriginal and Torres Strait Islander people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:56:26.144781+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-31-56_National-Guide%20(1).pdf?alt=media&token=100ac579-805b-43af-b8dd-61afca39e960",
+              "title": "National guide to preventive healthcare for Aboriginal and Torres Strait Islander people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:07:16.443907+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "WA Alcohol and Other Drugs Withdrawal Management Practice and Pathways": {
+          "doc_id": "5c24f8db4b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-54-22_Alcohol-and-Other-Drugs-Withdrawal-Management-Practice-and-Pathways.pdf?alt=media&token=52d1772c-f00b-442b-9dbf-e8405687eceb",
+              "title": "WA Alcohol and Other Drugs Withdrawal Management Practice and Pathways",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:39.818853+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-54-22_Alcohol-and-Other-Drugs-Withdrawal-Management-Practice-and-Pathways.pdf?alt=media&token=52d1772c-f00b-442b-9dbf-e8405687eceb",
+              "title": "WA Alcohol and Other Drugs Withdrawal Management Practice and Pathways",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:26.314082+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Joint Statement on inappropriate use of psychotropic medicines": {
+          "doc_id": "1cbec08493",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-49-36_joint_statement_on_the_inappropriate_use_of_psychotropic_medicines_to_manage_the_behaviours_of_people_with_disability_and_older_people.pdf?alt=media&token=cb7f833b-4f8c-45b4-bb82-530e7646e973",
+              "title": "Joint Statement on inappropriate use of psychotropic medicines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:23:25.948878+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-49-36_joint_statement_on_the_inappropriate_use_of_psychotropic_medicines_to_manage_the_behaviours_of_people_with_disability_and_older_people.pdf?alt=media&token=cb7f833b-4f8c-45b4-bb82-530e7646e973",
+              "title": "Joint Statement on inappropriate use of psychotropic medicines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:38:19.659513+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australian clinical guideline for deprescribing in older people": {
+          "doc_id": "d5c961379a",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-53-21_p211-Australian-guideline-deprescribing-older-people.pdf?alt=media&token=2186a761-082a-4e3f-bf3e-2273dd9b2e0f",
+              "title": "Australian clinical guideline for deprescribing in older people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:59.979923+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_13-53-21_p211-Australian-guideline-deprescribing-older-people.pdf?alt=media&token=2186a761-082a-4e3f-bf3e-2273dd9b2e0f",
+              "title": "Australian clinical guideline for deprescribing in older people",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:32.511059+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Prescribing drugs of dependence in general practice Part A": {
+          "doc_id": "77f26d1b26",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/FSDEDEV/media/documents/Clinical%20Resources/Guidelines/Drugs%20of%20dependence/Prescribing-drugs-of-dependence-in-general-practice-Part-A.pdf",
+              "title": "RACGP Prescribing drugs of dependence in general practice Part A",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:33:39.358627+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://www.racgp.org.au/FSDEDEV/media/documents/Clinical%20Resources/Guidelines/Drugs%20of%20dependence/Prescribing-drugs-of-dependence-in-general-practice-Part-A.pdf",
+              "title": "RACGP Prescribing drugs of dependence in general practice Part A",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:45:54.956486+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "RACGP recurrent UTI infections 2024": {
+          "doc_id": "d00e106ede",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/20a87144-551c-4d5d-a194-66c52dfadc67/What-to-do-about-recurrent-urinary-tract-infection.pdf",
+              "title": "RACGP recurrent UTI infections 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:55.825798+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www1.racgp.org.au/getattachment/20a87144-551c-4d5d-a194-66c52dfadc67/What-to-do-about-recurrent-urinary-tract-infection.pdf",
+              "title": "RACGP recurrent UTI infections 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:43.766977+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "test from praveen side": {
+          "doc_id": "a905f4c575",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_11-55-12_australia-s-primary-health-care-10-year-plan-2022-2032.pdf?alt=media&token=0b03f851-c340-4d22-839e-4b215f1ca30d",
+              "title": "test from praveen side",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:28:53.313766+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_11-55-12_australia-s-primary-health-care-10-year-plan-2022-2032.pdf?alt=media&token=0b03f851-c340-4d22-839e-4b215f1ca30d",
+              "title": "test from praveen side",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:43:39.566127+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Indigenous governance, ethics and data collection in Australian clinical registries": {
+          "doc_id": "025b27f8b6",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_03/mja252383.pdf",
+              "title": "Indigenous governance, ethics and data collection in Australian clinical registries",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:45:11.766134+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_03/mja252383.pdf",
+              "title": "Indigenous governance, ethics and data collection in Australian clinical registries",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:53.031620+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "UTI Treatment Vic Health 2023": {
+          "doc_id": "3f3dd2a385",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.health.vic.gov.au/sites/default/files/2023-10/clinical-protocol-urinary-tract-infections.pdf",
+              "title": "UTI Treatment Vic Health 2023",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:48:02.418018+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.health.vic.gov.au/sites/default/files/2023-10/clinical-protocol-urinary-tract-infections.pdf",
+              "title": "UTI Treatment Vic Health 2023",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:00:00.564155+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Living Clinical Guidelines for Stroke Management": {
+          "doc_id": "0042d43047",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-02-28_physiotherapy-clinical-guidelines-summary_jun25.pdf?alt=media&token=8451f703-6612-46ad-a839-83e7eb96af0d",
+              "title": "Living Clinical Guidelines for Stroke Management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:47:05.426334+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-02-28_physiotherapy-clinical-guidelines-summary_jun25.pdf?alt=media&token=8451f703-6612-46ad-a839-83e7eb96af0d",
+              "title": "Living Clinical Guidelines for Stroke Management",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:59:15.030206+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Chronic Kidney Disease Management in Primary Care, 5th edition": {
+          "doc_id": "45bd6920de",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf",
+              "title": "Chronic Kidney Disease Management in Primary Care, 5th edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:36:54.096070+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://kidney.org.au/wp-content/uploads/2025/11/KHA-CKD-Handbook-5th-Ed-July2024.pdf",
+              "title": "Chronic Kidney Disease Management in Primary Care, 5th edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:50:53.259841+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Development and calibration of the 2023 Australian CVD risk prediction equations": {
+          "doc_id": "2d9a2b2887",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_04/mja252718.pdf",
+              "title": "Development and calibration of the 2023 Australian CVD risk prediction equations",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:36:07.673353+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_04/mja252718.pdf",
+              "title": "Development and calibration of the 2023 Australian CVD risk prediction equations",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:50:01.814830+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP hypothyroidism investigation and management 2022": {
+          "doc_id": "78bc6dc210",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/8f4fe235-0ae2-48c1-951a-6358c54e4469/Hypothyroidism.pdf",
+              "title": "RACGP hypothyroidism investigation and management 2022",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:30.473019+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/8f4fe235-0ae2-48c1-951a-6358c54e4469/Hypothyroidism.pdf",
+              "title": "RACGP hypothyroidism investigation and management 2022",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:36.745061+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australian Obesity Management Algorithm": {
+          "doc_id": "9372f371b2",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_13-01-34_Australian-Obesity-Management-Algorithm-July-2024.pdf?alt=media&token=2c03fc21-074b-4c33-8805-d1a318a1565c",
+              "title": "Australian Obesity Management Algorithm",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:25.274998+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_13-01-34_Australian-Obesity-Management-Algorithm-July-2024.pdf?alt=media&token=2c03fc21-074b-4c33-8805-d1a318a1565c",
+              "title": "Australian Obesity Management Algorithm",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:44:48.821697+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "What is needed to improve young people's access to sexual health care through primary care?": {
+          "doc_id": "64465307c5",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252642.pdf",
+              "title": "What is needed to improve young people's access to sexual health care through primary care?",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:26:59.116712+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252642.pdf",
+              "title": "What is needed to improve young people's access to sexual health care through primary care?",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:37:29.478235+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Australian Charter of Healthcare Rights, second edition": {
+          "doc_id": "c4d6c05a4f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-07-08_australian-charter-of-healthcare-rights-a4-poster.pdf?alt=media&token=9a6e78c8-33fd-4ffa-8e8b-5218977b6c2d",
+              "title": "Australian Charter of Healthcare Rights, second edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:41.365021+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-07-08_australian-charter-of-healthcare-rights-a4-poster.pdf?alt=media&token=9a6e78c8-33fd-4ffa-8e8b-5218977b6c2d",
+              "title": "Australian Charter of Healthcare Rights, second edition",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:39.203506+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NSW Health Alcohol and Other Drugs Psychosocial Interventions Practice Guide": {
+          "doc_id": "6b5e4035f8",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/resources/Publications/nsw-health-psychosocial-interventions.pdf",
+              "title": "NSW Health Alcohol and Other Drugs Psychosocial Interventions Practice Guide",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:26:16.061333+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "National Tobacco Strategy 2023-2030": {
+          "doc_id": "b2ac85680b",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-00-17_national-tobacco-strategy-2023-2030.pdf?alt=media&token=80e81a64-544d-49b7-a733-80140b331abb",
+              "title": "National Tobacco Strategy 2023-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:53:52.404975+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-00-17_national-tobacco-strategy-2023-2030.pdf?alt=media&token=80e81a64-544d-49b7-a733-80140b331abb",
+              "title": "National Tobacco Strategy 2023-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:05:18.440076+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Type 2 Diabetes Optimal Goals": {
+          "doc_id": "279aac163c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/ac2c50a9-c165-4acd-90d1-433dbdc21293/Type-2-diabetes-Goals-for-optimum-management.pdf.aspx",
+              "title": "Type 2 Diabetes Optimal Goals",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:39.330179+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/ac2c50a9-c165-4acd-90d1-433dbdc21293/Type-2-diabetes-Goals-for-optimum-management.pdf.aspx",
+              "title": "Type 2 Diabetes Optimal Goals",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:30.205305+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australia's Primary Health Care 10 Year Plan 2022-2032": {
+          "doc_id": "2b9bc5bc58",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-53-11_australia-s-primary-health-care-10-year-plan-2022-2032.pdf?alt=media&token=6790abf5-aed9-4a77-b770-f417710938c2",
+              "title": "Australia's Primary Health Care 10 Year Plan 2022-2032",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:37:51.081167+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-53-11_australia-s-primary-health-care-10-year-plan-2022-2032.pdf?alt=media&token=6790abf5-aed9-4a77-b770-f417710938c2",
+              "title": "Australia's Primary Health Care 10 Year Plan 2022-2032",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:51:47.977481+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australia's health 2024: in brief": {
+          "doc_id": "85c622c734",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-41-37_aihw-aus-249-ib.pdf?alt=media&token=fcd75283-94bb-4e81-8b9c-94fb1b044ed8",
+              "title": "Australia's health 2024: in brief",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:44:28.713411+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-41-37_aihw-aus-249-ib.pdf?alt=media&token=fcd75283-94bb-4e81-8b9c-94fb1b044ed8",
+              "title": "Australia's health 2024: in brief",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:18.926292+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Scoping review of variation in clinical guidelines for delivery of injectable long-acting penicillin for RHD": {
+          "doc_id": "075593a678",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_11/mja270050.pdf",
+              "title": "Scoping review of variation in clinical guidelines for delivery of injectable long-acting penicillin for RHD",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:11.840961+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/223_11/mja270050.pdf",
+              "title": "Scoping review of variation in clinical guidelines for delivery of injectable long-acting penicillin for RHD",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:06.816517+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National medical workforce strategy": {
+          "doc_id": "ff6235af7e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-57-39_national-medical-workforce-strategy-2021-2031.pdf?alt=media&token=9f097afb-8ba5-4403-8cf1-d9605adcf1c9",
+              "title": "National medical workforce strategy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:49:52.338363+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-57-39_national-medical-workforce-strategy-2021-2031.pdf?alt=media&token=9f097afb-8ba5-4403-8cf1-d9605adcf1c9",
+              "title": "National medical workforce strategy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:02:01.600745+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Hypertension Management AMH 2026": {
+          "doc_id": "321c4e81c5",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://shop.amh.net.au/sites/default/files/AMH-Hypertension-print.pdf",
+              "title": "Hypertension Management AMH 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:19:52.951520+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://shop.amh.net.au/sites/default/files/AMH-Hypertension-print.pdf",
+              "title": "Hypertension Management AMH 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:09:06.641896+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://shop.amh.net.au/sites/default/files/AMH-Hypertension-print.pdf",
+              "title": "Hypertension Management AMH 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:34:11.786270+00:00",
+              "version": "3",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://shop.amh.net.au/sites/default/files/AMH-Hypertension-print.pdf",
+              "title": "Hypertension Management AMH 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:09.963533+00:00",
+              "version": "4",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Red Book 10th edition: Guidelines for preventive activities in general practice": {
+          "doc_id": "29a7b87d5f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_10-31-22_dms%20.pdf?alt=media&token=e120c2ce-da78-4371-a0bf-9d38c17782c6",
+              "title": "RACGP Red Book 10th edition: Guidelines for preventive activities in general practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:27:29.764063+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_10-31-22_dms%20.pdf?alt=media&token=e120c2ce-da78-4371-a0bf-9d38c17782c6",
+              "title": "RACGP Red Book 10th edition: Guidelines for preventive activities in general practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:42:25.213885+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Digital Health Strategy 2023-2028": {
+          "doc_id": "25a1cd4080",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-04-03_national-digital-health-strategy-roadmap-2023-2028.pdf?alt=media&token=aaaff342-e6ca-417d-b9ca-9dbb6c4745ee",
+              "title": "National Digital Health Strategy 2023-2028",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:33:29.018400+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-04-03_national-digital-health-strategy-roadmap-2023-2028.pdf?alt=media&token=aaaff342-e6ca-417d-b9ca-9dbb6c4745ee",
+              "title": "National Digital Health Strategy 2023-2028",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:47:27.099147+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Sepsis Clinical Care Standard": {
+          "doc_id": "5a9995b993",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-11-38_sepsis_clinical_care_standard_2022.pdf?alt=media&token=8e986de4-5056-46f9-9872-9b75b9bfbad7",
+              "title": "Sepsis Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:21:20.716289+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-11-38_sepsis_clinical_care_standard_2022.pdf?alt=media&token=8e986de4-5056-46f9-9872-9b75b9bfbad7",
+              "title": "Sepsis Clinical Care Standard",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:31:30.641770+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Smoke Test Document Do Not Use": {
+          "doc_id": "da054b1e71",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://shop.amh.net.au/sites/default/files/AMH-Hypertension-print.pdf",
+              "title": "Smoke Test Document Do Not Use",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:53:09.326499+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "National Quality Framework for Drug and Alcohol Treatment Services": {
+          "doc_id": "376b520f69",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-52-43_national-quality-framework-for-drug-and-alcohol-treatment-services_0.pdf?alt=media&token=cc075f67-b0ce-4b31-8597-4288203ef4fc",
+              "title": "National Quality Framework for Drug and Alcohol Treatment Services",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:52:58.224547+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-52-43_national-quality-framework-for-drug-and-alcohol-treatment-services_0.pdf?alt=media&token=cc075f67-b0ce-4b31-8597-4288203ef4fc",
+              "title": "National Quality Framework for Drug and Alcohol Treatment Services",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:04:19.253855+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Otitis media for Aboriginal and Torres Straight Islanders": {
+          "doc_id": "6b0d31285c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Apr-20_16-42-23_Medical%20Journal%20of%20Australia%20-%202021%20-%20Leach%20-%20Otitis%20media%20guidelines%20for%20Australian%20Aboriginal%20and%20Torres%20Strait%20Islander.pdf?alt=media&token=657438dc-f7e3-4fb6-8abe-2b6cb898ef3b",
+              "title": "Otitis media for Aboriginal and Torres Straight Islanders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:27.530019+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Apr-20_16-42-23_Medical%20Journal%20of%20Australia%20-%202021%20-%20Leach%20-%20Otitis%20media%20guidelines%20for%20Australian%20Aboriginal%20and%20Torres%20Strait%20Islander.pdf?alt=media&token=657438dc-f7e3-4fb6-8abe-2b6cb898ef3b",
+              "title": "Otitis media for Aboriginal and Torres Straight Islanders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:49.699233+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Hypertension Management Australian prescriber 2025": {
+          "doc_id": "e06c32be58",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/AP/pdf/p194-Hespe-et-al.pdf",
+              "title": "Hypertension Management Australian prescriber 2025",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:55.591900+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/AP/pdf/p194-Hespe-et-al.pdf",
+              "title": "Hypertension Management Australian prescriber 2025",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:47.653207+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Supporting smoking and vaping cessation: A guide for health professionals": {
+          "doc_id": "dd19b4ab21",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-44-08_RACGP-NVP-and-Vaping-Cessation-September-2024.pdf?alt=media&token=ae8a9382-8af8-43b7-8267-25cae178ea3a",
+              "title": "RACGP Supporting smoking and vaping cessation: A guide for health professionals",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:26:20.305868+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "General practice in the era of funding reform": {
+          "doc_id": "d43723c3fa",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252669.pdf",
+              "title": "General practice in the era of funding reform",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:58.745307+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252669.pdf",
+              "title": "General practice in the era of funding reform",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:37.497482+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "MDA National Prescribe Schedule 8 Drugs": {
+          "doc_id": "93a03b8eaa",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-53-25_Prescribe-Schedule-8-Drugs.pdf?alt=media&token=2d842561-959a-491f-b733-a2e7a7900498",
+              "title": "MDA National Prescribe Schedule 8 Drugs",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:38:49.979057+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-53-25_Prescribe-Schedule-8-Drugs.pdf?alt=media&token=2d842561-959a-491f-b733-a2e7a7900498",
+              "title": "MDA National Prescribe Schedule 8 Drugs",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:17.215412+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "APS Evidence-based psychological interventions in the treatment of mental disorders": {
+          "doc_id": "cecb925755",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://psychology.org.au/getmedia/23c6a11b-2600-4e19-9a1d-6ff9c2f26fae/evidence-based-psych-interventions.pdf",
+              "title": "APS Evidence-based psychological interventions in the treatment of mental disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:02.820558+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://psychology.org.au/getmedia/23c6a11b-2600-4e19-9a1d-6ff9c2f26fae/evidence-based-psych-interventions.pdf",
+              "title": "APS Evidence-based psychological interventions in the treatment of mental disorders",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:44:55.862530+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Evidence-based guidelines to reduce restrictive practices in the disability sector": {
+          "doc_id": "bd5e32d98e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-54-08_Restrictive-Practices-Guidelines-for-Psychologists.pdf?alt=media&token=0cfa035f-96b3-47a0-8766-879511a52bec",
+              "title": "Evidence-based guidelines to reduce restrictive practices in the disability sector",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:44:32.601586+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-54-08_Restrictive-Practices-Guidelines-for-Psychologists.pdf?alt=media&token=0cfa035f-96b3-47a0-8766-879511a52bec",
+              "title": "Evidence-based guidelines to reduce restrictive practices in the disability sector",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:10.322512+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NSW Health Management of Withdrawal from Alchohol and Other Drugs": {
+          "doc_id": "7664dea009",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/professionals/Publications/clinical-guidance-withdrawal-alcohol-and-other-drugs.pdf",
+              "title": "NSW Health Management of Withdrawal from Alchohol and Other Drugs",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:32:58.775344+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/professionals/Publications/clinical-guidance-withdrawal-alcohol-and-other-drugs.pdf",
+              "title": "NSW Health Management of Withdrawal from Alchohol and Other Drugs",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:46:59.596289+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Antidepressant prescribing in Australian primary care: time to reevaluate": {
+          "doc_id": "d98674e5b7",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252645.pdf",
+              "title": "Antidepressant prescribing in Australian primary care: time to reevaluate",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:42.824425+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252645.pdf",
+              "title": "Antidepressant prescribing in Australian primary care: time to reevaluate",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:58.789858+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australian Open Disclosure Framework": {
+          "doc_id": "ad9c5a8073",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-08-22_Australian-Open-Disclosure-Framework-Feb-2014.pdf?alt=media&token=95cadffb-bc00-40ea-8a27-e272ca96d0c3",
+              "title": "Australian Open Disclosure Framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:37:58.869507+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-08-22_Australian-Open-Disclosure-Framework-Feb-2014.pdf?alt=media&token=95cadffb-bc00-40ea-8a27-e272ca96d0c3",
+              "title": "Australian Open Disclosure Framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:51:36.060665+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Prescribing drugs of dependence in general practice Part B: Benzodiazepines": {
+          "doc_id": "e31f226203",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/1beeb924-cf7b-4de4-911e-f7dda3e3f6e9/Part-B.aspx",
+              "title": "RACGP Prescribing drugs of dependence in general practice Part B: Benzodiazepines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:44:41.571619+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/1beeb924-cf7b-4de4-911e-f7dda3e3f6e9/Part-B.aspx",
+              "title": "RACGP Prescribing drugs of dependence in general practice Part B: Benzodiazepines",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:09.974197+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Holistic management of hip and knee osteoarthritis RACGP": {
+          "doc_id": "e551e92724",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/d59611cb-6021-444f-b59f-5a8a5472e55c/Guideline-for-the-management-of-knee-and-hip-osteoarthritis-2nd-ed-Appendix-1.pdf.aspx",
+              "title": "Holistic management of hip and knee osteoarthritis RACGP",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:30.316859+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/d59611cb-6021-444f-b59f-5a8a5472e55c/Guideline-for-the-management-of-knee-and-hip-osteoarthritis-2nd-ed-Appendix-1.pdf.aspx",
+              "title": "Holistic management of hip and knee osteoarthritis RACGP",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:26.431600+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Australian Evidence-Based Clinical Guidelines for Diabetes": {
+          "doc_id": "820fc700b9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_12-58-43_20211104-Guideline-Australian-Evidence-Based-Clinical-Guidelines-for-Diabetes.pdf?alt=media&token=3f729a79-b4d4-4680-8123-85cfa1812c73",
+              "title": "Australian Evidence-Based Clinical Guidelines for Diabetes",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:48:35.996182+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_12-58-43_20211104-Guideline-Australian-Evidence-Based-Clinical-Guidelines-for-Diabetes.pdf?alt=media&token=3f729a79-b4d4-4680-8123-85cfa1812c73",
+              "title": "Australian Evidence-Based Clinical Guidelines for Diabetes",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:00:58.262751+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NMBA Registered nurse standards for practice": {
+          "doc_id": "e1f10c1ea6",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-47-01_Nursing-and-Midwifery-Board---Standard---Registered-nurse-standards-for-practice---1-June-2016.PDF?alt=media&token=0195b198-f08a-4f8c-9808-e05b9a8e607f",
+              "title": "NMBA Registered nurse standards for practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:04.278217+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-47-01_Nursing-and-Midwifery-Board---Standard---Registered-nurse-standards-for-practice---1-June-2016.PDF?alt=media&token=0195b198-f08a-4f8c-9808-e05b9a8e607f",
+              "title": "NMBA Registered nurse standards for practice",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:49.362524+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Medication Management at Transitions of Care Stewardship Framework": {
+          "doc_id": "ab5b30e8e9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-45-30_medication-management-at-transitions-of-care-stewardship-framework.pdf?alt=media&token=da151903-9089-4515-a273-620ac6071262",
+              "title": "Medication Management at Transitions of Care Stewardship Framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:09.278512+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-45-30_medication-management-at-transitions-of-care-stewardship-framework.pdf?alt=media&token=da151903-9089-4515-a273-620ac6071262",
+              "title": "Medication Management at Transitions of Care Stewardship Framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:59.772697+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "The impact of patient enrolment in primary care on continuity and quality of care around the world": {
+          "doc_id": "19ceff06b9",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252648.pdf",
+              "title": "The impact of patient enrolment in primary care on continuity and quality of care around the world",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:27:00.674709+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/222_09/mja252648.pdf",
+              "title": "The impact of patient enrolment in primary care on continuity and quality of care around the world",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:42:20.181139+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NSW Guide to Poisons and Therapeutic Goods Legislation": {
+          "doc_id": "ca4241b946",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-46-41_guide-medprac-nurse-dentist.pdf?alt=media&token=3fd704c6-e317-4982-9bcb-e879b1a099c5",
+              "title": "NSW Guide to Poisons and Therapeutic Goods Legislation",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:45:44.836568+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-46-41_guide-medprac-nurse-dentist.pdf?alt=media&token=3fd704c6-e317-4982-9bcb-e879b1a099c5",
+              "title": "NSW Guide to Poisons and Therapeutic Goods Legislation",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:57:54.738843+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Obesity Strategy 2022-2032": {
+          "doc_id": "1159897157",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-58-48_national-obesity-strategy-2022-2032_0.pdf?alt=media&token=5a49c7f3-6d96-44e5-9d41-e379b71d422d",
+              "title": "National Obesity Strategy 2022-2032",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:52.540019+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_07-58-48_national-obesity-strategy-2022-2032_0.pdf?alt=media&token=5a49c7f3-6d96-44e5-9d41-e379b71d422d",
+              "title": "National Obesity Strategy 2022-2032",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:45:27.928928+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NMBA Decision-making framework for nursing and midwifery": {
+          "doc_id": "97f9a374a7",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-48-24_Nursing-and-Midwifery-Board---Nurse-practitioner-standards-for-practice---effective-1-January-2014.PDF?alt=media&token=95fbef65-cca6-4511-859d-38317612da4d",
+              "title": "NMBA Decision-making framework for nursing and midwifery",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:49.587661+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-48-24_Nursing-and-Midwifery-Board---Nurse-practitioner-standards-for-practice---effective-1-January-2014.PDF?alt=media&token=95fbef65-cca6-4511-859d-38317612da4d",
+              "title": "NMBA Decision-making framework for nursing and midwifery",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:47.838846+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Diabetes Management 2026": {
+          "doc_id": "daa58904b0",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/7c05e922-ab1f-4301-aab7-f4f9b638cb66/Management-of-type-2-diabetes-A-handbook-for-general-practice.aspx",
+              "title": "RACGP Diabetes Management 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:18:37.040380+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://www.racgp.org.au/getattachment/7c05e922-ab1f-4301-aab7-f4f9b638cb66/Management-of-type-2-diabetes-A-handbook-for-general-practice.aspx",
+              "title": "RACGP Diabetes Management 2026",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:29:24.110070+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Guideline on Pathology Testing in the Emergency Department": {
+          "doc_id": "b0ab47d05a",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-04-12_Pathology-Testing-in-the-Emergency-Department.pdf?alt=media&token=022811b1-a76e-44db-959d-7f0f379599d4",
+              "title": "Guideline on Pathology Testing in the Emergency Department",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:38:39.511511+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_12-04-12_Pathology-Testing-in-the-Emergency-Department.pdf?alt=media&token=022811b1-a76e-44db-959d-7f0f379599d4",
+              "title": "Guideline on Pathology Testing in the Emergency Department",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:13.170156+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "NSW Application for Approval to Prescribe or Supply a Schedule 8 Cannabis Medicine": {
+          "doc_id": "e21e505f42",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-45-51_cannabis-application.pdf?alt=media&token=003c4677-390b-4ee2-a665-37e5274c9bf8",
+              "title": "NSW Application for Approval to Prescribe or Supply a Schedule 8 Cannabis Medicine",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:44.825031+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-45-51_cannabis-application.pdf?alt=media&token=003c4677-390b-4ee2-a665-37e5274c9bf8",
+              "title": "NSW Application for Approval to Prescribe or Supply a Schedule 8 Cannabis Medicine",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:43.849030+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RANZCOG Substance use in pregnancy": {
+          "doc_id": "2f05865125",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://ranzcog.edu.au/wp-content/uploads/Substance-Use-Pregnancy.pdf",
+              "title": "RANZCOG Substance use in pregnancy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T04:25:40.330906+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": false
+            },
+            {
+              "source_url": "https://ranzcog.edu.au/wp-content/uploads/Substance-Use-Pregnancy.pdf",
+              "title": "RANZCOG Substance use in pregnancy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:36:00.626422+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "National Alcohol Strategy 2019-2028": {
+          "doc_id": "d9e230ab15",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-45-00_national-alcohol-strategy-2019-2028.pdf?alt=media&token=ba81b283-3aae-4e0b-9fac-06890858e87d",
+              "title": "National Alcohol Strategy 2019-2028",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:47:38.146821+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-45-00_national-alcohol-strategy-2019-2028.pdf?alt=media&token=ba81b283-3aae-4e0b-9fac-06890858e87d",
+              "title": "National Alcohol Strategy 2019-2028",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:59:59.493968+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Implementing the Australian Open Disclosure Framework in small practices": {
+          "doc_id": "841c4abdc4",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-09-49_Implementing-the-Australian-Open-Disclosure-Framework-in-small-practices.pdf?alt=media&token=74b7e6ad-3be0-40df-a53d-a7f432af85e0",
+              "title": "Implementing the Australian Open Disclosure Framework in small practices",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:59.755646+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-09-49_Implementing-the-Australian-Open-Disclosure-Framework-in-small-practices.pdf?alt=media&token=74b7e6ad-3be0-40df-a53d-a7f432af85e0",
+              "title": "Implementing the Australian Open Disclosure Framework in small practices",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:59:31.399244+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Men's Health Strategy 2020-2030": {
+          "doc_id": "db8ca99dcd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-02-46_national-men-s-health-strategy-2020-2030_0.pdf?alt=media&token=680e03fb-7581-4766-b7af-13538ef16eb6",
+              "title": "National Men's Health Strategy 2020-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:22:05.074059+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-02_08-02-46_national-men-s-health-strategy-2020-2030_0.pdf?alt=media&token=680e03fb-7581-4766-b7af-13538ef16eb6",
+              "title": "National Men's Health Strategy 2020-2030",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:19.641579+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Managing otitis media an evidence based approach": {
+          "doc_id": "06f890295e",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/3a3822f4f4396db4-5f000a268e4d-b8e971c3e1a8d4860e5a3a53e2b1e02682c9f4573d340d41288d74ab6138.pdf",
+              "title": "Managing otitis media an evidence based approach",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:43:21.116841+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://australianprescriber.tg.org.au/assets/3a3822f4f4396db4-5f000a268e4d-b8e971c3e1a8d4860e5a3a53e2b1e02682c9f4573d340d41288d74ab6138.pdf",
+              "title": "Managing otitis media an evidence based approach",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:56:16.570279+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Changes to vaping in Australia from 1 October 2024 - fact sheet for prescribers": {
+          "doc_id": "e0ab14d414",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-45-05_changes-to-vaping-in-australia-from-1-october-2024-fact-sheet-for-prescribers.pdf?alt=media&token=3c63bf49-5d6d-4f85-a627-4a80fe673c9a",
+              "title": "Changes to vaping in Australia from 1 October 2024 - fact sheet for prescribers",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:25:36.533446+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-08_15-45-05_changes-to-vaping-in-australia-from-1-october-2024-fact-sheet-for-prescribers.pdf?alt=media&token=3c63bf49-5d6d-4f85-a627-4a80fe673c9a",
+              "title": "Changes to vaping in Australia from 1 October 2024 - fact sheet for prescribers",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:40:27.864422+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "RACGP Prescribing drugs of dependence Part C1: Opioids": {
+          "doc_id": "3af804c150",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-59-44_Opioid-Guide-Summary.pdf?alt=media&token=f0fa7c6c-f41c-4650-a970-410441352f3e",
+              "title": "RACGP Prescribing drugs of dependence Part C1: Opioids",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:41:36.698765+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-27_11-59-44_Opioid-Guide-Summary.pdf?alt=media&token=f0fa7c6c-f41c-4650-a970-410441352f3e",
+              "title": "RACGP Prescribing drugs of dependence Part C1: Opioids",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:55:53.201014+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Praveen Test": {
+          "doc_id": "05d4dd5a88",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_09-25-21_Lifecycle-chart-suitable-for-red-green-colourblindness.pdf?alt=media&token=e51e8eff-ed72-43b9-886a-7ce06906b967",
+              "title": "Praveen Test",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:39:14.521267+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "Healthy Mouths, Healthy Lives: Australia's National Oral Health Plan 2015-2024": {
+          "doc_id": "ded458334c",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-06-01_healthy-mouths-healthy-lives-australia-s-national-oral-health-plan-2015-2024.pdf?alt=media&token=a177ff96-9ecb-4a91-b222-b8ee4bbf2a70",
+              "title": "Healthy Mouths, Healthy Lives: Australia's National Oral Health Plan 2015-2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:21:20.314498+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-06-01_healthy-mouths-healthy-lives-australia-s-national-oral-health-plan-2015-2024.pdf?alt=media&token=a177ff96-9ecb-4a91-b222-b8ee4bbf2a70",
+              "title": "Healthy Mouths, Healthy Lives: Australia's National Oral Health Plan 2015-2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:37:03.237750+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical Guidelines for Stroke Management - Nursing Summary": {
+          "doc_id": "afe26d48a8",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-58-56_nursing-clinical-guidelines-summary_jun25.pdf?alt=media&token=11692628-1d95-455b-8b17-08699593fc6e",
+              "title": "Clinical Guidelines for Stroke Management - Nursing Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:38:26.753085+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_14-58-56_nursing-clinical-guidelines-summary_jun25.pdf?alt=media&token=11692628-1d95-455b-8b17-08699593fc6e",
+              "title": "Clinical Guidelines for Stroke Management - Nursing Summary",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:52:04.812737+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Aboriginal health workforce framework": {
+          "doc_id": "743c8dd2f1",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-01-33_national-aboriginal-and-torres-strait-islander-health-workforce-strategic-framework-and-implementation-plan-2021-2031.docx?alt=media&token=c54fe5db-5716-4cbd-93aa-01ab5059f0e2",
+              "title": "National Aboriginal health workforce framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:30:03.354293+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-01-33_national-aboriginal-and-torres-strait-islander-health-workforce-strategic-framework-and-implementation-plan-2021-2031.docx?alt=media&token=c54fe5db-5716-4cbd-93aa-01ab5059f0e2",
+              "title": "National Aboriginal health workforce framework",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:44:25.571746+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Cost barriers to medication access in Australia": {
+          "doc_id": "e72a7bf704",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_08/mja252427.pdf",
+              "title": "Cost barriers to medication access in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:06.949342+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.mja.com.au/system/files/issues/221_08/mja252427.pdf",
+              "title": "Cost barriers to medication access in Australia",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:35.758085+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National climate and health strategy": {
+          "doc_id": "7cac8c57ef",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-56-19_national-strategic-framework-for-chronic-conditions_0.pdf?alt=media&token=a085ce0a-2198-4f11-8d1e-6defcf4870b5",
+              "title": "National climate and health strategy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:33:23.564681+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_16-56-19_national-strategic-framework-for-chronic-conditions_0.pdf?alt=media&token=a085ce0a-2198-4f11-8d1e-6defcf4870b5",
+              "title": "National climate and health strategy",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:48:05.317723+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Antimicrobial use in the community: 2024": {
+          "doc_id": "ef07274bc0",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-01-24_Antimicrobial-use-in-the-community-2024.pdf?alt=media&token=1cad0834-d949-4552-b8f8-878c30230e01",
+              "title": "Antimicrobial use in the community: 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:47:47.495012+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-01-24_Antimicrobial-use-in-the-community-2024.pdf?alt=media&token=1cad0834-d949-4552-b8f8-878c30230e01",
+              "title": "Antimicrobial use in the community: 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:59:50.439807+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "ACEM Quality Standards for Emergency Departments and Hospital-Based Emergency Care Services": {
+          "doc_id": "a681a95eae",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://acem.org.au/getmedia/f4832c56-2b59-4654-815b-cdd1a66b27a8/ACEM_QualityStandardsEDs_Report",
+              "title": "ACEM Quality Standards for Emergency Departments and Hospital-Based Emergency Care Services",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:46:16.744004+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://acem.org.au/getmedia/f4832c56-2b59-4654-815b-cdd1a66b27a8/ACEM_QualityStandardsEDs_Report",
+              "title": "ACEM Quality Standards for Emergency Departments and Hospital-Based Emergency Care Services",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:58:32.682433+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "Clinical Guidance: Substance Use During Pregnancy and Parenting": {
+          "doc_id": "4d2cd1d3fb",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/resources/Publications/substance-use-pregnant-parenting.pdf",
+              "title": "Clinical Guidance: Substance Use During Pregnancy and Parenting",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:24:44.544608+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://www.health.nsw.gov.au/aod/resources/Publications/substance-use-pregnant-parenting.pdf",
+              "title": "Clinical Guidance: Substance Use During Pregnancy and Parenting",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:39:25.992484+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        },
+        "National Bowel Cancer Screening Program monitoring report 2024": {
+          "doc_id": "ca5d49bddf",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_20-53-39_aihw-can-160.pdf?alt=media&token=d0f6d1d0-11ee-403f-a925-f704d11fb5e8",
+              "title": "National Bowel Cancer Screening Program monitoring report 2024",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:40:48.140003+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "National Aboriginal and Torres Strait Islander Health Plan 2021-2031": {
+          "doc_id": "62dce8fb6f",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-00-01_national-aboriginal-and-torres-strait-islander-health-plan-2021-2031-(1).docx?alt=media&token=ef4f363b-3d4f-49ed-9e1e-3724e2056948",
+              "title": "National Aboriginal and Torres Strait Islander Health Plan 2021-2031",
+              "country": "Australia",
+              "updated_at": "2026-08-27T14:20:24.500295+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            },
+            {
+              "source_url": "https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Aug-19_17-00-01_national-aboriginal-and-torres-strait-islander-health-plan-2021-2031-(1).docx?alt=media&token=ef4f363b-3d4f-49ed-9e1e-3724e2056948",
+              "title": "National Aboriginal and Torres Strait Islander Health Plan 2021-2031",
+              "country": "Australia",
+              "updated_at": "2026-08-27T13:35:38.764595+00:00",
+              "version": "2",
+              "available": true,
+              "is_latest": false
+            }
+          ]
+        }
+      },
+      "global": {
+        "CDC U.S. Medical Eligibility Criteria for Contraceptive Use 2024": {
+          "doc_id": "735946c2fd",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://www.cdc.gov/mmwr/volumes/73/rr/pdfs/rr7304a1-H.pdf",
+              "title": "CDC U.S. Medical Eligibility Criteria for Contraceptive Use 2024",
+              "country": "United States",
+              "updated_at": "2026-09-10T14:19:45.088613+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        },
+        "International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome 2023": {
+          "doc_id": "e2040ea880",
+          "available": true,
+          "versions": [
+            {
+              "source_url": "https://ndownloader.figshare.com/files/42290343",
+              "title": "International Evidence-based Guideline for the Assessment and Management of Polycystic Ovary Syndrome 2023",
+              "country": "Australia",
+              "updated_at": "2026-09-10T17:01:21.984072+00:00",
+              "version": "1",
+              "available": true,
+              "is_latest": true
+            }
+          ]
+        }
+      }
+    },
+    "documents": []
+  }
+}

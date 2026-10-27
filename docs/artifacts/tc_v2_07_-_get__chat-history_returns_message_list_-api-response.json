@@ -1,0 +1,155 @@
+{
+  "endpoint": "/chat-history?user_id=714823&session_id=6adb50e45724764f6fbb1005",
+  "method": "GET",
+  "status": 200,
+  "timestamp": "2026-10-27T09:21:04.344Z",
+  "url": "https://asksam.uwc.world/chat-history?user_id=714823&session_id=6adb50e45724764f6fbb1005",
+  "body": {
+    "user_id": "714823",
+    "session_id": "6adb50e45724764f6fbb1005",
+    "messages": [
+      {
+        "role": "human",
+        "content": "can you genrate the seeson note",
+        "timestamp": "2026-10-24T04:14:31.728000"
+      },
+      {
+        "role": "ai",
+        "content": "asksam searched this patient's record and found nothing it could cite in answer to this. What it could not find: confirmation that every identifier belongs to this patient. That is a statement about what was retrieved, not a clinical judgement, and it does not establish that the material is absent from the sources.\n\nWhat would answer it: a note, result or letter in this patient's record that states it. The same question asked without this patient is answered from the guidelines.\n\n(No sourced answer available. Searched: the patient's documents, the patient's problems, by ICD-11 family, the patient's structured record, the patient's session notes.)",
+        "timestamp": "2026-10-24T04:14:31.728000"
+      },
+      {
+        "role": "human",
+        "content": "session summary",
+        "timestamp": "2026-10-24T04:17:15.062000"
+      },
+      {
+        "role": "ai",
+        "content": "- The patient presented for an encounter with Dr Connie Harris reporting a severe headache [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The encounter was conducted with a standardized patient who subsequently provided communication feedback on the interview structure, introduction, agenda setting, and history taking [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The agreed plan for the visit involved taking a history, performing a physical examination, completing diagnostic testing, and having the office secretary verify the patient's insurance policy [[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient stated they have a terrible headache, that it looks really bad, and that they have never experienced this kind of pain before [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient expressed concern about whether the visit would be covered because they had recently changed insurance companies [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient shared a concern and fear that their symptoms might be due to a brain tumor [[6]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient reported smoking half a pack of cigarettes [[7]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The clinician planned to complete a physical examination and diagnostic testing to investigate the cause of the headache [[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[8]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- The clinician arranged for the office secretary to review the patient's insurance policy to verify coverage [[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).",
+        "timestamp": "2026-10-24T04:17:15.062000",
+        "citations": [
+          {
+            "chunk": "Come in. Miss Bellamy? Yes. Hi, my name is Connie Harris. I'll be your doctor today. Let me just wash my hands really quick. Would you prefer Miss Bellamy or would you... Can I call you Pat? Pat's fine. Great, well it's nice to meet you. Nice to meet you. Can you tell me why you're here today? I have a terrible headache. It looks really bad. Yeah, yes. Is there anything else besides your headache that you want to address here today at the clinical program? No, just that, except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet. All right. Was there anything... Because what we can do is while we're talking and I'm doing your",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "But before I do, how did you feel it went? Pretty good. I was nervous at first, I think, and just trying to make sure that I was getting all your patient information so we could make sure we got the correct tests. Yeah, yeah, yeah. How did you feel when you walked in? Did you feel pretty comfortable? I think I got more comfortable as we sat down and got to talking. Yeah, I could see that. Yeah, good. Okay. Well, I thought you did a nice job. You had an appropriate introduction, introduced yourself, gave some last names, shook hands. I think you have a very warm demeanor and you're comfortable, which makes me as a patient comfortable.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "You did elicit my chief complaint and asked about any other concerns. And that's when I told you I was also concerned about my insurance. So that was another thing on the agenda. So you did set a mutual agenda, asked me if I agreed. And so we had a clear roadmap going forward. So you hit all those real well. Your first question, tell me about this pain, that was a nice open-ended question. So it allowed me to then tell my story, followed up with some more pointed questions just for clarification. And you're an active listener, had good eye contact, and could do a little bit more reflective listening. Just little points where you could verify, check for accuracy, maybe",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "I've just never had this kind of pain before. Yeah, and I can understand that. So what I would like to do is, we've pretty much gone over the history. What I'd like to do is complete a physical exam, do some testing. All right. And I want to ask, too, if there's any other concerns I need to address before we get to that final exam. Okay. That sounds good. Okay, sounds great. Okay. All right. Hi, I'm Deb. I'm your standardized patient. Nice job. I'm going to give you some feedback on your communication skills in this encounter.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "history and physical, I will have my office secretary look into the insurance plan that you have. Okay, all right. So you don't have to worry about that. Yeah, that sounds good. Okay, sounds great. Is there anything else? No, I've just... This is just really bad. Okay. So what I'd like to do today is let's take a look at what's causing your headache. All right. I will go over history, physical, and then we'll do, again, a physical exam. And then we will look into your insurance policy and make sure that's all taken care of. Does that sound like a good plan for you? Yeah, that's good. Perfect. So tell me a little bit more about this, the head pain that you're having.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "paraphrase as I'm going through. You did a nice summary in the middle. That's good. But just a little bit more reflection to let me know as a patient that you're hearing me. You asked my perspective of what I thought was going on, and then you got the story of my fear that I've got a brain tumor. Oh, no. Yeah. So I thought you had a nice flow, logical sequence of questioning. A little bit of signposting. We just covered this, and now we're going to do that. I heard that once. And as these interviews get longer, you're going to want to signpost between each section. I've taken your history. Now I'd like to go into a physical exam. Did a nice summary in the middle. You moved through",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "Nonjudgmental, didn't bat an eye when I said I smoke half a pack. You have nice vocal range, eye contact, comfortable demeanor, so that felt real good. And then you did a summary at the end and did you ask anything else? Anything else before we do a",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          },
+          {
+            "chunk": "Why? Um, was anything Um, because what we can do is while we're talking and I'm doing your history and physical, um, I'll have my office secretary look into the insurance plan that you have. So you don't have to worry about that. Yeah, that sounds good. Okay, sounds great. Um, is there anything else? No, I just this is just really bad. So, what I'd like to do today and um, is let's let's take a look at what's causing your headache. Um, I will go over history and physical and then um, we'll do a physical exam and then we will look at your insurance policy and make sure that's all taken care of. Does that sound good? Yeah, that sounds good. Perfect.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe",
+            "title": "This patient's record",
+            "source_type": "patient_document"
+          }
+        ]
+      },
+      {
+        "role": "human",
+        "content": "session summary note",
+        "timestamp": "2026-10-24T04:17:40.136000"
+      },
+      {
+        "role": "ai",
+        "content": "- The patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing following recent psychological trauma and a preexisting mood disorder, prompting evaluation for systemic and neurological contributions [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- Diagnoses identified mild anemia, elevated inflammatory markers, and a CT scan of the brain showing mild cortical atrophy in frontal and temporal lobes, with no acute hemorrhage, infarct, or mass lesion [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- Pathology and imaging results completed on 27/06/2025 showed hemoglobin 11.2 g/dL (mildly low), hematocrit 34% (low), WBC count 9.6 x10^3/uL (normal), CRP (hs) 4.8 mg/L (elevated), and ferritin 25 ng/mL (borderline low) [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- The patient was continued on an inhaled vaporised THC flower (25%THC, <1%CBD) for ongoing pain, insomnia, and anxiety management [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient was continued on a CBD 100mg/ml oil Cat1 for ongoing pain, insomnia, and anxiety management [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The pre-operative diagnosis was to rule out systemic inflammation, anemia, and neurological abnormalities related to depressive symptoms [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- The mild cortical atrophy observed on the CT scan is considered possibly stress-induced or representing early neurodegenerative changes [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- On last review, the patient was receiving good therapeutic benefit from medicinal cannabis with minimal side effects or adverse reactions, which has reduced her need for further medications [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Consent limitations and risks associated with medicinal cannabis use were discussed, and the patient is aware not to drive at any time when using any product containing THC [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Dietary and lifestyle adjustments were recommended to address anemia [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- Psychiatric evaluation was recommended for cognitive decline [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- Neurology referral was recommended for follow-up imaging and cognitive testing in 6 months [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).\n- Antidepressant and anti-inflammatory intervention was suggested for consideration based on full clinical correlation [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe).",
+        "timestamp": "2026-10-24T04:17:40.136000",
+        "citations": [
+          {
+            "chunk": "PATIENT HISTORY: Patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing. Recent psychological trauma and preexisting mood disorder prompted evaluation for systemic and neurological contributions to clinical presentation.\n\nPRE-OPERATIVE DIAGNOSIS: Rule out systemic inflammation, anemia, and neurological abnormalities related to depressive symptoms.\n\nDIAGNOSIS: Mild anemia and elevated inflammatory markers identified. CT scan of the brain reveals mild cortical atrophy, possibly stress-induced or early neurodegenerative changes. No acute hemorrhage or mass lesion observed.\n\nNOTE: Recommend dietary and lifestyle adjustments to address anemia. Psychiatric evaluation for cognitive decline. Neurology referral for follow-up imaging and cognitive testing in 6 months. Consider antidepressant and anti-inflammatory intervention based on full clinical correlation.\n\nSPECIAL TEST RESULTS:\n- Hemoglobin: 11.2 g/dL (Normal: 13.8-17.2 g/dL) - Mildly Low\n- Hematocrit: 34% (Normal: 41-50%) - Low\n- WBC Count: 9.6 x10^3/uL (Normal: 4.5-11 x10^3/uL) - Normal\n- CRP (hs): 4.8 mg/L (Normal: <3 mg/L) - Elevated\n- Ferritin: 25 ng/mL (Normal: 30-400 ng/mL) - Borderline Low\n- CT Brain: Mild cortical atrophy in frontal and temporal lobes; no evidence of hemorrhage, infarct, or mass lesion",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "NOTE: Recommend dietary and lifestyle adjustments to address anemia. Psychiatric evaluation for cognitive decline. Neurology referral for follow-up imaging and cognitive testing in 6 months. Consider antidepressant and anti-inflammatory intervention based on full clinical correlation.\n\nSPECIAL TEST RESULTS:\n- Hemoglobin: 11.2 g/dL (Normal: 13.8-17.2 g/dL) - Mildly Low\n- Hematocrit: 34% (Normal: 41-50%) - Low\n- WBC Count: 9.6 x10^3/uL (Normal: 4.5-11 x10^3/uL) - Normal\n- CRP (hs): 4.8 mg/L (Normal: <3 mg/L) - Elevated\n- Ferritin: 25 ng/mL (Normal: 30-400 ng/mL) - Borderline Low\n- CT Brain: Mild cortical atrophy in frontal and temporal lobes; no evidence of hemorrhage, infarct, or mass lesion\n\nGROSS DESCRIPTION: Blood samples obtained via venipuncture, labeled and processed per standard protocols. CT scan performed using non-contrast axial imaging. Image quality satisfactory. No acute findings. Mild cortical atrophy noted.\n\nNAME OR SIGNATURE OF PATHOLOGIST: Dr. Lisa Raymond, MD - General and Neurodiagnostic Pathology\nDate and Time Pathology Report Completed: 27/06/2025 16:15h",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb26f25724764f6fbb0ffe",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "She was continued on an inhaled vaporised THC flower (25%THC, <1%CBD) and a CBD 100mg/ml oil Cat1 for ongoing pain, insomnia, and anxiety management.\n\nWe discussed the consent form and she understood the limitations and risks associated with medicinal cannabis use. She is aware not to drive at any time when using any product that contains THC.\n\nOn last review, Miss Yamini was receiving good therapeutic benefit from these medications with minimal side effects or adverse reactions and reduces has reduced her need for further medications.\n\nShould you need any further information or clarification, please feel free to contact\n\n**Page 5:**\nme.\nKind\nregards,\nDr\nAmelia\nXXXXX\n987654",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          }
+        ]
+      },
+      {
+        "role": "human",
+        "content": "generating notes",
+        "timestamp": "2026-10-24T04:18:07.884000"
+      },
+      {
+        "role": "ai",
+        "content": "**Discussion**\n- The consultation was conducted via telehealth to assess suitability for continued use of medicinal cannabis for chronic back pain, ankle pain, anxiety, and insomnia symptoms [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient sustained chronic back pain following multiple epidural procedures and gastrocnemius tendon pain from an injury that required surgical management [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient previously trialled various analgesics and anti-inflammatory medications that produced either suboptimal therapeutic effect or intolerable side effects [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Prior to the consult, the patient was prescribed a combination of oral slow- and fast-release CBD and THC products with good therapeutic benefit [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient denied illicit cannabis use, reported no side effects or adverse events from prescribed phytocannabinoids or THC, and had no alerts on SafeScript or evidence of drug-seeking behaviour [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient denied current unstable cardiovascular disease, arrhythmia, personal history of psychotic disorder or acute psychosis, other unstable psychiatric conditions, or anticoagulant use [[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient was not managed by a psychiatrist or specialist at the time of review, and denied pregnancy, breastfeeding, or plans to conceive [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The patient has no known allergies [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n\n**Findings**\n- On examination, the patient was pleasant, polite, and cooperative [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- No primary contraindications or precautions to continuing inhaled or oral slow-release cannabinoids were identified [[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- The record does not contain vital signs or physical examination findings.\n\n**Assessment**\n- Refractory chronic pain secondary to prior injury and epidural procedures, associated with ongoing anxiety and sleep disturbances, with sustained benefit from cannabinoid therapy [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n\n**Plan**\n- Continued on inhaled vaporised THC flower (25% THC, <1% CBD) for pain, insomnia, and anxiety management [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Continued on CBD 100 mg/mL oil Cat1 for pain, insomnia, and anxiety management [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Limitations and risks of medicinal cannabis discussed, and the patient was advised not to drive at any time when using THC-containing products [[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\n- Patient agreed to consult with her regular GP to monitor for any necessary medication adjustments [[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).",
+        "timestamp": "2026-10-24T04:18:07.884000",
+        "citations": [
+          {
+            "chunk": "I reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled\n\n**Page 2:**\non various treatments and medications with either sub optimal therapeutic effect or intolerable side effects, including various strength analgesia and anti inflammatory medications. She was seeking continued use of phyto cannabinoids to assist in the management of her refractory symptoms. Miss Yamini had been prescribed a combination of oral slow and fast release CBD and THC products previously with good therapeutic benefit. However, given the chronic nature of her symptoms and refractory nature of her breakthrough symptoms, it was considered reasonably necessary to continue on cannabinoid products for optimal symptom management. She denied any side effects or adverse events related to her prescribed use of the phytocannabinoids or THC.\n\nAllergies: NKA",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "**Page 1:**\n12.2.24\nDear\ncolleague\nRegarding\npatient: Miss\nYamini\nSingh\nDOB:\n14.01.1995\n\nI reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled\n\n**Page 2:**\non various treatments and medications with either sub optimal therapeutic effect or intolerable side effects, including various strength analgesia and anti inflammatory medications. She was seeking continued use of phyto cannabinoids to assist in the management of her refractory symptoms. Miss Yamini had been prescribed a combination of oral slow and fast release CBD and THC products previously with good therapeutic benefit. However, given the chronic nature of her symptoms and refractory nature of her breakthrough symptoms, it was considered reasonably necessary to continue on cannabinoid products for optimal symptom management. She denied any side effects or adverse events related to her prescribed use of the phytocannabinoids or THC.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "Eduarda denied any possibilities of pregnancy or breast feeding or plans to fall pregnant in the near future.\n\nImpression: Miss Yamini presented pleasant, polite and cooperative in review. She continued to suffer with ongoing pain associated with her previous injury, in addition to anxiety and sleep disturbances. She has been trialled on\n\n**Page 4:**\nvarious other medications with suboptimal therapeutic effect and intolerable side effects. She continues to gain relief with the oral and inhaled medicinal cannabis, and finds the combination helpful for symptom control.\n\nShe was continued on an inhaled vaporised THC flower (25%THC, <1%CBD) and a CBD 100mg/ml oil Cat1 for ongoing pain, insomnia, and anxiety management.\n\nWe discussed the consent form and she understood the limitations and risks associated with medicinal cannabis use. She is aware not to drive at any time when using any product that contains THC.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "She denied any side effects or adverse events related to her prescribed use of the phytocannabinoids or THC.\n\nAllergies: NKA\n\nNil alerts on safe script or drug seeking behaviour identified.\nShe had no primary contraindications or precautions on review to continue the use\n\n**Page 3:**\nof inhaled or oral slow release cannabinoids for symptom control. She agreed to consult with her regular GP to monitor for any medication adjustments that may be needed.\n\nShe denied any current unstable cardiovascular disease or arrhythmia, personal history of psychotic disorder, acute psychosis or other unstable psychiatric condition, or family history of schizophrenia. She denied any current use of anticoagulants.\nShe denied any current management by a psychiatrist or specialist at the time of review.",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          },
+          {
+            "chunk": "**Page 3:**\nof inhaled or oral slow release cannabinoids for symptom control. She agreed to consult with her regular GP to monitor for any medication adjustments that may be needed.\n\nShe denied any current unstable cardiovascular disease or arrhythmia, personal history of psychotic disorder, acute psychosis or other unstable psychiatric condition, or family history of schizophrenia. She denied any current use of anticoagulants.\nShe denied any current management by a psychiatrist or specialist at the time of review.\n\nEduarda denied any possibilities of pregnancy or breast feeding or plans to fall pregnant in the near future.\n\nImpression: Miss Yamini presented pleasant, polite and cooperative in review. She continued to suffer with ongoing pain associated with her previous injury, in addition to anxiety and sleep disturbances. She has been trialled on",
+            "source_url": "https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005",
+            "title": "Original consultation transcript",
+            "source_type": "session-transcript"
+          }
+        ]
+      }
+    ]
+  }
+}

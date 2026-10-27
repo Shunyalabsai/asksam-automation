@@ -1,44 +1,20 @@
 {
-  "id": "8d804c77-b92e-45b5-9e06-c3b32fa30772",
-  "startedAt": "2026-10-26T22:30:04.002Z",
-  "durationMs": 22446.073,
+  "id": "1690e148-448c-4c56-a2b3-b755bb3d314e",
+  "startedAt": "2026-10-27T09:21:00.633Z",
+  "durationMs": 7885.3730000000005,
   "summary": {
-    "total": 12,
-    "passed": 12,
+    "total": 10,
+    "passed": 10,
     "failed": 0,
     "skipped": 0,
     "timedOut": 0
   },
   "passRate": 100,
   "modules": {
-    "rag-api-smoke": {
-      "label": "RAG API — Smoke Tests",
-      "total": 4,
-      "passed": 4,
-      "failed": 0,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "clinical-notes-api-smoke": {
-      "label": "Clinical Notes API — Smoke Tests",
-      "total": 3,
-      "passed": 3,
-      "failed": 0,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "assistant-api-smoke": {
-      "label": "Stella Assistant Panel API — Smoke Tests",
-      "total": 4,
-      "passed": 4,
-      "failed": 0,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "asr-api-smoke": {
-      "label": "ASR API — Smoke Tests",
-      "total": 1,
-      "passed": 1,
+    "asksam-v2-api-smoke": {
+      "label": "asksam-v2-api-smoke",
+      "total": 10,
+      "passed": 10,
       "failed": 0,
       "skipped": 0,
       "timedOut": 0
@@ -46,219 +22,183 @@
   },
   "tests": [
     {
-      "title": "TC_API_01 - GET /health returns application healthy",
+      "title": "TC_V2_01 - GET /health returns Ok",
       "status": "passed",
-      "durationMs": 225,
-      "file": "rag-api-smoke.spec.ts",
-      "module": "rag-api-smoke",
-      "moduleLabel": "RAG API — Smoke Tests",
+      "durationMs": 1028,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_api_01_-_get__health_returns_application_health-api-response.json"
+          "webPath": "./artifacts/tc_v2_01_-_get__health_returns_ok-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:04.710Z\",\n  \"url\": \"https://rag.uwc.world/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:01.892Z\",\n  \"url\": \"https://asksam.uwc.world/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
       "error": ""
     },
     {
-      "title": "TC_API_02 - GET /redis/health returns Redis healthy",
+      "title": "TC_V2_02 - GET /redis/health returns Redis healthy",
       "status": "passed",
-      "durationMs": 44,
-      "file": "rag-api-smoke.spec.ts",
-      "module": "rag-api-smoke",
-      "moduleLabel": "RAG API — Smoke Tests",
+      "durationMs": 285,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_api_02_-_get__redis_health_returns_redis_health-api-response.json"
+          "webPath": "./artifacts/tc_v2_02_-_get__redis_health_returns_redis_healthy-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/redis/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:04.776Z\",\n  \"url\": \"https://rag.uwc.world/redis/health\",\n  \"body\": {\n    \"status\": \"healthy\",\n    \"detail\": \"Redis is running\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/redis/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:02.193Z\",\n  \"url\": \"https://asksam.uwc.world/redis/health\",\n  \"body\": {\n    \"status\": \"healthy\",\n    \"detail\": \"Redis is running\"\n  }\n}",
       "error": ""
     },
     {
-      "title": "TC_API_03 - GET /vectorstore/health returns vector store healthy",
+      "title": "TC_V2_03 - GET /vectorstore/health returns Ok",
       "status": "passed",
-      "durationMs": 43,
-      "file": "rag-api-smoke.spec.ts",
-      "module": "rag-api-smoke",
-      "moduleLabel": "RAG API — Smoke Tests",
+      "durationMs": 254,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_api_03_-_get__vectorstore_health_returns_vector-api-response.json"
+          "webPath": "./artifacts/tc_v2_03_-_get__vectorstore_health_returns_ok-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/vectorstore/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:04.836Z\",\n  \"url\": \"https://rag.uwc.world/vectorstore/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
+      "apiProof": "{\n  \"endpoint\": \"/vectorstore/health\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:02.460Z\",\n  \"url\": \"https://asksam.uwc.world/vectorstore/health\",\n  \"body\": {\n    \"Health\": \"Ok\"\n  }\n}",
       "error": ""
     },
     {
-      "title": "TC_API_04 - POST /gen-chat returns LLM response",
+      "title": "TC_V2_04 - GET /health/stores returns neo4j mongo redis ok",
       "status": "passed",
-      "durationMs": 808,
-      "file": "rag-api-smoke.spec.ts",
-      "module": "rag-api-smoke",
-      "moduleLabel": "RAG API — Smoke Tests",
+      "durationMs": 262,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_api_04_-_post__gen-chat_returns_llm_response-api-response.json"
+          "webPath": "./artifacts/tc_v2_04_-_get__health_stores_returns_neo4j_mongo_-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"/gen-chat\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:05.649Z\",\n  \"url\": \"https://rag.uwc.world/gen-chat\",\n  \"user_id\": \"automation-smoke\",\n  \"response_id\": \"automation-smoke_smoke-session\",\n  \"llm_response\": \"Hello! How can I help you today? 😊\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/health/stores\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:02.727Z\",\n  \"url\": \"https://asksam.uwc.world/health/stores\",\n  \"body\": {\n    \"neo4j\": {\n      \"ok\": true,\n      \"nodes\": 42730\n    },\n    \"mongo\": {\n      \"ok\": true,\n      \"collections\": [\n        \"asksam_raw_session_history\",\n        \"chat_messages\",\n        \"clinical_notes\",\n        \"disease_nutrient_details__live\",\n        \"drug_graph__live\",\n        \"expert_dashboard__archived_clinical_notes\",\n        \"expert_dashboard__clinical_notes\",\n        \"expert_dashboard__drugs_and_brands\",\n        \"expert_dashboard__lab_test\",\n        \"expert_dashboard__raw_session_data\",\n        \"expert_dashboard__user_clinical_data\",\n        \"expert_dashboard__user_prescriptions\",\n        \"extract_cache\",\n        \"gene_details__live\",\n        \"illness_graph__live\",\n        \"illness_graph_f_series__live\",\n        \"illness_symptom__live\",\n        \"lab_graph__live\",\n        \"medirecords__appointments\",\n        \"medirecords__consult_history\",\n        \"medirecords__consult_notes\",\n        \"medirecords__correspondence_v2\",\n        \"medirecords__patients\",\n        \"medirecords__practice_providers\",\n        \"nutrient_details__live\",\n        \"patient_records\",\n        \"res_users__users\",\n        \"stella_user_details__users\",\n        \"sync_state\",\n        \"user_graph_details__chat_messages\",\n        \"user_graph_details__graph_visualised\",\n        \"user_graph_details__sorted_year\"\n      ]\n    },\n    \"redis\": {\n      \"ok\": true,\n      \"keys\": 13229\n    }\n  }\n}",
       "error": ""
     },
     {
-      "title": "TC_CN_01 - POST append-to-context-v4",
+      "title": "TC_V2_05 - GET /note-fields/manifest has 53 fields and 4 sections",
       "status": "passed",
-      "durationMs": 501,
-      "file": "clinical-notes-api-smoke.spec.ts",
-      "module": "clinical-notes-api-smoke",
-      "moduleLabel": "Clinical Notes API — Smoke Tests",
+      "durationMs": 280,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_cn_01_-_post_append-to-context-v4-api-response.json"
+          "webPath": "./artifacts/tc_v2_05_-_get__note-fields_manifest_has_53_fields-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:06.662Z\",\n  \"url\": \"https://on-append.uwc.world/append-to-context-v4\",\n  \"body\": {\n    \"message\": \"Transcript is processing.\"\n  },\n  \"id\": \"TC_CN_01\",\n  \"name\": \"append-to-context-v4\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/note-fields/manifest\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:03.013Z\",\n  \"url\": \"https://asksam.uwc.world/note-fields/manifest\",\n  \"body\": {\n    \"sections\": {\n      \"progress_note\": [\n        \"chief_complaints\",\n        \"history_of_present_illness_hpi\",\n        \"session_summary\",\n        \"advise\",\n        \"future_treatment_plan\",\n        \"homework_assigned\"\n      ],\n      \"case_history\": [\n        \"history_of_self_harm_aggression\",\n        \"history_of_trauma\",\n        \"history_of_contagious_medical_conditions\",\n        \"medication_history\",\n        \"hospitalization_history\",\n        \"surgical_history_shx\",\n        \"histopathological_pathological_history\",\n        \"allergy_history\",\n        \"nutritional_history\",\n        \"genetics\",\n        \"languages_spoken\",\n        \"lifestyle_history\",\n        \"developmental_history\",\n        \"marital_status\",\n        \"employment_status\",\n        \"marital_functioning\",\n        \"social_functioning\",\n        \"academic_functioning\",\n        \"substance_use_issues\",\n        \"psychosocial_history\",\n        \"family_history_of_mental_illness_or_substance_abuse_issues\",\n        \"medical_history\"\n      ],\n      \"prescription\": [\n        \"vitals\",\n        \"mental_status_exam_results\",\n        \"physical_exam_results\",\n        \"histopathological_pathological_diagnostics\",\n        \"imaging_and_radiological_diagnostics\",\n        \"biochemical_diagnostics\",\n        \"microbiological_diagnostics\",\n        \"cardiological_diagnostics\",\n        \"pulmonary_diagnostics\",\n        \"gastro_intestinal_hepatological_diagnostics\",\n        \"neurological_diagnostics\",\n        \"nephrological_diagnostics\",\n        \"urological_diagnostics\",\n        \"ophthalmological_diagnostics\",\n        \"dermatological_diagnostics\",\n        \"reproductive_diagnostics\",\n        \"ent_diagnostics\",\n        \"endocrinological_diagnostics\",\n        \"orthopedic_diagnostics\",\n        \"pediatric_diagnostics\"\n      ],\n      \"follow_up_summary\": [\n        \"treatment_plan_progress\",\n        \"assessment_summary\",\n        \"worksheet_journal_summary\",\n        \"stella_sos_summary\",\n        \"compliance\"\n      ]\n    },\n    \"options\": {\n      \"homework_assigned\": [\n        \"Yes A record may also LIST THE CONDITIONS IT SCREENED FOR: an eligibility or consent form whose items are the things the patient denies, ingested without the 'the patient denies the following' line that heads them. Such an item names a disease with no test, no measurement and no report behind it, and is not a diagnostic result; leave it out. A stated finding from a real test or report is a result even when it is negative.\",\n        \"No\"\n      ],\n      \"marital_status\": [\n        \"None\",\n        \"Single\",\n        \"Married\",\n        \"Divorced\",\n        \"Separated\",\n        \"Widowed\",\n        \"In a Domestic Partnership\",\n        \"In a Civil Union\",\n        \"Co-habiting\",\n        \"Engaged\",\n        \"Complicated\"\n      ],\n      \"employment_status\": [\n        \"None\",\n ...",
       "error": ""
     },
     {
-      "title": "TC_CN_02 - POST insert-into-context",
+      "title": "TC_V2_06 - GET /clinical-note/{session_id} finds approved test session",
       "status": "passed",
-      "durationMs": 883,
-      "file": "clinical-notes-api-smoke.spec.ts",
-      "module": "clinical-notes-api-smoke",
-      "moduleLabel": "Clinical Notes API — Smoke Tests",
+      "durationMs": 1022,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_cn_02_-_post_insert-into-context-api-response.json"
+          "webPath": "./artifacts/tc_v2_06_-_get__clinical-note__session_id__finds_a-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://rag.uwc.world/insert-into-context\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:07.577Z\",\n  \"url\": \"https://rag.uwc.world/insert-into-context\",\n  \"body\": {\n    \"message\": \"644938 inserted\"\n  },\n  \"id\": \"TC_CN_02\",\n  \"name\": \"insert-into-context\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/clinical-note/6adb50e45724764f6fbb1005\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:04.038Z\",\n  \"url\": \"https://asksam.uwc.world/clinical-note/6adb50e45724764f6fbb1005\",\n  \"body\": {\n    \"session_id\": \"6adb50e45724764f6fbb1005\",\n    \"found\": true,\n    \"filled_fields\": 52,\n    \"submitted\": false,\n    \"sections\": {\n      \"progress_note\": {\n        \"homework_assigned\": {\n          \"accepted\": \"false\",\n          \"dislike\": \"false\",\n          \"regenerate\": \"false\",\n          \"display\": \"true\",\n          \"text\": \"- No information available.\",\n          \"options\": [],\n          \"feedback\": \"\",\n          \"is_edited\": null,\n          \"is_edited_multiple\": null,\n          \"metadata\": {\n            \"temperature\": null,\n            \"temperature_mean\": null,\n            \"temperature_sd\": null,\n            \"model\": \"text-generator\",\n            \"sources\": []\n          },\n          \"timestamp\": \"2026-10-23T00:00:00Z\",\n          \"old_texts\": [],\n          \"completed\": \"true\",\n          \"current\": 1,\n          \"total\": 53\n        },\n        \"future_treatment_plan\": {\n          \"accepted\": \"false\",\n          \"dislike\": \"false\",\n          \"regenerate\": \"false\",\n          \"display\": \"true\",\n          \"text\": \"<ul><li><p>Implement dietary and lifestyle adjustments to address anemia.</p></li><li><p>Undergo a psychiatric evaluation for cognitive decline.</p></li><li><p>Obtain a neurology referral for follow-up imaging and cognitive testing in 6 months.</p></li><li><p>Consider antidepressant and anti-inflammatory intervention based on full clinical correlation.</p></li><li><p>dhjqwhdjhwqjhjqwkhjqwhjh</p></li><li><p>qhdkjwqhkhwqkhrlkwq</p></li></ul><p></p>\",\n          \"options\": [],\n          \"feedback\": \"\",\n          \"is_edited\": \"true\",\n          \"is_edited_multiple\": null,\n          \"metadata\": {\n            \"temperature\": null,\n            \"temperature_mean\": null,\n            \"temperature_sd\": null,\n            \"model\": \"gemini-3.8-flash\",\n            \"sources\": [\n              {\n                \"id\": \"3\",\n                \"chunk_id\": \"encounter:6adb26f25724764f6fbb0ffe:8c50ac44a9bd:308:1626\",\n                \"document_id\": \"6adb26f25724764f6fbb0ffe\",\n                \"text\": \"PATIENT HISTORY: Patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing. Recent psychological trauma and preexisting mood disorder prompted evaluation for systemic and neurological contributions to clinical presentation.\\n\\nPRE-OPERATIVE DIAGNOSIS: Rule out systemic inflammation, anemia, and neurological abnormalities related to depressive symptoms.\\n\\nDIAGNOSIS: Mild anemia and elevated inflammatory markers identified. CT scan of the brain reveals mild cortical atrophy, possibly stress-induced or early neurodegenerative changes. No acute hemorrhage or mass lesion observed.\\n\\nNOTE: Recommend dietary and lifestyle adjustments to address anemia. Psychiatric evaluation for cognitive decline. Neurology referral for ...",
       "error": ""
     },
     {
-      "title": "TC_CN_05 - POST transcription-file-analyzer / process-document",
+      "title": "TC_V2_07 - GET /chat-history returns message list shape",
       "status": "passed",
-      "durationMs": 9663,
-      "file": "clinical-notes-api-smoke.spec.ts",
-      "module": "clinical-notes-api-smoke",
-      "moduleLabel": "Clinical Notes API — Smoke Tests",
+      "durationMs": 298,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_cn_05_-_post_transcription-file-analyzer___proc-api-response.json"
+          "webPath": "./artifacts/tc_v2_07_-_get__chat-history_returns_message_list_-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:17.255Z\",\n  \"url\": \"https://on-append.uwc.world/transcription-file-analyzer/process-document\",\n  \"body\": {\n    \"id\": \"8239520a-4e19-4f10-b3e6-b07de23a7e1d\",\n    \"response\": \"Here's a detailed transcription of the medical document:\\n\\n**Page 1**\\n\\n**Name:** Yamini Singh\\n**Age:** 33 years old\\n**Occupation:** Unemployed, was previously attached in a MNC Company Sales Team\\n**Marital Status:** Separated, Divorced\\n**Family:** Father (deceased, alcoholic), Sister (deceased), Mother (schizophrenia, liver cirrhosis)\\n**Education:** Bachelor's Degree in Computer Science from a prestigious university\\n**Residence:** Lives alone in a duplex apartment in a metropolitan city\\n\\nYamini mentioned in her early discussion, that she had had some major episodes on,\\n\\n**2020:** Severe depression following the sudden death of her brother. She was hospitalised for six weeks and prescribed Fluoxetine (Prozac) and Olanzapine (Zyprexa). During this time, she also began seeing a therapist for grief counselling.\\n**2016:** Experienced a manic episode characterised by excessive energy, decreased need for sleep, and impulsive decision-making. Hospitalised for three weeks and diagnosed with Bipolar Disorder. Treated with Lithium and Valproate.\\n**2015:** Another major depressive episode triggered by the anniversary of her brother's death. She was hospitalised for four weeks, during which her medications were adjusted, and she received intensive psychotherapy. Her treatment included a brief course of inpatient Electroconvulsive Therapy (ECT).\\n\\n**Current Hospitalisation:**\\n**Reason for Admission:** Yamini was admitted following a suicide attempt involving an overdose of her prescribed medications. She has been experiencing worsening symptoms of depression and anxiety, including severe insomnia, loss of appetite, weight loss, pervasive feelings of hopelessness, and frequent panic attacks.\\n**Length of Stay:** Currently in her third week of hospitalisation in a psychiatric unit.\\n\\n**Current Medications:**\\nFluoxetine (Prozac), Sertraline (Zoloft) Oral, after food twice daily for 6 months\\nLithium, Valproate Oral, with milk once daily for 6 months\\nOlanzapine (Zyprexa) Oral, after food Once daily for 20\\n\\n**Page 2**\\n\\ndays\\nLorazepam (Ativan) Oral, after food twice daily for 1 year\\n\\n**Medication on 2020:**\\nAripiprazole (Abilify) - 5 mg daily oral once after food\\nZolpidem (Ambien) - 5 mg as needed once everyday, with milk orally\\n\\n**Medication on 2017:**\\nEscitalopram (Lexapro) - 20 mg daily Oral, after food Once daily for 10 days\\nLamotrigine (Lamictal) - 200 mg daily Oral, after food once a week for 3 weeks\\n\\n**Medication on 2015:**\\nAripiprazole (Abilify) - 10 mg daily oral for 30 days\\nClonazepam (Klonopin) - 0.5 mg oral once in a week after food\\nZolpidem (Ambien) - 10 mg once everyday, with milk oral...",
+      "apiProof": "{\n  \"endpoint\": \"/chat-history?user_id=714823&session_id=6adb50e45724764f6fbb1005\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:04.344Z\",\n  \"url\": \"https://asksam.uwc.world/chat-history?user_id=714823&session_id=6adb50e45724764f6fbb1005\",\n  \"body\": {\n    \"user_id\": \"714823\",\n    \"session_id\": \"6adb50e45724764f6fbb1005\",\n    \"messages\": [\n      {\n        \"role\": \"human\",\n        \"content\": \"can you genrate the seeson note\",\n        \"timestamp\": \"2026-10-24T04:14:31.728000\"\n      },\n      {\n        \"role\": \"ai\",\n        \"content\": \"asksam searched this patient's record and found nothing it could cite in answer to this. What it could not find: confirmation that every identifier belongs to this patient. That is a statement about what was retrieved, not a clinical judgement, and it does not establish that the material is absent from the sources.\\n\\nWhat would answer it: a note, result or letter in this patient's record that states it. The same question asked without this patient is answered from the guidelines.\\n\\n(No sourced answer available. Searched: the patient's documents, the patient's problems, by ICD-11 family, the patient's structured record, the patient's session notes.)\",\n        \"timestamp\": \"2026-10-24T04:14:31.728000\"\n      },\n      {\n        \"role\": \"human\",\n        \"content\": \"session summary\",\n        \"timestamp\": \"2026-10-24T04:17:15.062000\"\n      },\n      {\n        \"role\": \"ai\",\n        \"content\": \"- The patient presented for an encounter with Dr Connie Harris reporting a severe headache [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\\n- The encounter was conducted with a standardized patient who subsequently provided communication feedback on the interview structure, introduction, agenda setting, and history taking [[2]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[3]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\\n- The agreed plan for the visit involved taking a history, performing a physical examination, completing diagnostic testing, and having the office secretary verify the patient's insurance policy [[4]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005)[[5]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\\n- The patient stated they have a terrible headache, that it looks really bad, and that they have never experienced this kind of pain before [[1]](https://clinic.asksam.com.au/clinical/home?view=view&noteType=Follow-up&clinicalId=6adb50e45724764f6fbb1005).\\n- The patient expressed concern about whether the visit would be covered because they had recently changed insurance co...",
       "error": ""
     },
     {
-      "title": "TC_AST_GR_01 - GET [graph] Graph — 152853 / clinical_knowledge_graph",
+      "title": "TC_V2_08 - POST /drugs-interaction/graph-fe-user-year returns nodes and links",
       "status": "passed",
-      "durationMs": 694,
-      "file": "assistant-api-smoke.spec.ts",
-      "module": "assistant-api-smoke",
-      "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
+      "durationMs": 290,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_ast_gr_01_-_get__graph__graph___152853___clinic-api-response.json"
+          "webPath": "./artifacts/tc_v2_08_-_post__drugs-interaction_graph-fe-user-y-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:18.447Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/clinical_knowledge_graph\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"clinical_knowledge_graph\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_GR_01\",\n  \"tab\": \"graph\",\n  \"name\": \"Graph — 152853 / clinical_knowledge_graph\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/drugs-interaction/graph-fe-user-year\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:04.648Z\",\n  \"url\": \"https://asksam.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"body\": {\n    \"nodes\": [\n      {\n        \"id\": \"714823\",\n        \"name\": \"Yamini Pal Singh\",\n        \"colour\": \"#4169E1\",\n        \"description\": {\n          \"Name\": \"Yamini pal singh\",\n          \"Timezone\": \"\",\n          \"Email\": \"Ys274_aus@yopmail.com\",\n          \"Dob\": \"\",\n          \"Country\": \"Australia\"\n        }\n      }\n    ],\n    \"links\": []\n  }\n}",
       "error": ""
     },
     {
-      "title": "TC_AST_GR_02 - POST [graph] Graph — drugs-interaction / graph-fe-user-year",
+      "title": "TC_V2_09 - GET /org-documents/{organization_id} returns shape",
       "status": "passed",
-      "durationMs": 2084,
-      "file": "assistant-api-smoke.spec.ts",
-      "module": "assistant-api-smoke",
-      "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
+      "durationMs": 816,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_ast_gr_02_-_post__graph__graph___drugs-interact-api-response.json"
+          "webPath": "./artifacts/tc_v2_09_-_get__org-documents__organization_id__re-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:20.532Z\",\n  \"url\": \"https://neograph.uwc.world/drugs-interaction/graph-fe-user-year\",\n  \"body\": {\n    \"nodes\": [\n      {\n        \"id\": \"644938\",\n        \"parent\": true,\n        \"name\": \"Name\",\n        \"colour\": \"#4169E1\",\n        \"link_name\": \"Has\",\n        \"children\": [\n          {\n            \"id\": \"644938.medicines\",\n            \"name\": \"Medicines\",\n            \"colour\": \"#008080\",\n            \"link_name\": \"Has Taken\",\n            \"children\": [\n              {\n                \"id\": \"644938.medicines.past\",\n                \"name\": \"Past\",\n                \"colour\": \"#008080\",\n                \"link_name\": \"Taken in the\",\n                \"children\": [\n                  {\n                    \"id\": \"644938.medicines.past.448\",\n                    \"name\": \"Quetiapine\",\n                    \"colour\": \"#008080\",\n                    \"link_name\": \"N05AH04 - quetiapine ; Belongs to the class of diazepines, oxazepines and thiazepines antipsychotics.\",\n                    \"children\": [],\n                    \"description\": {\n                      \"Name\": \"Quetiapine\",\n                      \"Drug Interactions\": \"Increased serum concentration with cyp3a4 inhibitors (e.g. ketoconazole, ritonavir, nefazodone). decreased serum concentration with cyp3a4 inducers (e.g. phenytoin, carbamazepine, rifampin). extended-release preparations may antagonise actions of dopaminergics (e.g. levodopa). increased risk of qt prolongation with class ia antiarrhythmics (e.g. quinidine, procainamide), class iii antiarrhythmics (e.g. amiodarone, sotalol), antipsychotic medications (e.g. ziprasidone, chlorpromazine, thioridazine), antibiotics (e.g. gatifloxacin, moxifloxacin), pentamidine, levomethadyl acetate, methadone).\",\n                      \"Dosage Direction For Use\": \"Oralschizophreniaadult:as immediate-release/film-coated tab: initially, 25 mg bid on day 1, followed by 50 mg bid on day 2, 100 mg bid on day 3 and 150 mg bid on day 4. titrate dose according to response between 300-450 mg daily given in 2 divided doses from day 4 onwards. max: 750 mg daily. as extended-release tab: 300 mg once daily on day 1, followed by 600 mg once daily on day 2. adjust according to patient response between 400-800 mg daily. usual dose: 600 mg once daily. max: 800 mg daily.elderly:as immediate-release/film-coated tab: slower rate of dose titration and lower daily therapeutic dose. as modified-release tab: initially, 50 mg once daily, adjusted in increments of 50 mg according to response.hepatic impairment:as immediate-release tab: initially, 25 mg daily, increased in increments of 25-50 mg daily according to patient response.oralacute manic episodes of bipolar disorderadult:as immediate-release/film-coated tab: 50 mg bid for day 1, followed by 100 mg bid for day 2 then 150 mg bid on day 3 and 200 mg bid on day 4. adjust in increments up to 200 ...",
+      "apiProof": "{\n  \"endpoint\": \"/org-documents/asksam\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:05.470Z\",\n  \"url\": \"https://asksam.uwc.world/org-documents/asksam\",\n  \"body\": {\n    \"organization_id\": \"asksam\",\n    \"total_records\": 0,\n    \"versions\": {\n      \"country\": {\n        \"Antibiotic prescribing in primary care: Therapeutic Guidelines summary table\": {\n          \"doc_id\": \"1e056f12f9\",\n          \"available\": true,\n          \"versions\": [\n            {\n              \"source_url\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-03-13_GPSummary_v15.pdf?alt=media&token=b30e3c62-383b-4db0-8c14-88cf65e22a7a\",\n              \"title\": \"Antibiotic prescribing in primary care: Therapeutic Guidelines summary table\",\n              \"country\": \"Australia\",\n              \"updated_at\": \"2026-08-27T14:35:47.843812+00:00\",\n              \"version\": \"1\",\n              \"available\": true,\n              \"is_latest\": true\n            },\n            {\n              \"source_url\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-Jun-01_21-03-13_GPSummary_v15.pdf?alt=media&token=b30e3c62-383b-4db0-8c14-88cf65e22a7a\",\n              \"title\": \"Antibiotic prescribing in primary care: Therapeutic Guidelines summary table\",\n              \"country\": \"Australia\",\n              \"updated_at\": \"2026-08-27T13:49:48.206328+00:00\",\n              \"version\": \"2\",\n              \"available\": true,\n              \"is_latest\": false\n            }\n          ]\n        },\n        \"National Guidelines for Medication-Assisted Treatment of Opioid Dependence\": {\n          \"doc_id\": \"ff8e377171\",\n          \"available\": true,\n          \"versions\": [\n            {\n              \"source_url\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-15-13_national-guidelines-for-medication-assisted-treatment-of-opioid-dependence_0.pdf?alt=media&token=51925ecc-2edb-4c7a-9b99-04f0f4af2b25\",\n              \"title\": \"National Guidelines for Medication-Assisted Treatment of Opioid Dependence\",\n              \"country\": \"Australia\",\n              \"updated_at\": \"2026-08-27T14:32:44.085024+00:00\",\n              \"version\": \"1\",\n              \"available\": true,\n              \"is_latest\": true\n            },\n            {\n              \"source_url\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/admin-documents%2Fasksam%2F2026-May-28_15-15-13_national-guidelines-for-medication-assisted-treatment-of-opioid-dependence_0.pdf?alt=media&token=51925ecc-2edb-4c7a-9b99-04f0f4af2b25\",\n              \"title\": \"National Guidelines for Medication-Assisted Treatment of Opioid Dependence\",\n              \"country\": \"Australia\",\n              \"updated_at\": \"2026-08-27T13:47:13.325581+00:00\",\n              \"version\": \"2\",\n              \"available\": true,\n              \"is_latest\": false\n            }\n          ]...",
       "error": ""
     },
     {
-      "title": "TC_AST_AS_01 - GET [assistant] Assistant — 152853 / drug_drug_interaction_alerts",
+      "title": "TC_V2_10 - POST /generate-note-fields (one field, persist false) NDJSON",
       "status": "passed",
-      "durationMs": 47,
-      "file": "assistant-api-smoke.spec.ts",
-      "module": "assistant-api-smoke",
-      "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
+      "durationMs": 3016,
+      "file": "asksam-v2-api-smoke.spec.ts",
+      "module": "asksam-v2-api-smoke",
+      "moduleLabel": "asksam-v2-api-smoke",
       "attachments": [
         {
           "name": "api-response",
           "path": "",
           "contentType": "application/json",
-          "webPath": "./artifacts/tc_ast_as_01_-_get__assistant__assistant___152853_-api-response.json"
+          "webPath": "./artifacts/tc_v2_10_-_post__generate-note-fields__one_field__-api-response.json"
         }
       ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:20.608Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/drug_drug_interaction_alerts\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"drug_drug_interaction_alerts\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AS_01\",\n  \"tab\": \"assistant\",\n  \"name\": \"Assistant — 152853 / drug_drug_interaction_alerts\"\n}",
-      "error": ""
-    },
-    {
-      "title": "TC_AST_AK_01 - GET [asksam] Asksam — 152853 / ask_sam_interactions",
-      "status": "passed",
-      "durationMs": 46,
-      "file": "assistant-api-smoke.spec.ts",
-      "module": "assistant-api-smoke",
-      "moduleLabel": "Stella Assistant Panel API — Smoke Tests",
-      "attachments": [
-        {
-          "name": "api-response",
-          "path": "",
-          "contentType": "application/json",
-          "webPath": "./artifacts/tc_ast_ak_01_-_get__asksam__asksam___152853___ask_-api-response.json"
-        }
-      ],
-      "apiProof": "{\n  \"endpoint\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"method\": \"GET\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:20.665Z\",\n  \"url\": \"https://ws-stella.unitedwecare.com/api/v1/app/user_flags/152853/ask_sam_interactions\",\n  \"body\": {\n    \"success\": true,\n    \"data\": {\n      \"flag_name\": \"ask_sam_interactions\",\n      \"value\": true,\n      \"completed\": true\n    }\n  },\n  \"id\": \"TC_AST_AK_01\",\n  \"tab\": \"asksam\",\n  \"name\": \"Asksam — 152853 / ask_sam_interactions\"\n}",
-      "error": ""
-    },
-    {
-      "title": "TC_ASR_01 - POST /transcriptions/transcribe-from-url-v2 returns transcription",
-      "status": "passed",
-      "durationMs": 5255,
-      "file": "asr-api-smoke.spec.ts",
-      "module": "asr-api-smoke",
-      "moduleLabel": "ASR API — Smoke Tests",
-      "attachments": [
-        {
-          "name": "api-response",
-          "path": "",
-          "contentType": "application/json",
-          "webPath": "./artifacts/tc_asr_01_-_post__transcriptions_transcribe-from-u-api-response.json"
-        }
-      ],
-      "apiProof": "{\n  \"endpoint\": \"/transcriptions/transcribe-from-url-v2\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-26T22:30:26.411Z\",\n  \"url\": \"https://cauth.unitedwecare.com/transcriptions/transcribe-from-url-v2\",\n  \"body\": {\n    \"success\": true,\n    \"status\": 200,\n    \"message\": \"Transcription completed\",\n    \"data\": {\n      \"text\": \"Hello. Hello, Mike check. Testing one two three.\",\n      \"language\": \"en\",\n      \"model\": \"SHUNYAG\"\n    },\n    \"timestamp\": \"2026-10-26T22:30:26.368Z\"\n  },\n  \"service\": \"ASR\",\n  \"audioUrl\": \"https://firebasestorage.googleapis.com/v0/b/united-for-her.appspot.com/o/uploads%2Frecording_1782127426430_644938.webm?alt=media&token=fce69d88-e7ee-45a5-b079-f69183582299\",\n  \"language\": \"en\"\n}",
+      "apiProof": "{\n  \"endpoint\": \"/generate-note-fields\",\n  \"method\": \"POST\",\n  \"status\": 200,\n  \"timestamp\": \"2026-10-27T09:21:08.491Z\",\n  \"url\": \"https://asksam.uwc.world/generate-note-fields\",\n  \"body\": {\n    \"user_id\": \"714823\",\n    \"session_id\": \"6adb50e45724764f6fbb1005\",\n    \"section\": \"progress_note\",\n    \"field\": \"chief_complaints\",\n    \"value\": {\n      \"accepted\": \"false\",\n      \"dislike\": \"false\",\n      \"regenerate\": \"false\",\n      \"display\": \"true\",\n      \"text\": \"- Terrible, all-over headache starting about 3 days ago, exacerbated by movement, preventing work, unresponsive to interventions, and associated with light sensitivity.\",\n      \"options\": [],\n      \"feedback\": \"\",\n      \"is_edited\": null,\n      \"is_edited_multiple\": null,\n      \"metadata\": {\n        \"temperature\": null,\n        \"temperature_mean\": null,\n        \"temperature_sd\": null,\n        \"model\": \"gemini-3.8-flash\",\n        \"sources\": [\n          {\n            \"id\": \"19\",\n            \"chunk_id\": \"6adb50e45724764f6fbb1005:c:db6633c580d522ad:p1:2222296125a6503ab88b\",\n            \"document_id\": \"6adb50e45724764f6fbb1005\",\n            \"text\": \"Come in. Miss Bellamy? Yes. Hi, my name is Connie Harris. I'll be your doctor today. Let me just wash my hands really quick. Would you prefer Miss Bellamy\\nor would you... Can I call you Pat? Pat's fine. Great, well it's nice to meet you. Nice to meet you. Can you tell me why you're here today? I have\\na terrible headache. It looks really bad. Yeah, yes. Is there anything else besides your headache that you want to\\naddress here today at the clinical program? No, just that, except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet. All\\nright. Was there anything... Because what we can do is while we're talking and I'm doing your\",\n            \"when\": {\n              \"when_lower\": \"2026-10-23\",\n              \"when_upper\": \"2026-10-23\",\n              \"when_raw\": \"2026-10-23\",\n              \"when_basis\": \"inherited\",\n              \"when_anchor\": \"2026-10-23\",\n              \"when_anchor_kind\": \"session_date\"\n            },\n            \"session_id\": \"6adb50e45724764f6fbb1005\",\n            \"source\": {\n              \"kind\": \"chunk\",\n              \"document_id\": \"6adb50e45724764f6fbb1005\",\n              \"document_title\": \"\",\n              \"source_url\": \"\",\n              \"session_id\": \"6adb50e45724764f6fbb1005\",\n              \"data_level\": \"\",\n              \"page\": null\n            }\n          },\n          {\n            \"id\": \"21\",\n            \"chunk_id\": \"6adb26f25724764f6fbb0ffe:c:35d7087df0efafbb:p1:dc02fb634cf927c366ba\",\n            \"document_id\": \"6adb26f25724764f6fbb0ffe\",\n            \"text\": \"Yes. Hi, how may I help you, doctor, today? I'm going to be seeing a patient for a headache. Okay. Um, can you find this patient in the system? Yes, I can. All right, what's the patient's name and date of birth? Um, can you tell me why you're here today? I have a terrible headache. It looks really bad. Um, i...",
       "error": ""
     }
   ]

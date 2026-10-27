@@ -1,0 +1,54 @@
+{
+  "endpoint": "/health/stores",
+  "method": "GET",
+  "status": 200,
+  "timestamp": "2026-10-27T09:21:02.727Z",
+  "url": "https://asksam.uwc.world/health/stores",
+  "body": {
+    "neo4j": {
+      "ok": true,
+      "nodes": 42730
+    },
+    "mongo": {
+      "ok": true,
+      "collections": [
+        "asksam_raw_session_history",
+        "chat_messages",
+        "clinical_notes",
+        "disease_nutrient_details__live",
+        "drug_graph__live",
+        "expert_dashboard__archived_clinical_notes",
+        "expert_dashboard__clinical_notes",
+        "expert_dashboard__drugs_and_brands",
+        "expert_dashboard__lab_test",
+        "expert_dashboard__raw_session_data",
+        "expert_dashboard__user_clinical_data",
+        "expert_dashboard__user_prescriptions",
+        "extract_cache",
+        "gene_details__live",
+        "illness_graph__live",
+        "illness_graph_f_series__live",
+        "illness_symptom__live",
+        "lab_graph__live",
+        "medirecords__appointments",
+        "medirecords__consult_history",
+        "medirecords__consult_notes",
+        "medirecords__correspondence_v2",
+        "medirecords__patients",
+        "medirecords__practice_providers",
+        "nutrient_details__live",
+        "patient_records",
+        "res_users__users",
+        "stella_user_details__users",
+        "sync_state",
+        "user_graph_details__chat_messages",
+        "user_graph_details__graph_visualised",
+        "user_graph_details__sorted_year"
+      ]
+    },
+    "redis": {
+      "ok": true,
+      "keys": 13229
+    }
+  }
+}

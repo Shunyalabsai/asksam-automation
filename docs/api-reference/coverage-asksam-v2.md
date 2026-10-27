@@ -3,6 +3,9 @@
 Base: `https://asksam.uwc.world`  
 Source: Ahiri Mukherjee guidance (Oct 2026) + `asksam-v2-api-reference-2026-10-26.md`
 
+**Scheduled monitoring going forward = this pack only** (`npm run test:ds-api` / cron).  
+Old RAG / Clinical Notes / Assistant / ASR smokes are off cron (manual scripts only if needed).
+
 ## Daily / cron (read-only)
 
 | ID | Method | Endpoint | Notes |

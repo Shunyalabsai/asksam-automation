@@ -1,0 +1,146 @@
+{
+  "endpoint": "/note-fields/manifest",
+  "method": "GET",
+  "status": 200,
+  "timestamp": "2026-10-27T09:21:03.013Z",
+  "url": "https://asksam.uwc.world/note-fields/manifest",
+  "body": {
+    "sections": {
+      "progress_note": [
+        "chief_complaints",
+        "history_of_present_illness_hpi",
+        "session_summary",
+        "advise",
+        "future_treatment_plan",
+        "homework_assigned"
+      ],
+      "case_history": [
+        "history_of_self_harm_aggression",
+        "history_of_trauma",
+        "history_of_contagious_medical_conditions",
+        "medication_history",
+        "hospitalization_history",
+        "surgical_history_shx",
+        "histopathological_pathological_history",
+        "allergy_history",
+        "nutritional_history",
+        "genetics",
+        "languages_spoken",
+        "lifestyle_history",
+        "developmental_history",
+        "marital_status",
+        "employment_status",
+        "marital_functioning",
+        "social_functioning",
+        "academic_functioning",
+        "substance_use_issues",
+        "psychosocial_history",
+        "family_history_of_mental_illness_or_substance_abuse_issues",
+        "medical_history"
+      ],
+      "prescription": [
+        "vitals",
+        "mental_status_exam_results",
+        "physical_exam_results",
+        "histopathological_pathological_diagnostics",
+        "imaging_and_radiological_diagnostics",
+        "biochemical_diagnostics",
+        "microbiological_diagnostics",
+        "cardiological_diagnostics",
+        "pulmonary_diagnostics",
+        "gastro_intestinal_hepatological_diagnostics",
+        "neurological_diagnostics",
+        "nephrological_diagnostics",
+        "urological_diagnostics",
+        "ophthalmological_diagnostics",
+        "dermatological_diagnostics",
+        "reproductive_diagnostics",
+        "ent_diagnostics",
+        "endocrinological_diagnostics",
+        "orthopedic_diagnostics",
+        "pediatric_diagnostics"
+      ],
+      "follow_up_summary": [
+        "treatment_plan_progress",
+        "assessment_summary",
+        "worksheet_journal_summary",
+        "stella_sos_summary",
+        "compliance"
+      ]
+    },
+    "options": {
+      "homework_assigned": [
+        "Yes A record may also LIST THE CONDITIONS IT SCREENED FOR: an eligibility or consent form whose items are the things the patient denies, ingested without the 'the patient denies the following' line that heads them. Such an item names a disease with no test, no measurement and no report behind it, and is not a diagnostic result; leave it out. A stated finding from a real test or report is a result even when it is negative.",
+        "No"
+      ],
+      "marital_status": [
+        "None",
+        "Single",
+        "Married",
+        "Divorced",
+        "Separated",
+        "Widowed",
+        "In a Domestic Partnership",
+        "In a Civil Union",
+        "Co-habiting",
+        "Engaged",
+        "Complicated"
+      ],
+      "employment_status": [
+        "None",
+        "Employed Full-Time",
+        "Employed Part-Time",
+        "Self-Employed",
+        "Unemployed",
+        "Not in the Labor Force",
+        "Retired",
+        "Student",
+        "Homemaker",
+        "On Disability",
+        "Temporary Leave",
+        "Underemployed",
+        "Seasonal"
+      ],
+      "marital_functioning": [
+        "None",
+        "Satisfactory",
+        "Highly Satisfactory",
+        "Stable but Routine",
+        "Occasionally Stressful",
+        "Frequently Stressful",
+        "In Conflict",
+        "Separated/Considering Separation",
+        "In Counseling/Therapy",
+        "Recovering/Rebuilding",
+        "Co-parenting",
+        "Open/Non-Monogamous",
+        "Enduring/Long-Term Challenges"
+      ],
+      "social_functioning": [
+        "Limited by Physical Health",
+        "None",
+        "Independent",
+        "Socially Active",
+        "Moderately Social",
+        "Socially Isolated",
+        "Difficulty in Social Situations",
+        "Limited by Mental Health",
+        "Supportive Family/Friends",
+        "Lacking Support",
+        "Dependent on Caregivers",
+        "Engaged in Community Services",
+        "Experiencing Conflict in Relationships",
+        "Social Skills Development",
+        "Rebuilding Social Networks"
+      ],
+      "academic_functioning": [
+        "None",
+        "Moderate-Severe impairment",
+        "Mild impairment",
+        "Moderate impairment",
+        "Severe impairment"
+      ]
+    },
+    "total": 53
+  }
+}
