@@ -25,20 +25,18 @@ From is controlled by the Google Apps Script web app. Deploy/run that script whi
 Set in `.env` as comma-separated addresses (`REPORT_RECIPIENTS`). Current list:
 
 1. arti@shunyalabs.ai  
-2. sumit@shunyalabs.ai  
-3. yamini@shunyalabs.ai  
-4. saira@shunyalabs.ai  
-5. sb@shunyalabs.ai  
-6. ritu@shunyalabs.ai  
-7. ravulamk@shunyalabs.ai  
-8. saheb@shunyalabs.ai  
+2. saira@shunyalabs.ai  
+3. sb@shunyalabs.ai  
+4. ritu@shunyalabs.ai  
+5. saheb@shunyalabs.ai  
+6. ahiri@shunyalabs.ai  
 
 ```bash
 # On VM — update before next cron run
 cd ~/asksam-automation
 grep -q '^REPORT_RECIPIENTS=' .env \
-  && sed -i 's|^REPORT_RECIPIENTS=.*|REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai,saheb@shunyalabs.ai|' .env \
-  || echo 'REPORT_RECIPIENTS=arti@shunyalabs.ai,sumit@shunyalabs.ai,yamini@shunyalabs.ai,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,ravulamk@shunyalabs.ai,saheb@shunyalabs.ai' >> .env
+  && sed -i 's|^REPORT_RECIPIENTS=.*|REPORT_RECIPIENTS=arti@shunyalabs.ai,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,saheb@shunyalabs.ai,ahiri@shunyalabs.ai|' .env \
+  || echo 'REPORT_RECIPIENTS=arti@shunyalabs.ai,saira@shunyalabs.ai,sb@shunyalabs.ai,ritu@shunyalabs.ai,saheb@shunyalabs.ai,ahiri@shunyalabs.ai' >> .env
 ```
 
 Requires `EMAIL_WEB_APP_URL` in the same `.env`. Email sends only when tests fail.
