@@ -59,7 +59,7 @@ export CI=true
 echo "==> npm ci"
 npm ci
 
-echo "==> DS API smoke tests (RAG 4 + Clinical Notes 3 active + Assistant 4 + ASR 1; TC_CN_03/04 temporarily off)"
+echo "==> DS API smoke tests (RAG v1 + AskSam v2 read-only + Clinical Notes + Assistant + ASR)"
 set +e
 npm run test:ds-api
 set -e

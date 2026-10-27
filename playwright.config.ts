@@ -38,6 +38,10 @@ export default defineConfig({
       testMatch: /rag-api-smoke\.spec\.ts/,
     },
     {
+      name: 'asksam-v2-api',
+      testMatch: /asksam-v2-api-smoke\.spec\.ts/,
+    },
+    {
       name: 'clinical-notes-api',
       testMatch: /clinical-notes-api-smoke\.spec\.ts/,
     },
@@ -92,6 +96,7 @@ export default defineConfig({
         /ccop-clinician-signup\.spec\.ts/,
         /letter-template\.spec\.ts/,
         /rag-api-smoke\.spec\.ts/,
+        /asksam-v2-api-smoke\.spec\.ts/,
         /clinical-notes-api-smoke\.spec\.ts/,
         /assistant-api-smoke\.spec\.ts/,
         /asr-api-smoke\.spec\.ts/,
