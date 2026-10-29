@@ -2,7 +2,7 @@
   "endpoint": "/org-documents/asksam",
   "method": "GET",
   "status": 200,
-  "timestamp": "2026-10-29T11:30:05.488Z",
+  "timestamp": "2026-10-29T22:30:05.887Z",
   "url": "https://asksam.uwc.world/org-documents/asksam",
   "body": {
     "organization_id": "asksam",
