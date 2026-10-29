@@ -225,12 +225,13 @@ test.describe('AskSam v2 API smoke (read-only)', () => {
     expect(record.section).toBe('progress_note');
     expect(record.done).toBe(1);
     expect(record.total).toBe(1);
-    expect(record.stored).toBe('');
+    // persist:false → nothing written; API may send "" or omit `stored`
+    expect(record.stored === '' || record.stored == null).toBe(true);
 
     if (record.value == null) {
-      expect(record.error, `field failed: ${String(record.error || 'unknown')}`).toBeFalsy();
+      throw new Error(`generate-note-fields failed: ${String(record.error || 'value is null')}`);
     }
-    const value = record.value as { text?: string } | null;
+    const value = record.value as { text?: string };
     expect(value?.text && String(value.text).trim().length > 0).toBe(true);
   });
 });
