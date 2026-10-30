@@ -1,0 +1,117 @@
+{
+  "endpoint": "/generate-note-fields",
+  "method": "POST",
+  "status": 200,
+  "timestamp": "2026-10-30T11:30:07.494Z",
+  "url": "https://asksam.uwc.world/generate-note-fields",
+  "body": {
+    "user_id": "714823",
+    "session_id": "6adb50e45724764f6fbb1005",
+    "section": "progress_note",
+    "field": "chief_complaints",
+    "value": {
+      "accepted": "false",
+      "dislike": "false",
+      "regenerate": "false",
+      "display": "true",
+      "text": "- Terrible, generalized headache that started about 3 days ago, is aggravated by movement, has prevented work, and has not responded to treatment.\n- Sensitivity to light.",
+      "options": [],
+      "feedback": "",
+      "is_edited": null,
+      "is_edited_multiple": null,
+      "metadata": {
+        "temperature": null,
+        "temperature_mean": null,
+        "temperature_sd": null,
+        "model": "google/gemini-3.8-flash",
+        "sources": [
+          {
+            "id": "19",
+            "chunk_id": "6adb50e45724764f6fbb1005:c:db6633c580d522ad:p1:2222296125a6503ab88b",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "Come in. Miss Bellamy? Yes. Hi, my name is Connie Harris. I'll be your doctor today. Let me just wash my hands really quick. Would you prefer Miss Bellamy\nor would you... Can I call you Pat? Pat's fine. Great, well it's nice to meet you. Nice to meet you. Can you tell me why you're here today? I have\na terrible headache. It looks really bad. Yeah, yes. Is there anything else besides your headache that you want to\naddress here today at the clinical program? No, just that, except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet. All\nright. Was there anything... Because what we can do is while we're talking and I'm doing your",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "21",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:35d7087df0efafbb:p1:dc02fb634cf927c366ba",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Yes. Hi, how may I help you, doctor, today? I'm going to be seeing a patient for a headache. Okay. Um, can you find this patient in the system? Yes, I can. All right, what's the patient's name and date of birth? Um, can you tell me why you're here today? I have a terrible headache. It looks really bad. Um, is there anything else besides your headache that you want to address here today at the clinic? No, it's just that except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "23",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:35d7087df0efafbb:p1:b647694656cfd3d93da6",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Um, so tell me a little bit more about this head head pain that you're having. Well, um, it started about three days ago and um, uh, nothing has helped. It it's it's just laid me flat. I um, I haven't been able to go to work. Um, it's um, nothing's helped. I I um, it's it's all over. Um, I it really bad when I move. So I'm trying not to move too much and the light is bothering me a lot. Um, unfortunately, I can't dim the lights in this room, but so I'll try to go quickly and um, maybe I can write some notes. Sure. Yeah, right. So, you said this headache started about three days ago. Yeah. Okay. Um, was there any anything that about anything unusual that happened three days ago? Really, no.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-10-23T00:00:00Z",
+      "old_texts": [],
+      "completed": "true",
+      "current": 1,
+      "total": 1
+    },
+    "stored": "",
+    "done": 1,
+    "total": 1,
+    "time_taken": 2.352
+  },
+  "persist": false,
+  "fields": [
+    "chief_complaints"
+  ]
+}
