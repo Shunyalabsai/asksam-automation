@@ -1,5 +1,28 @@
 [
   {
+    "id": "d6a47498-c57b-4f78-a5f8-e9890fd2b523",
+    "startedAt": "2026-11-05T11:30:04.087Z",
+    "durationMs": 4043.5649999999996,
+    "summary": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "timedOut": 0
+    },
+    "passRate": 100,
+    "modules": {
+      "asksam-v2-api-smoke": {
+        "label": "asksam-v2-api-smoke",
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "timedOut": 0
+      }
+    }
+  },
+  {
     "id": "228f1142-da1b-42d1-9a69-e594c3b93f5f",
     "startedAt": "2026-11-04T22:30:03.287Z",
     "durationMs": 1614.681,
@@ -2320,53 +2343,6 @@
     "id": "6f004d17-d512-4097-a1dd-d7fe0966862a",
     "startedAt": "2026-10-06T22:30:04.383Z",
     "durationMs": 25245.653,
-    "summary": {
-      "total": 12,
-      "passed": 12,
-      "failed": 0,
-      "skipped": 0,
-      "timedOut": 0
-    },
-    "passRate": 100,
-    "modules": {
-      "rag-api-smoke": {
-        "label": "RAG API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "clinical-notes-api-smoke": {
-        "label": "Clinical Notes API — Smoke Tests",
-        "total": 3,
-        "passed": 3,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "assistant-api-smoke": {
-        "label": "Stella Assistant Panel API — Smoke Tests",
-        "total": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      },
-      "asr-api-smoke": {
-        "label": "ASR API — Smoke Tests",
-        "total": 1,
-        "passed": 1,
-        "failed": 0,
-        "skipped": 0,
-        "timedOut": 0
-      }
-    }
-  },
-  {
-    "id": "cd553d28-c48b-490b-a579-d4f5db0eb000",
-    "startedAt": "2026-10-06T11:30:03.961Z",
-    "durationMs": 21198.924,
     "summary": {
       "total": 12,
       "passed": 12,
