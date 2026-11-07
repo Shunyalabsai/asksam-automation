@@ -2,7 +2,7 @@
   "endpoint": "/health/stores",
   "method": "GET",
   "status": 200,
-  "timestamp": "2026-11-07T11:30:04.525Z",
+  "timestamp": "2026-11-07T22:30:04.862Z",
   "url": "https://asksam.uwc.world/health/stores",
   "body": {
     "neo4j": {
