@@ -2,7 +2,7 @@
   "endpoint": "/drugs-interaction/graph-fe-user-year",
   "method": "POST",
   "status": 200,
-  "timestamp": "2026-11-23T22:30:04.761Z",
+  "timestamp": "2026-11-24T11:30:05.427Z",
   "url": "https://asksam.uwc.world/drugs-interaction/graph-fe-user-year",
   "body": {
     "nodes": [
