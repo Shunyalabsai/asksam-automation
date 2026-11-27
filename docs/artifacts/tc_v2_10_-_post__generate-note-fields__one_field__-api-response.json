@@ -1,0 +1,399 @@
+{
+  "endpoint": "/generate-note-fields",
+  "method": "POST",
+  "status": 200,
+  "timestamp": "2026-11-27T11:30:09.890Z",
+  "url": "https://asksam.uwc.world/generate-note-fields",
+  "body": {
+    "user_id": "714823",
+    "session_id": "6adb50e45724764f6fbb1005",
+    "section": "progress_note",
+    "field": "chief_complaints",
+    "value": {
+      "accepted": "false",
+      "dislike": "false",
+      "regenerate": "false",
+      "display": "true",
+      "text": "- Terrible generalized headache that started about 3 days ago, is aggravated by movement, has not been relieved by anything, is associated with photophobia, and impairs work and daily activities.\n- Chronic fatigue.\n- Dizziness.\n- Headaches.\n- Cognitive slowing.\n- Chronic back pain.\n- Ankle pain related to gastrocnemius tendon injury.\n- Anxiety.\n- Insomnia and sleep disturbances.",
+      "options": [],
+      "feedback": "",
+      "is_edited": null,
+      "is_edited_multiple": null,
+      "metadata": {
+        "temperature": null,
+        "temperature_mean": null,
+        "temperature_sd": null,
+        "model": "google/gemini-3.8-flash",
+        "sources": [
+          {
+            "id": "1",
+            "chunk_id": "encounter:6adb50e45724764f6fbb1005:58f9dccaa95b:70:1511",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "**Page 1:**\n12.2.24\nDear\ncolleague\nRegarding\npatient: Miss\nYamini\nSingh\nDOB:\n14.01.1995\n\nI reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled\n\n**Page 2:**\non various treatments and medications with either sub optimal therapeutic effect or intolerable side effects, including various strength analgesia and anti inflammatory medications. She was seeking continued use of phyto cannabinoids to assist in the management of her refractory symptoms. Miss Yamini had been prescribed a combination of oral slow and fast release CBD and THC products previously with good therapeutic benefit. However, given the chronic nature of her symptoms and refractory nature of her breakthrough symptoms, it was considered reasonably necessary to continue on cannabinoid products for optimal symptom management. She denied any side effects or adverse events related to her prescribed use of the phytocannabinoids or THC.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "58f9dccaa95b84ae15cc4bc4cb7afcc8ca8e88cb59ad8bd79e0c655a62744a56",
+              "start": 70,
+              "end": 1511,
+              "query_similarity": 0.5051845733985382,
+              "lexical_score": 1.041453874828161,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "2",
+            "chunk_id": "encounter:6adb26f25724764f6fbb0ffe:8c50ac44a9bd:0:698",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Document 1: PATHOLOGY REPORT\n\nPATIENT: John Smith\nDATE OF BIRTH: 15/08/1988\nMEDICAL RECORD NUMBER: JH-20250627-001\nGENDER: Male\n\nSPECIMEN COLLECTION DATE/TIME: 25/06/2025 11:00h\nCASE NUMBER: GEN-BLD-CT-2025-003\nSPECIMEN RECEIPT DATE/TIME: 25/06/2025 11:45h\nSPECIMEN LABEL(s): Blood Sample, CT Brain Imaging\n\nPATIENT HISTORY: Patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing. Recent psychological trauma and preexisting mood disorder prompted evaluation for systemic and neurological contributions to clinical presentation.\n\nPRE-OPERATIVE DIAGNOSIS: Rule out systemic inflammation, anemia, and neurological abnormalities related to depressive symptoms.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "8c50ac44a9bdfbfb1224ac43c8dfbe0ea946cde15a9f0b556afafde67a265703",
+              "start": 0,
+              "end": 698,
+              "query_similarity": 0.3330487662599926,
+              "lexical_score": 1.041453874828161,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "3",
+            "chunk_id": "encounter:6adb50e45724764f6fbb1005:58f9dccaa95b:0:751",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "Document 1: Here's a detailed transcription of the medical document:\n\n**Page 1:**\n12.2.24\nDear\ncolleague\nRegarding\npatient: Miss\nYamini\nSingh\nDOB:\n14.01.1995\n\nI reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "58f9dccaa95b84ae15cc4bc4cb7afcc8ca8e88cb59ad8bd79e0c655a62744a56",
+              "start": 0,
+              "end": 751,
+              "query_similarity": 0.46759015138403504,
+              "lexical_score": 1.041453874828161,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "4",
+            "chunk_id": "encounter:6adb26f25724764f6fbb0ffe:8c50ac44a9bd:308:1626",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "PATIENT HISTORY: Patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing. Recent psychological trauma and preexisting mood disorder prompted evaluation for systemic and neurological contributions to clinical presentation.\n\nPRE-OPERATIVE DIAGNOSIS: Rule out systemic inflammation, anemia, and neurological abnormalities related to depressive symptoms.\n\nDIAGNOSIS: Mild anemia and elevated inflammatory markers identified. CT scan of the brain reveals mild cortical atrophy, possibly stress-induced or early neurodegenerative changes. No acute hemorrhage or mass lesion observed.\n\nNOTE: Recommend dietary and lifestyle adjustments to address anemia. Psychiatric evaluation for cognitive decline. Neurology referral for follow-up imaging and cognitive testing in 6 months. Consider antidepressant and anti-inflammatory intervention based on full clinical correlation.\n\nSPECIAL TEST RESULTS:\n- Hemoglobin: 11.2 g/dL (Normal: 13.8-17.2 g/dL) - Mildly Low\n- Hematocrit: 34% (Normal: 41-50%) - Low\n- WBC Count: 9.6 x10^3/uL (Normal: 4.5-11 x10^3/uL) - Normal\n- CRP (hs): 4.8 mg/L (Normal: <3 mg/L) - Elevated\n- Ferritin: 25 ng/mL (Normal: 30-400 ng/mL) - Borderline Low\n- CT Brain: Mild cortical atrophy in frontal and temporal lobes; no evidence of hemorrhage, infarct, or mass lesion",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "8c50ac44a9bdfbfb1224ac43c8dfbe0ea946cde15a9f0b556afafde67a265703",
+              "start": 308,
+              "end": 1626,
+              "query_similarity": 0.32624737744511084,
+              "lexical_score": 1.041453874828161,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "5",
+            "chunk_id": "encounter:6adb50e45724764f6fbb1005:58f9dccaa95b:159:1527",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "I reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled\n\n**Page 2:**\non various treatments and medications with either sub optimal therapeutic effect or intolerable side effects, including various strength analgesia and anti inflammatory medications. She was seeking continued use of phyto cannabinoids to assist in the management of her refractory symptoms. Miss Yamini had been prescribed a combination of oral slow and fast release CBD and THC products previously with good therapeutic benefit. However, given the chronic nature of her symptoms and refractory nature of her breakthrough symptoms, it was considered reasonably necessary to continue on cannabinoid products for optimal symptom management. She denied any side effects or adverse events related to her prescribed use of the phytocannabinoids or THC.\n\nAllergies: NKA",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "58f9dccaa95b84ae15cc4bc4cb7afcc8ca8e88cb59ad8bd79e0c655a62744a56",
+              "start": 159,
+              "end": 1527,
+              "query_similarity": 0.3134026266625706,
+              "lexical_score": 1.041453874828161,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "6",
+            "chunk_id": "encounter:6adb50e45724764f6fbb1005:58f9dccaa95b:1676:2537",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "**Page 3:**\nof inhaled or oral slow release cannabinoids for symptom control. She agreed to consult with her regular GP to monitor for any medication adjustments that may be needed.\n\nShe denied any current unstable cardiovascular disease or arrhythmia, personal history of psychotic disorder, acute psychosis or other unstable psychiatric condition, or family history of schizophrenia. She denied any current use of anticoagulants.\nShe denied any current management by a psychiatrist or specialist at the time of review.\n\nEduarda denied any possibilities of pregnancy or breast feeding or plans to fall pregnant in the near future.\n\nImpression: Miss Yamini presented pleasant, polite and cooperative in review. She continued to suffer with ongoing pain associated with her previous injury, in addition to anxiety and sleep disturbances. She has been trialled on",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "58f9dccaa95b84ae15cc4bc4cb7afcc8ca8e88cb59ad8bd79e0c655a62744a56",
+              "start": 1676,
+              "end": 2537,
+              "query_similarity": 0.3343199680855316,
+              "lexical_score": 0,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "9",
+            "chunk_id": "encounter:6adb50e45724764f6fbb1005:58f9dccaa95b:2198:3118",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "Eduarda denied any possibilities of pregnancy or breast feeding or plans to fall pregnant in the near future.\n\nImpression: Miss Yamini presented pleasant, polite and cooperative in review. She continued to suffer with ongoing pain associated with her previous injury, in addition to anxiety and sleep disturbances. She has been trialled on\n\n**Page 4:**\nvarious other medications with suboptimal therapeutic effect and intolerable side effects. She continues to gain relief with the oral and inhaled medicinal cannabis, and finds the combination helpful for symptom control.\n\nShe was continued on an inhaled vaporised THC flower (25%THC, <1%CBD) and a CBD 100mg/ml oil Cat1 for ongoing pain, insomnia, and anxiety management.\n\nWe discussed the consent form and she understood the limitations and risks associated with medicinal cannabis use. She is aware not to drive at any time when using any product that contains THC.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "source_type": "session-transcript",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "Original consultation transcript",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "collection": "expert_dashboard__raw_session_data",
+              "field": "context_data.text",
+              "source_sha256": "58f9dccaa95b84ae15cc4bc4cb7afcc8ca8e88cb59ad8bd79e0c655a62744a56",
+              "start": 2198,
+              "end": 3118,
+              "query_similarity": 0.261482603529855,
+              "lexical_score": 0,
+              "primary_transcript": true
+            }
+          },
+          {
+            "id": "12",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:b2270f3b513b1d50",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "PATIENT HISTORY: Patient presented with symptoms of chronic fatigue, dizziness, headaches, and cognitive slowing. Recent psychological trauma and preexisting mood disorder prompted evaluation for systemic and neurological contributions to clinical presentation.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "18",
+            "chunk_id": "6adb50e45724764f6fbb1005:c:db6633c580d522ad:p1:2222296125a6503ab88b",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "Come in. Miss Bellamy? Yes. Hi, my name is Connie Harris. I'll be your doctor today. Let me just wash my hands really quick. Would you prefer Miss Bellamy\nor would you... Can I call you Pat? Pat's fine. Great, well it's nice to meet you. Nice to meet you. Can you tell me why you're here today? I have\na terrible headache. It looks really bad. Yeah, yes. Is there anything else besides your headache that you want to\naddress here today at the clinical program? No, just that, except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet. All\nright. Was there anything... Because what we can do is while we're talking and I'm doing your",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "20",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:2e2f5f7cc8e95eaf:p1:a4b4bebf17a70e694945",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Um, medical history, you have high blood pressure, but that's controlled with diet. Um, no surgical history, no hospitalizations. Um, the pain that was in really impacting your day-to-day life. Um, you took Tylenol, Motrin, it didn't help. You're on no medications. Um, you've got the family history of your mom with migraines, otherwise your um, family is healthy. Um, you smoke about a half a pack a day. You don't drink. Um, and then you are you you said you took a trip about a week ago. Yeah, a week ago. Okay. Was it a family reunion a week ago? Uh, yeah, I don't know. It was in North Carolina. All right. Um, yeah, I can understand your concern about your friend.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "21",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:35d7087df0efafbb:p1:dc02fb634cf927c366ba",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Yes. Hi, how may I help you, doctor, today? I'm going to be seeing a patient for a headache. Okay. Um, can you find this patient in the system? Yes, I can. All right, what's the patient's name and date of birth? Um, can you tell me why you're here today? I have a terrible headache. It looks really bad. Um, is there anything else besides your headache that you want to address here today at the clinic? No, it's just that except I am concerned. I just recently changed insurance companies and I'm not sure this is going to be covered yet.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "22",
+            "chunk_id": "6adb50e45724764f6fbb1005:c:c489f1da819c0a1a",
+            "document_id": "6adb50e45724764f6fbb1005",
+            "text": "I reviewed test via Telehealth Consultation at our Clinics on June 12 2023 with the view to assess suitability for continued use of medicinal cannabis for her chronic back pain, ankle pain, anxiety and insomnia symptoms. She had already been approved and prescribed medicinal cannabis prior to our initial consult. Miss Yamini had sustained chronic back pain from multiple epidural procedures and gastrocnemius tendon pain from an injury sustained which required surgery to manage. She denied any continued use of illicit cannabis for symptom control.\nShe discussed that she has been trialled",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23T13:16:01.430Z",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb50e45724764f6fbb1005",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb50e45724764f6fbb1005",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb50e45724764f6fbb1005",
+              "data_level": "",
+              "page": null
+            }
+          },
+          {
+            "id": "23",
+            "chunk_id": "6adb26f25724764f6fbb0ffe:c:35d7087df0efafbb:p1:b647694656cfd3d93da6",
+            "document_id": "6adb26f25724764f6fbb0ffe",
+            "text": "Um, so tell me a little bit more about this head head pain that you're having. Well, um, it started about three days ago and um, uh, nothing has helped. It it's it's just laid me flat. I um, I haven't been able to go to work. Um, it's um, nothing's helped. I I um, it's it's all over. Um, I it really bad when I move. So I'm trying not to move too much and the light is bothering me a lot. Um, unfortunately, I can't dim the lights in this room, but so I'll try to go quickly and um, maybe I can write some notes. Sure. Yeah, right. So, you said this headache started about three days ago. Yeah. Okay. Um, was there any anything that about anything unusual that happened three days ago? Really, no.",
+            "when": {
+              "when_lower": "2026-10-23",
+              "when_upper": "2026-10-23",
+              "when_raw": "2026-10-23",
+              "when_basis": "inherited",
+              "when_anchor": "2026-10-23",
+              "when_anchor_kind": "session_date"
+            },
+            "session_id": "6adb26f25724764f6fbb0ffe",
+            "source": {
+              "kind": "chunk",
+              "document_id": "6adb26f25724764f6fbb0ffe",
+              "document_title": "",
+              "source_url": "",
+              "session_id": "6adb26f25724764f6fbb0ffe",
+              "data_level": "",
+              "page": null
+            }
+          }
+        ]
+      },
+      "timestamp": "2026-10-23T00:00:00Z",
+      "old_texts": [],
+      "completed": "true",
+      "current": 1,
+      "total": 1
+    },
+    "stored": "",
+    "done": 1,
+    "total": 1,
+    "time_taken": 3.949
+  },
+  "persist": false,
+  "fields": [
+    "chief_complaints"
+  ]
+}
